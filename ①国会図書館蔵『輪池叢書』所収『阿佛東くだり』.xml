@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>輪池叢書</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Japan</country>
+                  <region type="country"></region>
+                  <settlement>Tokyo</settlement>
+                  <institution>NDL</institution>
+                  <repository></repository>
+                  <collection> collection</collection>
+                  <idno>ち-7</idno>
+                  <altIdentifier>
+                     <idno>　　蔵票番号</idno>
+                     <note>Accession Number</note>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary><seg type="para"/></summary>
+                  <msItemStruct>
+                     <p>内容上の巻数</p>
+                  </msItemStruct>
+                  <msItem>
+                     <title>Rinchi Sousho</title>
+                     <title type="cover">輪池叢書</title>
+                     <title type="caption">依田記</title>
+                     <title type="caption">阿仏東くだり</title>
+                     <title type="caption">行基法師國益記</title>
+                     <title type="caption">細川家譜抜書</title>
+                     <title type="alt">別書名</title>
+                     <textLang mainLang="">日本語</textLang>
+                     <note>handwriting</note>
+                     <colophon>書写奥書・刊記</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support>楮紙か</support>
+                        <extent>111丁<dimensions type="leaf" unit="mm">
+                           <height>縦230</height>
+                           <width>横160</width>
+                        </dimensions>
+                        </extent>
+                        <collation>折の構造</collation>
+                        <condition>状態良</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>界罫・匡郭なし</layout>
+                        <layout>字高mm</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major">
+                        <p>書記言語　和文・漢文</p>
+                        <damage>擦り消し痕など</damage>
+                        <ab>書体</ab>
+                        <ab>筆跡</ab>
+                     </handNote>
+                  </handDesc>
+                  <additions>
+                     <ab>訓点有無</ab>
+                     <ab>朱引有無</ab>
+                     <ab>鈎点有無</ab>
+                     <ab>不審紙有無</ab>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>袋綴</p>
+                        <p>四つ目綴</p>
+                        <decoNote type="color">香色地渋引き表紙</decoNote>
+                        <decoNote type="pattern">縦刷毛目</decoNote>
+                     </binding>
+                  </bindingDesc>
+                  <sealDesc>
+                     <p>label"ろ三十八"</p>
+                     <p>label""</p>
+                     <p>label"ち/43/7"表紙右上、後見返し</p>
+                     <p>collecter seal"不忍文庫"阿仏東くだりの表紙左下、1丁目右下</p>
+                     <p>collecter seal"白石所蔵"阿仏東くだりの表紙右下</p>
+                     <p>collecter seal"青木印"行基法師國益記の表紙</p>
+                     <p>collecter seal"東京圖書館藏"</p>
+                     <p/>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin>本奥書、書写奥書、序跋、刊記</origin>
+                  <provenance>感得署名など
+                     <p>on front cover</p>
+                     <p>written on front cover</p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquired from<name type="person" ref="https://viaf.org/viaf/6373229">
+                        <persName>屋代弘賢</persName>
+                     </name>
+                     </p>
+                  </acquisition>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p><pb n="1r"/>
+            から國のいにしへ、かしこき世に、壁
+            の中よりもとめいでたりけむ文ども
+            をば、今の世にとりつたへて、世をお
+            さめ武をやすんずるはかりごとゝせり。
+            されば、賢王の世には髪を洗ひ
+            さして、民の訴訟をばかなへ給へり
+            といへり。すゑの世々こそはかなしけれ。
+            <pb n="1v"/>
+            水上清しといへども、泥沙これをけ
+            がすならひとなるこそうたてけれ。
+            利欲に深くおぼるゝときは、
+            骨肉のちなみも忘れ、世のそしり
+            もかへりみず。たゞ徳のあくまでた
+            くましからん事をのみおもへり。なが
+            れ久しき<placeName>細川の庄</placeName>は、いまはの
+            <pb n="2r"/>
+            ときみなし子を養ひたてゝ、
+            十五に至らば、父が遺跡をたてゝ、
+            朝につかうまつらせよ、とくれ〴〵契
+            りおきて、身まかり給ひし折から
+            を、今のやうに思はれて、なげきな
+            がらも星霜をむかへて、契りし
+            年月も、うち過ぎはんべりぬ。今
+            <pb n="2v"/>
+            ははや、父祖よりつたへし荘園
+            渡して、絶えてし家をおこし
+            てん、といへども、なにとなく押領し、
+            父のかたみにのこれるみどり子をな
+            いがしろにとりなして、上見ぬ鳥に
+            世を思へることの口惜しさよ。か
+            くては家のこのときにたらなんこ
+            <pb n="3r"/>
+            とをかなしみて、君に奏す
+            れども、摂政執政いつとなくいひなび
+            けて、ことの葉をもとりあげず。さ
+            ればとて、うち捨てゝ押領せられ
+            て、むなしく路頭にさまよひまよ
+            はむ事も口惜しかりなん。この上
+            は東の鑑にかけて、是非を
+            <pb n="3v"/>
+            わかたんほかはあらじ、と思ひたち
+            にけり。さればゆかりなる人〴〵、は
+            かなき足弱車のはる〴〵
+            と、東の旅にめぐり迷はん
+            事、さりとてはあはれにこそ、とひ
+            きとむるばかりにとゞむれども、や
+            むべき道にもあらねば、たゞ子を思
+            <pb n="4r"/>
+            ふ親は、闇路に迷ふものに
+            こそ、世の中に我ひとりかは、都
+            にありていつしかに思ひをこめて、
+            胸ふくらかしなげきしづまんよ
+            り、とく下りて事をさたに致し
+            てんとて、ころは三冬の立はじめ
+            つかたに、人〴〵の名残を宿りとゞ
+            <pb n="4v"/>
+            めて、すでに九重をぞ出で給ひに
+            ける、京極家の親しき人
+            のかたより送りける人、<placeName>粟田口</placeName>
+            までとて来たりしか。空もすみや
+            かなる十六夜月ともろともに、あく
+            がれたどるころざし、まことにあは
+            れになん。かくして行けば<placeName>逢坂</placeName>に
+            <pb n="5r"/>
+            着きぬ。名にし負ふ所なれども、今日は
+            じめて見れば、
+            　　<l>旅だつや関の岩かどけふ越て</l>
+            　　<l>まだ<placeName>あふさか</placeName>とたのめてぞゆく</l>
+            と打ながめたれば、峯の嵐はげ
+            しく吹をちて、もみぢの散くるを
+            みてかくぞ
+            <pb n="5v"/>
+            　　<l>紅葉かつ散わたるらん<placeName>逢坂</placeName>の</l>
+            　　<l>せきに名残をとゞめ行かな</l>
+            蝉丸の翁のこのところに住みて、
+            うき世の是非を離れ、巌嶺の松
+            風にこゝろをすまして、光陰をおく
+            りしもまことにかしこし。関のしみ
+            づを駒の蹴あげやにごすらんほどもな
+            <pb n="6r"/>
+            く、うちいでの濱につきけり。むかひ
+            をはるかに見わたせば、湖水満々
+            として碧浪天をひたし、雲
+            も波もひとつかと見ゆ。沖ふく風
+            に遠帆の帰帆覆すかとあやう
+            し。これぞかし、満沙弥が、<l>こぎ行
+            舟のあとのしらなみ</l>、といひしもことは
+            <pb n="6v"/>
+            りかな。こう〳〵■と立る一松、霧間隠
+            れにほの見えてあはれなり。<placeName>勢田の長橋</placeName>たど〳〵しくもうち乱り
+            て、野路の夕霧裾ぬらし、<placeName>篠
+            原堤</placeName>はる〴〵とうち越えて、
+            ものあはれに見ゆる。民の煙北ふく
+            風にうちなびきて、春霞かとぞ
+            <pb n="7r"/>
+            たがひける。さなきだにも旅の空は
+            物憂きに、降りみ降らずみさだめ
+            なき時雨に、袖はほすまもなく、涙
+            のみうちそひて、いとゞかなし。<placeName>守
+            山</placeName>といふ所に宿しけるに、峯の
+            こがらしはら〳〵として、夜空た
+            えがたかりければ、かく
+            <pb n="7v"/>
+            月寒く空ふくかぜの身にしみて
+            まなく時雨のもる山にして
+            寝られぬまゝにふるさとの事のみ、夜も
+            すがら思ひつゞけて、心ときめ
+            き、明けゆく空を待ちわびに
+            けり。朝まだきに起きいでゝ行くに、
+            霧たちのぼりて<placeName>鏡の山</placeName>さだかに
+            <pb n="8r"/>
+            も見えず。おもしろきすがたに
+            なん見わたして
+            　　<l>たちおほふ霧に涙のうちそひて</l>
+            　　<l>くもりてみえし<placeName>鏡山</placeName>かな</l>
+            おちこちの旅客は、かなたこなたも
+            行ちがひ、冬の空のならひにて、
+            時雨ては晴れ、晴れては時雨な
+            <pb n="8v"/>
+            どまなくけうときに、肘笠をし
+            てかたはらに立しのぶも、いと苦し。
+            一通り過ぎ行は、また晴天は
+            れ〴〵し。往返の旅人出で
+            あふて、東西へ急ぐ。かゝる折からに
+            ゆかりなる人の僕従、東国よ
+            りのぼり侍りけるが、こゝにて憂き
+            <pb n="9r"/>
+            旅の空など語りあひて、しばらく
+            時をうつしけるが、京へのぼりぬ
+            れば、便りをもとめたりとて、かく
+            詠みてつかはしける
+            　　<l>ゆく旅の一夜の宿の寝覚めにも</l>
+            　　<l>思ひわすれぬふるさとの空</l>
+            かくして<placeName>不破の関</placeName>にいたりて
+            <pb n="9v"/>
+            見ければ、あばらやの風もたまり
+            かねたるに、吹雪はをりからいとけ
+            はしければ
+            　　<l>ふく風に<placeName>不破の関屋</placeName>の板びさし</l>
+            　　<l>まばらにうつる月のかげかな</l>
+            宿りかねたる賤が屋に、夢もむ
+            すばず、よもすがら古郷の空のみ思
+            <pb n="10r"/>
+            ひ続けて、涙は枕に
+            置きそへてせんかたぞなき。山中
+            をはる〴〵ゆくに、雪いたう空もかき
+            くもりて降りくれば、駒のひづめも
+            ほどなく隠るるばかりに積み敷
+            きけり。都にて雪の降りくる
+            を待ちわびて、曇れる空な
+            <pb n="10v"/>
+            どを見やりて、まがきにたまれる
+            雪、松竹にとまりて枝なよら
+            かにたはみけるを、詩に誦じ、
+            哥に詠みて、興ありし。かゝる旅
+            途にてみること、いと心細く
+            ぞなり
+            　　<l>降雪を見るに付てや思ひこし</l>
+         </p>
+      </body>
+  </text>
+</TEI>

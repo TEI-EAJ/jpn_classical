@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+          <msDesc>
+           <msIdentifier>
+            <country>Japan</country>
+            <region type="country"></region>
+            <settlement>Tokyo</settlement>
+            <institution>NIJL</institution>
+            <repository></repository>
+            <collection>貴重書</collection>
+            <idno>99-21</idno>
+            <altIdentifier>
+             <idno>　　蔵票番号</idno>
+             <note>Accession Number</note>
+            </altIdentifier>
+           </msIdentifier>
+           <msContents>
+            <summary><seg type="para"/></summary>
+            <msItemStruct>
+             <p>内容上の巻数</p>
+            </msItemStruct>
+            <msItem>
+             <title>Izayoi Monogatari</title>
+             <title type="cover">十六夜物語　上</title>
+             <title type="caption">ナシ</title>
+             <title type="alt">十六夜日記</title>
+             <textLang mainLang="">日本語</textLang>
+             <note>handwriting</note>
+             <colophon>書写奥書なし</colophon>
+            </msItem>
+           </msContents>
+           <physDesc>
+            <objectDesc form="codex">
+             <supportDesc material="paper">
+              <support>鳥の子紙</support>
+              <extent>23丁<dimensions type="leaf" unit="mm">
+               <height>縦234</height>
+               <width>横170</width>
+              </dimensions>
+              </extent>
+              <collation>折の構造</collation>
+              <condition>状態良</condition>
+             </supportDesc>
+             <layoutDesc>
+              <layout>界罫・匡郭なし</layout>
+              <layout>字高mm</layout>
+             </layoutDesc>
+            </objectDesc>
+            <handDesc>
+             <handNote scope="major">
+              <p>書記言語　和文</p>
+              <damage>擦り消し痕など</damage>
+              <ab>書体</ab>
+              <ab>筆跡</ab>
+             </handNote>
+            </handDesc>
+            <additions>
+             <ab>訓点有無</ab>
+             <ab>朱引有無</ab>
+             <ab>鈎点有無</ab>
+             <ab>不審紙有無</ab>
+            </additions>
+            <bindingDesc>
+             <binding>
+              <p>列帖装</p>
+              <p></p>
+              <decoNote type="color">萌葱色地蘭表紙</decoNote>
+              <decoNote type="pattern">菊・牡丹・唐草・龍</decoNote>
+             </binding>
+            </bindingDesc>
+            <sealDesc>
+             <p>label"国文学研究資料館/28699/昭和51年12月20日"後見返し</p>
+             <p>collecter seal"国文学研究資料館"前見返し左下</p>
+            </sealDesc>
+           </physDesc>
+           <history>
+            <origin>下巻に小川寿一識語「上野氏本十六夜物語に就いて」昭和14年11月晦</origin>
+            <provenance>感得署名など
+             <p>on front cover</p>
+             <p>written on front cover</p>
+            </provenance>
+            <acquisition>
+             <p>Acquired from<name type="person" ref="https://viaf.org/viaf/">
+              <persName>上野精一</persName>
+             </name>
+             </p>
+            </acquisition>
+           </history>
+          </msDesc>
+          <listWit>
+           <witness xml:id="九">九条家旧蔵天理図書館本</witness>
+           <witness xml:id="国">国文学研究資料館本（当該本）</witness>
+          </listWit>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <p><pb n="1r"/>
+            むかしかへのなかよりもとめいてたりけん
+            ふみのなをはいまの世の人のこはゆめはか
+            りも身のうへのことゝはしらさりけりな水
+            くきのをかのくつはらかへす〳〵もかきを
+            くあとたしかなれともかひなきものはおや
+            のいさめなりけりまたけんわうの人を
+            すて給はぬまつりことにももれちうし
+            んの世をおもふなさけにもすてらるる
+            ものはかすならぬ身ひとつなりけりと
+            おもひしりなはまたさてしもあらてな
+            <pb n="1v"/>
+            をこのうれへこそやるかたなくかなしけれ</p><p>
+            さらにおもひつゝくれはやまとうたのみ
+            はたゝまことすくなくあたなるすさひ
+            はかりとおもふ人もやあらむ日のもとの
+            くにゝあまのいは戸ひらけしときよりよ
+            ものかみたちのかくらのことはをはしめ
+            て世をおさめ物をやはらくるなかたちと
+            なりにけるとそこのみちのひしりたち
+            はしるしをかれたりさてもまた集を
+            えらふ人はためしおほかれと二たひち
+            <pb n="2r"/>
+            よくをうけて世々にきこえあけたる家は
+            たくひなをありかたくやありけんそのあ
+            とにしもたつさはりてみたりのおの
+            こことももゝちの<app><lem wit= "#九">哥</lem><rdg wit= "#国">うた</rdg></app>のふるほくともをい
+            かなるえにかありけんあつかりもたること
+            あれとみちをたすけよ子をはくゝめ、のち
+            の世をとへとてふかきちきりをむすひをか
+            れし<app><lem wit= "#九">ほそ川</lem><rdg wit= "#国">ほそたに川</rdg></app>のなかれもゆへなくせ
+            きとゝめられしかはあととふのりのと
+            もし火もみちをまもり家をたすけん親
+            <pb n="2v"/>
+            子のいのちももろともにきえをあらそふ
+            としつきをへてあやうくこゝろほそき
+            なからなにとしてつれなくけふまてな
+            からふるらんおしからぬ身ひとつはやすく
+            おもひすつれとも子をおもふこゝろのやみ
+            はなをしのひかたくみちをかへりみるう
+            らみはやらんかたなくさてもなをあつまの
+            かめのかゝみに<app><lem wit= "#九">うつせ</lem><rdg wit= "#国">うつさん</rdg></app>はくもらぬかけも
+            やあらはるゝとせめておもひあまりてよ
+            ろつのはゝかりをわすれ身をようなき
+            <pb n="3r"/>
+            ものになしはてゝゆくりもなくいさよふつ
+            きにさそはれいてなんとそおもひなり
+            ぬる</p><p>さりとてふんやのやすひてかさそふ
+            にもあらすすむへき國もとむるにもあら
+            すころは三ふゆたつはしめの<app><lem wit= "#国">さためなき</lem><rdg wit= "#九"></rdg></app>
+            そらなれはふりみふらすみしくれもた
+            えすあらしにきほふ木のはさへなみたと
+            ともにみたれちりつゝことにふれて
+            こゝろほそくかなしけれと人やりならぬ
+            みちなれはいきうしとてもとゝまるへき
+            <pb n="3v"/>
+            にもあらてなにとなくいそきたちぬめ
+            かれせさりつる程たにあれまさりつるに
+            はもまかきもましてと見まはされてし
+            たはしけなる人々のそてのしつくもなく
+            さめかねたる中にも<app><lem wit= "#九">侍従大夫</lem><rdg wit= "#国">侍従の大夫</rdg></app>なとのあな
+           かちに<app><lem wit= "#九">うちくむし</lem><rdg wit= "#国">うちつくし</rdg></app>たるさまいとこゝろく
+            るしけれはさま〳〵いひこしらへねやの
+           <app><lem wit= "#九">うちをみやれは</lem><rdg wit= "#国">うちみれは</rdg></app>むかしのまくら<app><lem wit= "#九">の</lem><rdg wit= "#国">さへ</rdg></app>さなからかは
+            らぬを見るもいまさらかなしくて
+            かたはらにかきつく
+            <note><pb n= "4r"/>
+            図</note>
+            <pb n="4v"/>
+            <l>とゝめをくふるきまくらのちりをたに</l>
+            <l>われたちさらはたれかはらはん</l>
+           代々にかきをかれける<app><lem wit= "#九">哥</lem><rdg wit= "#国">うた</rdg></app>のさうしとも
+            のおくかきなとしてあたならぬかきり
+            を<app><lem wit= "#九">えり</lem><rdg wit= "#国">ゑり</rdg></app>したゝめて<app><lem wit= "#九">侍従</lem><rdg wit= "#国">ししう</rdg></app>のかたへをくると
+           てかきそへたる<app><lem wit= "#九">哥</lem><rdg wit= "#国">うた</rdg></app>
+           <l><app><lem wit= "#九">和哥</lem><rdg wit= "#国">和か</rdg></app>のうらにかきとゝめたるもしほ草</l>
+           <l>これをむかしのかたみ<app><lem wit= "#国">とも</lem><rdg wit= "#九">とは</rdg></app>見よ</l>
+           <l>あなかしこ<app><lem wit= "#九">よこ浪かくな</lem><rdg wit= "#国">よこなみかくる</rdg></app>はま千鳥</l>
+            <l>ひとかたならぬあとをおもはゝ</l>
+            <pb n="5r"/>
+           これを見てしゝうの<app><lem wit= "#国">かへりこと</lem><rdg wit= "#九">返事</rdg></app>いとゝく
+            あり
+            <l>つゐによもあたにはならしもしほくさ</l>
+            <l>かたみをみよのあとにのこせは</l>
+           <l>まよはまし<app><lem wit= "#九">をしへさりせは</lem><rdg wit= "#国">をしへさりせと</rdg></app>はま千鳥</l>
+            <l>ひとかたならぬあとをそれとも</l>
+           この<app><lem wit= "#国">かへりこと</lem><rdg wit= "#九">返事</rdg></app>いとおとなしけれはこゝろや
+            すくあはれなるにもむかしの人にきかせ
+            たてまつりたくてまたうち<app><lem wit= "#国">しほれぬ</lem><rdg wit= "#九">しほたれぬ</rdg></app>
+            大夫のかたはらさらすなれきつるをふり
+            <pb n="5v"/>
+           すてられなん<app><lem wit= "#九">なこりあなかちに</lem><rdg wit= "#国">なこりかちに</rdg></app>おもひしりて
+            手ならひしたるを見れは
+            <l>はる〳〵とゆくさきとをくしたはれて</l>
+            <l>いかにそなたのそらをなかめん</l>
+            とかきつけたるものよりことにあはれ
+            にておなしかみにかきそへつ
+            <l>つく〳〵とそらななかめそこひしくは</l>
+            <l>みちとをくともはやかへりこん</l>
+           とそなくさむる山よりしゝうのあにの<app><lem wit= "#九">おりしも</lem><rdg wit= "#国">りしも</rdg></app>
+            いてたちみんとておはしたりそれも
+            <pb n="6r"/>
+           いとゝ<app><lem wit= "#九">いとものこゝろほそし</lem><rdg wit= "#国">いとゝこゝろほそし</rdg></app>こゝろほそしとおもひたるをこの手な
+            らいともを見てまたかきそへたり
+           <l><app><lem wit= "#九">あたにたた</lem><rdg wit= "#国">あたになく</rdg></app>なみたはかけしたひころも</l>
+            <l>こゝろのゆきてたちかへるほと</l>
+            とはこといみしなからなみたのこほるゝを
+            あらゝかに物いひまきらはすもさま〳〵哀
+            なるを<app><lem wit= "#九">あさりの君は</lem><rdg wit= "#国">あさりのみは</rdg></app>山ふしにてこのひと
+            よりはあになりこのたひのみちのしるへ
+            に<app><lem wit= "#九">をくらむ</lem><rdg wit= "#国">おくりたてまつらん</rdg></app>とて出たゝるめるを
+           この手ならいに<app><lem wit= "#九">ましらはさらんやは</lem><rdg wit= "#国">またましらはさらんやは</rdg></app>と
+            <pb n="6v"/>
+            てかきつく
+            <l>たちそふそうれしかりけるたひ衣</l>
+            <l>かたみにたのむおやの</l>
+           <l><app><lem wit= "#九">まもりは</lem><rdg wit= "#国">こもるは</rdg></app></l>
+            <note><pb n= "7r"/>
+               図</note>
+         　　<pb n="7v"/>
+           女子はあまたもなしたゝひとりにて<app><lem wit= "#九">この</lem><rdg wit= "#国">このころ</rdg></app>
+            ちかきほとの女院にさふらひ給ふ院の日女宮一
+            ところ<app><lem wit= "#九">むまれたまへりしはかりにて</lem><rdg wit= "#国">むまれ給事にて</rdg></app>心つかひもまことし
+            きさまにおとなしくおはすれは宮の御かた
+            の<app><lem wit= "#九">御恋しさ</lem><rdg wit= "#国">恋しさ</rdg></app>もかねて申をくつゐてに侍従
+            大夫なとの事はくゝみおはすへきよしこま
+            かに<app><lem wit= "#九">かきつゝけて</lem><rdg wit= "#国">かきつけて</rdg></app>おくに
+            <l>きみをこそ朝日とたのめふるさとに</l>
+            <l>のこるなてしこしもにからすな</l>
+            ときこえたれは御かへりもこまやかにいと
+            <pb n="8r"/>
+             あはれにかきて哥の<app><lem wit= "#九">返し</lem><rdg wit= "#国">御返し</rdg></app>には
+            11おもひをくこゝろとゝめはふるさとの
+            しもにもかれしやまとなてしこ
+            とそある五つのこともの<app><lem wit= "#国">哥</lem><rdg wit= "#九">うた</rdg></app>のこりなくかき
+             つゝけぬるも<app><lem wit= "#九">かつはいと</lem><rdg wit= "#国">かつは</rdg></app>をこかましけれとおやの
+            こゝろにはあはれにおほゆるまゝにかきあつ
+            めたり</p><p>さのみこゝろよはくてもいかゝとて
+            つれなくふりすてつあはたくちといふ
+            ところより<app><lem wit= "#九">そくるまはかえしつる</lem><rdg wit= "#国">もくるまはかえしつ</rdg></app>もくるまはかへしつほとなくあ
+             ふさかのせきこゆる<app><lem wit= "#九">ほとも</lem><rdg wit= "#国">ほとにも</rdg></app>
+           　<pb n="8v"/>
+             <l>さためなきいのちはしらぬ<app><lem wit= "#九">たひなれと</lem><rdg wit= "#国">たひなれは</rdg></app></l>
+            <l>またあふさかとたのめてそ行</l>
+             <app><lem wit= "#九">野路といふところ</lem><rdg wit= "#国">野路といふところは</rdg></app>こしかたゆくさき人もみ
+            えす日はくれかゝりていとものかなしとおもふ
+            にしくれさへうちそゝく
+            <l>うちしくれふるさとおもふそてぬれて</l>
+            <l>ゆくさきとをきのちのしのはら</l>
+            こよひはかゝみといふ所につくへしとさた
+            めつれとくれはてゝ<app><lem wit= "#九">え行つかす</lem><rdg wit= "#国">ゆくつかす</rdg></app>もりやまと
+            いふところにとゝまりぬこゝにもしくれなを
+            <pb n="9r"/>
+            したひきにけり
+             <l>いとゝ<app><lem wit= "#九">我</lem><rdg wit= "#国">なを</rdg></app>そてぬらせとややとりけん</l>
+             <l>まなくしくれの<app><lem wit= "#九">もる山にしも</lem><rdg wit= "#国">もる山にして</rdg></app></l>
+            けふは十六日の夜なりけりいとくるしくて
+             <app><lem wit= "#九">うちふしぬ</lem><rdg wit= "#国">ふしぬ</rdg></app>いまた月のひかりかすかにのこりた
+            るあけほのにもり山をいてゝゆくやすかわ
+            わたるほとさきたちてゆく<app><lem wit= "#九">人の</lem><rdg wit= "#国">たひ人の</rdg></app>こまの
+            あしのをと斗さやかにてきりいとふかし
+             <l><app><lem wit= "#国">たひ人もみな</lem><rdg wit= "#九">旅人の道（もみな）</rdg></app>もろともに<app><lem wit= "#九">さきたちて</lem><rdg wit= "#国">あさたちて</rdg></app></l>
+            <l>こまうちわたすやすの川きり</l>
+           　<pb n="9v"/>
+           <app><lem wit= "#国">十七日の夜は</lem><rdg wit= "#九">十六日夜は</rdg></app>をのゝしゆくといふところにとゝま
+            る月出てやまのみねに立つゝきたる松の木
+            のまけちめ見えていとおもしろし<app><lem wit= "#九">こゝも</lem><rdg wit= "#国">こゝに</rdg></app>夜
+            ふかききりのまよひにたとりいてつさめか
+            井といふ水なつならはうちすきましやと
+             <app><lem wit= "#九">みるに</lem><rdg wit= "#国">おもふに</rdg></app>かち人はなをたちよりてくむめ
+            り
+            <l>むすふ手ににこるこゝろをすゝきなは</l>
+             <l>うき世の<app><lem wit= "#国">ゆめや</lem><rdg wit= "#九">ゆめを（や/〃）</rdg></app>さめか井の水</l>
+            <pb n="10r"/>
+            一〇オモテ　絵
+            <pb n="10v"/>
+             とそおほゆる</p><p>十八日<app><lem wit= "#九">みのゝくに</lem><rdg wit= "#国">みのゝくにに</rdg></app>関のふしか
+            わわたるほとにまつおもひつゝけゝる
+            <l>我こともきみにつかへむためならて</l>
+            <l>わたらましやはせきのふち川</l>
+            ふはのせき屋のいたひさしはいまもかはらさ
+            りけり
+            <l>ひまおほきふはのせき屋はこのほとの</l>
+            <l>しくれも月もいかにもるらん</l>
+            せきよりかきくらしつるあめしくれにすき
+            てふりくらせはみちもいとあしくてこゝろ
+         </p>
+      </body>
+  </text>
+</TEI>
