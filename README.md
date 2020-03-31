@@ -15,10 +15,10 @@
 
 ### 符号化例
 * 解釈本文例
-** [国会図書館所蔵『阿佛東くだり』](https://github.com/TEI-EAJ/jpn_classical/blob/master/%E2%91%A0%E8%A7%A3%E9%87%88%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF%E5%9B%BD%E4%BC%9A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%89%80%E8%94%B5%E3%80%8E%E9%98%BF%E4%BD%9B%E6%9D%B1%E3%81%8F%E3%81%A0%E3%82%8A%E3%80%8F.xml)（幾浦裕之氏協力）
+  * [国会図書館所蔵『阿佛東くだり』](https://github.com/TEI-EAJ/jpn_classical/blob/master/%E2%91%A0%E8%A7%A3%E9%87%88%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF%E5%9B%BD%E4%BC%9A%E5%9B%B3%E6%9B%B8%E9%A4%A8%E6%89%80%E8%94%B5%E3%80%8E%E9%98%BF%E4%BD%9B%E6%9D%B1%E3%81%8F%E3%81%A0%E3%82%8A%E3%80%8F.xml)（幾浦裕之氏協力）
 * 校訂本文例
-** [国文学研究資料館所蔵『十六夜物語』上巻](https://github.com/TEI-EAJ/jpn_classical/blob/master/%E2%91%A1%E6%A0%A1%E8%A8%82%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF%E5%9B%BD%E6%96%87%E5%AD%A6%E7%A0%94%E7%A9%B6%E8%B3%87%E6%96%99%E9%A4%A8%E6%89%80%E8%94%B5%E3%80%8E%E5%8D%81%E5%85%AD%E5%A4%9C%E7%89%A9%E8%AA%9E%E3%80%8F%E4%B8%8A%E5%B7%BB.xml)（幾浦裕之氏協力）
-** [国文学研究資料館所蔵『十六夜物語』下巻](https://github.com/TEI-EAJ/jpn_classical/blob/master/%E2%91%A1%E6%A0%A1%E8%A8%82%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF%E5%9B%BD%E6%96%87%E5%AD%A6%E7%A0%94%E7%A9%B6%E8%B3%87%E6%96%99%E9%A4%A8%E6%89%80%E8%94%B5%E3%80%8E%E5%8D%81%E5%85%AD%E5%A4%9C%E7%89%A9%E8%AA%9E%E3%80%8F%E4%B8%8B%E5%B7%BB.xml)（幾浦裕之氏協力）
+  * [国文学研究資料館所蔵『十六夜物語』上巻](https://github.com/TEI-EAJ/jpn_classical/blob/master/%E2%91%A1%E6%A0%A1%E8%A8%82%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF%E5%9B%BD%E6%96%87%E5%AD%A6%E7%A0%94%E7%A9%B6%E8%B3%87%E6%96%99%E9%A4%A8%E6%89%80%E8%94%B5%E3%80%8E%E5%8D%81%E5%85%AD%E5%A4%9C%E7%89%A9%E8%AA%9E%E3%80%8F%E4%B8%8A%E5%B7%BB.xml)（幾浦裕之氏協力）
+  * [国文学研究資料館所蔵『十六夜物語』下巻](https://github.com/TEI-EAJ/jpn_classical/blob/master/%E2%91%A1%E6%A0%A1%E8%A8%82%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF%E5%9B%BD%E6%96%87%E5%AD%A6%E7%A0%94%E7%A9%B6%E8%B3%87%E6%96%99%E9%A4%A8%E6%89%80%E8%94%B5%E3%80%8E%E5%8D%81%E5%85%AD%E5%A4%9C%E7%89%A9%E8%AA%9E%E3%80%8F%E4%B8%8B%E5%B7%BB.xml)（幾浦裕之氏協力）
 
 ### 関係論文
 * 岡田一祐「日本古典籍テクストのTEI/XMLによる符号化ガイドライン作成のこころみ」、「東洋学へのコンピュータ利用第32回研究セミナー」、京都大学、2020.3
