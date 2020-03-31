@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>十六夜日記</title>
+            <author>阿仏尼</author>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Hiroyuki Ikuura</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Consultation</resp>
+               <name>Kiyonori Nagasaki</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Consultation</resp>
+               <name>Keisuke Unno</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Project Manager</resp>
+               <name>Kazuhiro Okada</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><author>阿仏尼</author>
+               　　<title>十六夜日記</title>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <country>Japan</country>
+                  <region type="country"></region>
+                  <settlement>Tokyo</settlement>
+                  <institution>国文学研究資料館</institution>
+                  <repository ref="https://kotenseki.nijl.ac.jp">新日本古典籍総合データベース</repository>
+                     <collection>貴重書</collection>
+                     <idno>99-21-2</idno>
+                     <altIdentifier><idno type="著作URL">http://dbrec.nijl.ac.jp/KTG_W_11643</idno></altIdentifier>
+                     <altIdentifier><idno type="書誌ID">200003074</idno></altIdentifier>
+                     <altIdentifier><idno type="DOI">10.20730/200003074</idno></altIdentifier>
+                     </msIdentifier>
+                     <msContents>
+                        <summary><seg type="para"/>紀行『十六夜日記』の絵入り本。江戸初期写。</summary>
+                        <msItemStruct><p>上</p></msItemStruct>
+                        <msItem>
+                           <title>Isayoimonogatari</title>
+                           <title type="cover">十六夜物語　上</title>
+                           <title type="caption">ナシ</title>
+                           <title type="alt">いさよひの日記</title>
+                           <title type="alt">いさよひの記</title>
+                           <title type="alt">十六夜記</title>
+                           <title type="alt">不知夜記</title>
+                           <title type="alt">阿仏記</title>
+                           <title type="alt">阿仏尼海道記</title>
+                           <title type="alt">阿仏房紀行</title>
+                           <title type="alt">阿仏の道の記</title>
+                           <textLang mainLang="">日本語</textLang>
+                           <note></note>
+                           <colophon>書写奥書なし</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex"><supportDesc material="paper"><support>鳥の子紙</support>
+                  <extent>26丁<dimensions type="leaf" unit="mm"><height>234</height><width>170</width></dimensions></extent>
+                  <collation>第8丁ウラ、第18丁、第21丁は補写</collation>
+                  <condition>状態良</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>界罫・匡郭なし</layout>
+                        <layout>字高未調査</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major">
+                        <p>書記言語　和文</p>
+                        <damage>虫損・擦り消し痕有無</damage>
+                        <ab>書体</ab>
+                        <ab>筆跡</ab>
+                     </handNote>
+                  </handDesc>
+                  <additions></additions>
+                  <bindingDesc>
+                     <binding>
+                        <p>列帖装</p>
+                        <decoNote type="color">萌葱色地蘭表紙</decoNote>
+                        <decoNote type="pattern">菊・牡丹・唐草・龍</decoNote>
+                     </binding>
+                  </bindingDesc>
+                  <sealDesc>
+                     <p>label"国文学研究資料館/28699/<date when="1976-12-20">昭和51年12月20日</date>"後見返し</p>
+                     <p>collecter seal"国文学研究資料館"前見返し左下</p>
+                  </sealDesc>
+               </physDesc>
+               <history>
+                  <origin></origin>
+                  <provenance>
+                     <p>下巻に<name type="person">小川寿一</name>識語「上野氏本十六夜物語に就いて」<date when="1939-11-30">昭和14年11月晦</date></p>
+                  </provenance>
+                  <acquisition>
+                     <p>Acquired from<name type="person">
+                        <persName>上野精一</persName>
+                     </name>
+                     </p>
+                  </acquisition>
+               </history>
+            </msDesc>
+            <listWit>
+               <witness xml:id="国">国文学研究資料館本（当該本）</witness>
+               <witness xml:id="永"><bibl><editor>江口正弘</editor>解説『<title>永青文庫蔵本いさよひの日記</title>』<publisher>勉誠社</publisher><date when="1982-04-20">昭和57年4月20日</date></bibl></witness>
+               <witness xml:id="永イ">永青文庫本の校合他本</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change when="2020-02-28">
+           <persName>Hiroyuki Ikuura</persName>
+        </change>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <pb n="1r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/28"/>
+            <lb/><ab>いとさかしきやまをくたる人のあしもととま
+            <lb/>りかたしゆさかといふなるからうしてこえ
+            <lb/>はてたれとふもとにはや川といふ河あり
+            <lb/>まことにはやし木のおほくなかるゝをいかにと
+            <lb/>とへはあまのもしほ木をうらへいたさんと
+            <lb/>てなかすなりといふ
+            <lb/><l n="62">あつまちの<app><lem wit= "#永">ゆ坂をこえて</lem><rdg wit= "#国">ゆさかをこして</rdg></app>見わたせは
+            <lb/>しほ木なかるゝはや川の水</l>
+            <lb/>ゆさかよりうらにいてゝ日くれかゝるになを
+            <lb/>とまるへきところとをしいつの大しままて
+               <pb n="1v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/29"/>
+            <lb/>見わたさるゝうみつらをいつことかいふとゝへ
+            <lb/>はしりたる人もなしあまの家のみそある
+            <lb/><l n="63">あまのすむその里のなもしらなみの
+            <lb/>よするなきさにやとやからまし</l>
+            <lb/>まりこ川といふかわをいとくらくてたと
+            <lb/>りわたるこよひはさかわといふところに
+            <lb/><app><lem wit= "#永">とゝまる</lem><rdg wit= "#国">とまる</rdg></app>あすはかまくらへいるへしといふなり廿
+            <lb/>九日さかわを出てはまちをはる〳〵と行
+            <lb/>あけはなるゝ<app><lem wit= "#永">海のうへを</lem><rdg wit= "#国">海つらを</rdg></app>いとほそき月出たり
+            <lb/><l n="64">うらちゆくこゝろほそさをなみまより
+               <pb n="2r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/29"/>
+            <lb/>出てしらするありあけのつき</l>
+            <lb/>なきさによせかへるなみのうへにきりた
+            <lb/>ちてあまたありつるつりふね見えす成ぬ
+            <lb/><l n="65">あまををふねこき行かたを見せしとや
+            <lb/>なみにたちそふうらのあさきり</l>
+            <lb/>みやことをくへたゝりはてぬるもなを
+            <lb/>ゆめのこゝちして
+            <lb/><l n="66">たちはなれよもうきなみはかけもせし
+            <lb/>むかしのひとのおなしよならは</l></ab>
+            <lb/><ab>あつまにてすむ所は月かけのやつとそいふ
+               <pb n="2v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/30"/>
+            <lb/>なるうらちかき山もとにてかせいとあらし山
+            <lb/>てらのかたはらなれはのとかにすこくて
+            <lb/>なみのおと松かせたえす都のおとつれは
+            <lb/>いつしかおほつかなきほとにしもうつの山
+            <lb/>にてゆきあひたりし山ふしのたよりにこ
+            <lb/>とつけ申たりし人の御もとより<app><lem wit= "#永">たしかな
+            <lb/>るひんき</lem><rdg wit= "#国">たしかなるたより</rdg></app>につけてありし
+            <lb/><app><lem wit= "#永">御返事</lem><rdg wit= "#国">御返し</rdg></app>と
+            <lb/>おほし
+            <lb/>くて
+               <pb n="3r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/30"/>
+               　　　<app><lem></lem><rdg wit="#国"><graphic url="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/30"/></rdg></app>
+               <pb n="3v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/31"/>
+            <lb/><l n="67">たひころもなみたをそへてうつのやま
+            <lb/>しくれぬひまもさそしくるらん</l>
+            <lb/><l n="68">ゆくりなくあくかれ出しいさよひの
+            <lb/>月やをくれぬかたみなるへき</l>
+            <lb/>みやこをいてしことは神無月十六日なりし
+            <lb/>かはいさよふ月をおほしめしわすれ
+            <lb/>さりけるにやといとやさしくあはれにて
+            <lb/>たゝ此返事はかりをそ又きこゆる
+            <lb/><l n="69">めくりあふすゑをそたのむゆくりなく
+            <lb/>そらにうかれしいさよひの月</l>
+               <pb n="4r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/31"/>
+            <lb/>さきのうひやうゑのかみためのりの御むすめ
+            <lb/>哥よむ人にてちよくせんにもたひ〳〵入
+            <lb/>たまへり大宮院の権中納言ときこゆる
+            <lb/>人哥の事ゆへ朝夕申なれしかはにや道
+            <lb/>のほとのおほつかなさなとをとつれたまへ
+            <lb/>る<app><lem wit="#国">ふみに</lem><rdg wit="#永">使に</rdg><rdg wit="#永イ">文に</rdg></app>
+            <lb/><l n="70">はる〳〵とおもひこそやれたひころも
+            <lb/>なみたしくるゝほとやいかにと</l>
+            <lb/>返しに
+            <lb/><l n="71">思ひやれつゆもしくれもひとつにて
+               <pb n="4v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/32"/>
+            <lb/>山路わけこしそてのしつくを</l>
+            <lb/>このせうとのためかぬのきみもおなしさま
+            <lb/>に<app><lem wit="#国">おほつかなさ</lem><rdg wit="#永">おほつかな<subst><del rend="見せ消ち">き</del><add>さ</add></subst></rdg></app>なとかきて
+            <lb/><l n="72">ふるさとはしくれにたちしたひころも
+            <lb/>ゆきにやいとゝさえまさるらん</l>
+            <lb/>返し
+            <lb/><l n="73">たひころもうらかせさえてかみな月
+            <lb/>しくるゝくもにゆきそふりそふ</l></ab>
+            <lb/><ab>式乾門院の<app><lem wit= "#永">みくしけ殿と</lem><rdg wit= "#国">みくしけとのゝと</rdg></app>きこゆるはこかの
+            <lb/>太政大臣の御むすめこれも續後撰よりう
+               <pb n="5r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/32"/>
+            <lb/>ちつゝき二たひ三たひの家々のうちきゝに
+            <lb/>も<app><lem wit="#国">うたあまた</lem><rdg wit="#永">哥あまた</rdg><rdg wit="#永イ">哥のあまた</rdg></app>いりたまへる人なれは御
+            <lb/>なもかくれなくこそはいまはあんかもんゐむ
+            <lb/>に御かたとてさふらひ給あつまちおもひ
+            <lb/>たちしあすとてまかり申のよしにきた
+            <lb/>白かわとのへまいりしかと見えさせたま
+            <lb/>はさりしかはこよひはかりのいてたち物
+            <lb/>さはかしくてかくとたにきこえあへす
+            <lb/>いそきいてしにも<app><lem wit= "#永">心にかゝり給て</lem><rdg wit= "#国">こゝろにかゝりて</rdg></app>をと
+            <lb/>つれきこゆ草のまくらなから年さへく
+               <pb n="5v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/33"/>
+            <lb/>れぬるこゝろほそさ<app><lem wit= "#国">ゆきのひまなさ</lem><rdg wit= "#永">雪のひまなき</rdg></app>な
+            <lb/>とかきあつめて
+            <lb/><l n="74">きえかへりなかむるそらもかきくれて
+            <lb/>ほとはくも井そゆきになり行</l>
+            <lb/>なときこえたりしをたちかへりその<app><lem wit= "#国">御返
+               <lb/>事</lem><rdg wit= "#永">御返し</rdg></app>たよりあらはと<app><lem wit= "#永">心にかけまいらせ</lem><rdg wit= "#国">こゝろかけまいらせ</rdg></app>
+            <lb/>つるを<app><lem wit= "#永">けふしはすの</lem><rdg wit= "#国">けふはしはすの</rdg></app>廿二日文まちえ
+            <lb/>てめつらしくうれしさまつなに事も
+            <lb/>こまかに申たく候にこよひは御かたたか
+            <lb/>へのきやうかうの御うへとてまきるゝほと
+               <pb n="6r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/33"/>
+            <lb/>にておもふはかりもいかゝと<app><lem wit= "#永">ほいなうこそ</lem><rdg wit= "#国">ほひなふこそ</rdg></app>御
+            <lb/>たひあすとて<app><lem wit= "#永">御まいり候ける</lem><rdg wit= "#国">御まいりありける</rdg></app>日しもみ
+            <lb/>ねとのゝもみち見とて<app><lem wit= "#永">もみち見にとて</lem><rdg wit= "#国">もみち見とて</rdg></app>わかき人々さそひ
+            <lb/>にしほとにのちにこそかゝる事ともきこえ
+            <lb/>候しかなとやかくとも御たつね候はさりし
+            <lb/><l n="75">一かたにそてやぬれましたひころも
+               <lb/>たつ日をきかぬ<app><lem wit= "#永">うらみなりせは</lem><rdg wit= "#国">かきりなりせは</rdg></app></l>
+            <lb/><app><lem wit="#国">さてもそれより</lem><rdg wit="#永">さてもこれより</rdg><rdg wit="#永イ">さてもそれより</rdg></app>ゆきになり行と<app><lem wit= "#永">候し</lem><rdg wit= "#国">をし
+            <lb/>はかりの</rdg></app>御返事は
+            <lb/><l n="76">かきくらしゆきふるそらのなかめにも
+               <pb n="6v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/34"/>
+            <lb/>ほとはくもゐのあはれをそしる</l>
+            <lb/>とあれはこのたひはまたたつ日をしらぬ
+            <lb/>とある<app><lem wit= "#永">御返事</lem><rdg wit= "#国">御返し</rdg></app>はかりをそきこゆる
+            <lb/><l n="77">心からなにうらむらんたひころも
+            <lb/>たつ日をたにもしらすかほにて</l></ab>
+            <lb/><ab>あかつきたよりありときゝてよもすから
+            <lb/>おきゐてみやこの文ともかく中にことにへ
+            <lb/>たてなくあはれにたのみかはしたるあね
+            <lb/>きみにおさなき人〳〵の事さま〳〵にかき
+            <lb/>やるほとれいのなみかせはけしくきこゆ
+               <pb n="7r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/34"/>
+            <lb/>れはたゝいまあるまゝのことをそかき付ける
+            <lb/><l n="78">夜もすからなみたもふみもかきあへす
+               <lb/><app><lem wit= "#国">いそこすかせに</lem><rdg wit= "#永">いそこす浪に</rdg></app>ひとりおきゐて</l>
+            <lb/>またおなしさまにて古郷にはこひしのふ
+            <lb/>おとうとのあまうへにもふみたてまつる
+            <lb/>とて、いそものなとのはし〳〵もいさゝかつ
+            <lb/>つみあつめて
+            <lb/><l n="79">いたつらに<app><lem wit= "#永">めかり塩やく</lem><rdg wit= "#国">めかりしほやき</rdg></app>すさひにも
+            <lb/>こひしやなれしさとのあま人</l>
+            <lb/>ほとへてこのおとゝいふたりの<app><lem wit= "#国">かへりこと</lem><rdg wit= "#永">かへり</rdg></app>
+               <pb n="7v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/35"/>
+            <lb/>いとあはれにて見れは
+            <lb/>あねきみ
+               <pb n="8r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/35"/>
+               　　<app><lem></lem><rdg wit="#国"><graphic url="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/35"/></rdg></app>
+               <pb n="8v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/36"/>
+            <lb/><handShift/><l n="80">たまつさを見るに涙のかゝるかな
+            <lb/>いそこすかせは聞心地して</l>
+            <lb/>このあねきみは中のゐんの中将
+            <lb/>と聞えし人のうへなり今は
+            <lb/>三位入道とおなし世なからと
+            <lb/>をさかりはてゝをこなひたる
+            <lb/>人なりそのおとうとのきみも
+            <lb/>めかりしほやくとある返事さ
+            <lb/>ま〳〵にかきつけて人こふるな
+            <lb/>みたのうみはみやこにもまくらの
+            <lb/>下にたゝへてなとやさしくか
+            <lb/>きて
+            <lb/><l n="81">もろともにめかりしほ焼浦ならは
+               <pb n="9r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/36"/>
+            <lb/><handShift/>なか〳〵そてになみはかけしを</l>
+            <lb/>この人もあんかもんゐんにさふらひしなり
+            <lb/>つゝましくする事ともを思ひつらねてか
+            <lb/>きたるもいとあはれにもをかしほとなく年
+            <lb/>くれて春にもなりにけりかすみこめたる
+            <lb/>なかめのたと〳〵しさたにの戸はとなりな
+            <lb/>れともうくひすのはつねたにもをとつれ
+            <lb/>こす思ひなれにしはるのそらはしのひか
+            <lb/>たくむかしのこひしきほとにしも又
+            <lb/>みやこのたよりありとつけたる人あれ
+               <pb n="9v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/37"/>
+            <lb/>はれいのところ〳〵への文かく中にいさよふ
+            <lb/>月とをとつれ給へりし人の御許へ
+            <lb/><l n="82">おほろなる月はみやこのそらなから
+            <lb/>またきかさりしなみのよる〳〵</l>
+            <lb/>なとそこはかとなき事ともをかき聞え
+            <lb/>たりしをたしかなる所よりつたはり
+            <lb/>て御かへりことをいたうほともへすまち
+            <lb/>見たてまつる。
+            <lb/><l n="83">ねられしなみやこの月を身にそへて
+            <lb/>なれぬまくらのなみのよる〳〵</l></ab>
+         <pb n="10r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/37"/>
+            <lb/><ab>権中納言の君はまきるゝことなくうたを
+            <lb/>よみ給ふ人なれはこのほとてならひに
+            <lb/>したるうたともかきあつめてたてまつるう
+            <lb/>みちかき所なれはかいなとひろふおりもな
+            <lb/>くさのはまならねはなをなき心ちして
+            <lb/>なとかきて
+            <lb/><l n="84">いかにしてしはしみやこをわすれかい
+            <lb/>なみのひまなくわれそくたくる</l>
+            <lb/><l n="85">しらさりしうら山かせもむめかゝは
+            <lb/>みやこににたるはるのあけほの</l>
+               <pb n="10v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/38"/>
+            <lb/><l n="86">花くもり<app><lem wit= "#永">はれくもり</lem><rdg wit= "#国">花くもり</rdg></app>なかめてわたる<app><lem wit= "#永">浦風に</lem><rdg wit= "#国">うらかせも</rdg></app>
+            <lb/>かすみたゝよふはるの夜の月</l>
+            <lb/><l n="87">あつまちの<app><lem wit="#国">いそ山かせの</lem><rdg wit="#永">磯山かせの</rdg><rdg wit="#永イ">磯山松の</rdg></app>たえまより
+            <lb/>なみさへ花のおもかけにたつ</l>
+            <lb/><l n="88">宮こ人おもひもいてしあつまちの
+            <lb/>はるやいかにとをとつれてまし</l>
+               <lb/>なとたゝふてにまかせて<app><lem wit="#国">おもふまゝに</lem><rdg wit="#永">おもふまゝに<subst><del rend="見せ消ち">は</del><add></add></subst></rdg></app><app><lem wit="#国">いそ
+                  <lb/>きたるつかひ</lem><rdg wit="#永"><subst><del rend="見せ消ち">か</del><add>いそ</add></subst>きたるつかひ</rdg></app>とてかきさすやうなりしを
+            <lb/>又ほとへす返事し給へり日ころのおほ
+            <lb/>つかなさも此文にかすみはれぬる心ちして
+               <pb n="11r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/38"/>
+            <lb/>なとあり
+            <lb/><l n="89">たのむそよしほひにひろふうつせかい
+            <lb/>かひあるなみのたちかへるよを</l>
+            <lb/><l n="90">くらへ見よかすみのうちのはるの月
+            <lb/>はれぬ心はおなしなかめを</l>
+            <lb/><l n="91">しらなみのいろもひとつにちるはなの<app><lem wit= "#永">ちる花を</lem><rdg wit= "#国">ちるはなの</rdg></app>
+            <lb/>おもひやるさへおもかけにたつ</l>
+            <lb/><l n="92">あつまちのさくらを見てもわすれすは
+            <lb/>みやこのはなを人やとはまし</l></ab>
+            <lb/><ab>やよひのすゑつかたわか〳〵しきわらは
+               <pb n="11v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/39"/>
+            <lb/>やみにや日ませにおこる事二たひになり
+            <lb/>ぬあやしうしほれはてたるこゝちしなか
+            <lb/>ら三たひになるへきあかつきよりおきゐて
+            <lb/>ほとけの御まへにてこゝろを一にしてほく
+            <lb/>ゑきやうをよみつそのしるしにや
+            <lb/><app><lem wit= "#国">なこりもなく</lem><rdg wit= "#永">なこりなく</rdg></app>
+            <lb/>おちたる
+               <pb n="12r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/39"/>
+               　　<app><lem></lem><rdg wit="#国"><graphic url="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/39"/></rdg></app>
+               <pb n="12v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/40"/>
+            <lb/>折しもみやこのたよりあれはかゝる事こ
+            <lb/>そなとふるさとへもつけやるついてにれ
+            <lb/>いの権中納言の御もとへたひのそらにて
+            <lb/>あやうきほとの心ほそさもさすか御法の<app><lem wit= "#永">さすかにたもつ御法の</lem><rdg wit= "#国">さすか御法の</rdg></app>
+            <lb/>しるしにやけふまてはかけとゝめてとかきて
+            <lb/><l n="93">いたつらにあまのしほやくけふりとも
+            <lb/>たれかは見ましかせにきえなは</l>
+            <lb/>ときこえたりしをおとろきてかへりこと
+            <lb/>とくし給へり
+            <lb/><l n="94">きえもせし和かのうらちにとしをへて
+               <pb n="13r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/40"/>
+               <lb/><app><lem wit= "#永">ひかりをそふる</lem><rdg wit= "#国">ひかりもそふる</rdg></app>あまのもしほ火</l>
+            <lb/>御きやうのしるしいとたうとくて
+            <lb/><l n="95">たのもしな身にそふともとなりにけり
+            <lb/>たへなるのりのはなのちきりは</l></ab>
+            <lb/><ab>う月のはしめつかたたよりあれはまた
+            <lb/>おなし人の御許へこそのはるなつのこ
+            <lb/>ひしさなとかきて
+            <lb/><l n="96">見し世こそかはらさるらめくれはてし
+            <lb/>はるよりなつにうつる木すゑも</l>
+            <lb/><l n="97">なつころもはやたちかへてみやこ人
+               <pb n="13v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/41"/>
+            <lb/>いまやまつらん山ほとゝきす</l>
+            <lb/><app><lem wit= "#国">その返し</lem><rdg wit= "#永">其返事</rdg></app>またあり
+            <lb/><l n="98">草も木もこそみしまゝにかはらねと
+            <lb/>ありしにもにぬ心ちのみして</l>
+            <lb/>さてほとゝきすの御たつねこそ
+            <lb/><l n="99">人よりもこゝろつくしてほとゝきす
+            <lb/>たゝ二声をけふそきゝつる</l>
+            <lb/>さねかたの中将の五月まて時鳥きかて
+            <lb/>みちのくにより
+            <lb/><l n="100">みやこにはきゝふるすらんほとゝきす
+               <pb n="14r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/41"/>
+            <lb/>せきのこなたの身こそつらけれ</l>
+            <lb/>とかや申されたる事の<app><lem wit= "#国">候な</lem><rdg wit= "#永">われ</rdg></app>そのためし
+            <lb/>とおもひいてられて此文こそことにや
+            <lb/>さしくなとかきてをこせたまへりさる
+            <lb/>ほとに<app><lem wit= "#永">卯月のすゑに成にけれと</lem><rdg wit= "#国">う月のすゑになりけれは</rdg></app>ほとゝ
+            <lb/>きすのはつねほのかにもおもひたえた
+            <lb/>り人つてに聞はひきのやつといふとこ
+            <lb/>ろにあまたこゑなきけるを人きゝたり
+            <lb/>なといふをきゝて
+            <lb/><l n="101">しのひねはひきのやつなるほとゝきす
+               <pb n="14v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/42"/>
+            <lb/>くも井にたかくいつかなのらむ</l>
+            <lb/>なとひとり思へともそのかひもなしもと
+            <lb/>よりあつまちはみちのをくまてむかし
+            <lb/>よりほとゝきすまれなるならひにやあり
+            <lb/>けん一すちにまたなかすはよしまれに
+            <lb/>もきく人ありけるこそ人わきしけるよ
+            <lb/>と心つくしにうらめしけれ</ab><ab>又<app><lem wit="#永イ">くはとくもん院</lem><rdg wit="#国">くはこく門ゐん</rdg><rdg wit="#永">くはこくもん院</rdg></app>
+            <lb/>ゐんの新中納言ときこゆるは京極の中
+            <lb/>納言<app><lem wit= "#永">定家のむすめ</lem><rdg wit= "#国">定家の御むすめ</rdg></app>ふか草のさきの斎
+            <lb/>宮ときこえしにちゝの中なこんのまい
+               <pb n="15r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/42"/>
+            <lb/>らせをき給へるまゝにて年へたまひに
+            <lb/>ける此女院は斎宮の御子にしたてまつり
+            <lb/>給へりしかはつたはりてさふらひ給なり
+            <lb/><app><lem wit= "#国">うき身こかるゝ</lem><rdg wit= "#永">うきこかるゝ</rdg></app>もかりふねなとよみたまへ
+            <lb/>りし民部卿のすけのせうとにてそおは
+            <lb/>する<app><lem wit= "#国">さる人のこにて</lem><rdg wit= "#永">里人の子にて</rdg><rdg wit="#永イ">さる人の子にて</rdg></app>あやしき哥よみ
+            <lb/>て人にはきかれしとあなかちにつゝみ
+            <lb/>給ひしかとはるかなるたひのそらおほつ
+            <lb/>かなさにあはれなることゝもを
+            <lb/>かきつゝけて
+               <pb n="15v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/43"/>
+               　　<app><lem></lem><rdg wit="#国"><graphic url="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/43"/></rdg></app>
+               <pb n="16r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/43"/>
+            <lb/><l n="102">いかはかり子をおもふつるのとひわかれ
+            <lb/>ならはぬたひのそらになくらん</l>
+            <lb/>と文のことはにつゝけて哥のやうにも
+            <lb/>あらすかきなし給へるも人よりはなをさり
+            <lb/>ならすおほゆ御かへりことは
+            <lb/><l n="103">それゆへにとひわかれてもあしたつの
+               <lb/>子をおもふかたは<app><lem wit= "#永">猶そこひしき</lem><rdg wit= "#国">なをそかなしき</rdg></app></l>
+            <lb/>ときこゆ<app><lem wit= "#永">其ついてに</lem><rdg wit= "#国">そのつゐてに</rdg></app>故入道大納言草
+            <lb/>のまくらにもたちそひてゆめに見えさ
+            <lb/>せ給ふよしなとこの人はかりやあはれと
+               <pb n="16v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/44"/>
+            <lb/>もおほさんとて<app><lem wit= "#国">かきつけてたてまつる</lem><rdg wit= "#永">かきつけ奉る</rdg></app>
+            <lb/><l n="104">みやこまてかたるもとをし思ひねに
+               <lb/>しのふむかしの<app><lem wit= "#国">夢のなこりを</lem><rdg wit= "#永">夢のなこりは</rdg></app></l>
+            <lb/><l n="105">はかなしやたひねのゆめにまよひきて
+            <lb/>さむれは見えぬ人のおもかけ</l>
+            <lb/>なとかきてたてまつりしを又あなかち
+            <lb/>にたよりたつねてかへりことしたま
+            <lb/>へりさしもしのひ給へりしもおりか
+            <lb/>らなりけり
+            <lb/><l n="106">東路のくさのまくらはとをけれと
+               <pb n="17r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/44"/>
+            <lb/>かたれはちかきいにしへのゆめ</l>
+            <lb/><l n="107">いつくより<app><lem wit= "#永">旅ねの床に</lem><rdg wit= "#国">たひねのゆかに</rdg></app>かよふらん
+            <lb/>思ひおきつる露をたつねて</l>
+            <lb/>なとの給へり</ab><ab>なつのほとはあやしきまて
+            <lb/>をとつれもたえておほつかなさも一かた
+            <lb/>ならすみやこのかたはしかのうらなみたち
+            <lb/>山三井てらのさはきなときこゆるもいと
+            <lb/>とおほつかなしからうして八月二日そ
+            <lb/>つかいまちえ<app><lem wit= "#永">つかひまちえ</lem><rdg wit= "#国">つかいまちえ</rdg></app>日ころよりをきたりける人〻
+            <lb/>の文ともとりあつめて見つる侍従のさい
+               <pb n="17v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/45"/>
+            <lb/>しやうのきみのもとより<app><lem wit= "#国">五十首の哥を</lem><rdg wit= "#永">五十首のを</rdg></app>よみ
+            <lb/>たりけるとてきよかきもしあへすくたさ
+            <lb/>れたる哥もいとをかしくなりにけり五十
+            <lb/>首に十八首にてんあひぬるもあやしく心
+            <lb/>のやみのひかめこそあるらめその中に
+            <lb/><l n="108">こゝろのみへたてすとてもたひ衣
+            <lb/>山路かさなるをちのしらくも</l>
+            <lb/>とある哥を見るにたひのそらをおもひ
+            <lb/>をこせてよまれたるにこそいとこゝろ
+            <lb/>をやりてあはれなれはその哥のかたは
+               <pb n="18r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/45"/>
+            <lb/><handShift/>らにもしちいさく返事をかき
+            <lb/>そへてやる
+            <lb/><l n="109">恋しのふ心やたくふあさ夕に
+            <lb/>ゆきてはかへるをちのしら雲</l>
+            <lb/>又おなしたひの題にて
+            <lb/><l n="110">110かりそめの草の枕のよな〳〵を
+            <lb/>おもひやるにも袖そ露けき</l>
+            <lb/>とある所にも又かへりことをそかき
+            <lb/>そへたる
+            <lb/><l n="111">秋ふかき草のまくらにわれそなく
+            <lb/>ふりすてゝこしすゝむしのねを</l>
+            <lb/>又此五十首の哥のおくにことはをか
+               <pb n="18v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/46"/>
+            <lb/>きそふ大かた哥のさまなとしるし
+               <lb/>つけておくに<app><lem wit="#国">むかしの人〻の哥</lem><rdg wit="#永">昔の人〳〵の哥</rdg><rdg wit="#永イ">昔の人〳〵の事</rdg></app>
+            <lb/><l n="112">是を見はいかはかりかと思ひつる
+            <lb/>人にかはりてねこそなかるれ</l>
+            <lb/>とかきつく</ab><ab>侍従のおとうとため
+            <lb/>もりの君のもとよりも<app><lem wit= "#永">三十首の</lem><rdg wit= "#国">廿首の</rdg></app>
+            <lb/>うたををくりてこれにてんあひ<app><lem wit= "#国">てんあひ
+            <lb/>てわろからん</lem><rdg wit= "#永">てんわろからん</rdg></app>事をこまかにしる
+            <lb/>したへといはれたりことしは
+            <lb/>十六そかし哥のくちなれはや
+            <lb/>さしくおほゆるもかへす〳〵心
+            <lb/>のやみとかたはらい
+               <pb n="19r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/46"/>
+            <lb/><handShift/>たくなんこれもたひのうたにはこなたを
+            <lb/>おもひてよみたりけりと見ゆ下りし
+            <lb/>ほとのにつきをこの人〳〵のもとへつかは
+            <lb/>したりしをよまれたりけるなめり
+            <lb/><l n="113">たちわかれふしのけふりをみてもなを
+            <lb/>こゝろほそさのいかにそひけん</l>
+            <lb/>またこれも返しをかきつく
+            <lb/><l n="114">かりそめにたちわかれても子を思ふ
+            <lb/>おもひをふしのけふりとそ見し</l></ab>
+            <lb/><ab>またこん中なこんのきみこまやかにふみ
+               <pb n="19v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/47"/>
+            <lb/>かきて下給ひし後はうたよむとももなく
+            <lb/>て秋になりてはいとゝ思ひてきこゆるまゝ
+            <lb/>にひとり月をのみなかめあかしてなと書て
+            <lb/><l n="115">東路のそらなつかしきかたみたに
+            <lb/>しのふなみたにくもる月かけ</l>
+            <lb/>此御返事これも<app><lem wit= "#国">古郷のこひしさ</lem><rdg wit= "#永">ふる郷恋しさ</rdg></app>なとかきて
+            <lb/><l n="116">かよふらしみやこのほかの月見ても
+            <lb/>そらなつかしきおなしなかめは</l>
+            <lb/>宮このうたともこのゝちおほくつもりたり
+            <lb/>またかきつくへし</ab>
+         <pb n="20r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/47"/>
+         <lb/><ab><l n="117">しきしまや　<app><lem wit="#国">やまとのくには</lem><rdg wit="#永">やまとのくにゝ</rdg></app>
+            <lb/>あめつちの　<app><lem wit="#国">ひらけはしめし</lem><rdg wit="#永">ひらけしはしめ</rdg></app>
+            <lb/>むかしより　いわとをあけて
+            <lb/>おもしろき　かくらのことは
+            <lb/><app><lem wit="#国">うたひてし</lem><rdg wit="#永">哥ときく</rdg></app>　されはかしこき
+            <lb/>ためしとて　<app><lem wit="#国">ひしりの御世の</lem><rdg wit="#永">ひしりの世にも</rdg></app>
+            <lb/><app><lem wit="#国">みちしるく</lem><rdg wit="#永">すてられす</rdg></app>　ひとのこゝろを
+            <lb/>たねとして　<app><lem wit="#国">よろつのわさを</lem><rdg wit="#永">よろつの情に</rdg></app>
+            <lb/><app><lem wit="#国">ことのはに</lem><rdg wit="#永">なりけれは</rdg></app>　おにかみまても
+            <lb/><app><lem wit="#国">あはれとて</lem><rdg wit="#永">なひくなり</rdg></app>　八しまのほかの
+               <pb n="20v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/48"/>
+            <lb/>よつのうみ　なみもしつかに
+            <lb/>おさまりて　そらふくかせも
+            <lb/>やはらかに　えたもならさす
+            <lb/>ふるあめも　ときさたまれは
+            <lb/>きみ〳〵の　<app><lem wit="#国">みことのまゝに</lem><rdg wit="#永">みかとのまゝに</rdg></app>
+            <lb/>したかひて　わかのうらちの
+            <lb/>もしほくさ　かきあつめたる
+            <lb/>あとおほし　それか中にも
+            <lb/>名をとめて　<app><lem wit="#国">三代まてつきし</lem><rdg wit="#永">三代まてつゝく</rdg></app>
+            <lb/><app><lem wit="#国">人の子の</lem><rdg wit="#永">人の子に</rdg></app>　親のとりわき
+               <pb n="21r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/48"/>
+            <lb/><handShift/>ゆつりてし　<app><lem wit="#国">そのまことさへ</lem><rdg wit="#永">其まことをは</rdg></app>
+            <lb/><app><lem wit="#国">ありなから</lem><rdg wit="#永">もちなから</rdg></app>　<app><lem wit="#国">おもへはいやし</lem><rdg wit="#永">思へはいやしき</rdg></app>
+            <lb/>しなのなる　<app><lem wit="#国">そのはゝ木〻の</lem><rdg wit="#永">其はゝき木の</rdg></app>
+            <lb/>そのはらに　<app><lem wit="#国">たねをまきたる</lem><rdg wit="#永">種をまきける</rdg></app>
+            <lb/>とかとてや　<app><lem wit="#国">世にもつかへよ</lem><rdg wit="#永">代にもつかへよ</rdg></app>
+            <lb/>いけるよの　身をたすけよと
+            <lb/>ちきりをく　すまとあかしの
+            <lb/>つゝきなる　ほそ川やまの
+            <lb/><app><lem wit="#国">山かはの</lem><rdg wit="#永">谷川に</rdg></app>　<app><lem wit="#国">わつかにいのち</lem><rdg wit="#永">わつかに命を</rdg></app>
+            <lb/>かけひとて　つたひし水の
+               <pb n="21v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/49"/>
+            <lb/>みなかみも　せきとめられて
+            <lb/>いまはたゝ　くかにあかれる
+            <lb/>うをのこと　かちをたえたる
+            <lb/><app><lem wit="#国">ふねのこと</lem><rdg wit="#永">ふねにゝて</rdg></app>　よるかたもなく
+            <lb/>わひはつる　子をおもふとて
+            <lb/>よるのつる　<app><lem wit="#国">なく〳〵みやこ</lem><rdg wit="#永">なく〳〵都を</rdg></app>
+            <lb/>いてしかと　身はかすならす
+            <lb/>かまくらの　<app><lem wit="#国">世のまつりこと</lem><rdg wit="#永">代のまつりこと</rdg></app>
+            <lb/>しけけれは　きこえあけてし
+            <lb/>ことの葉も　枝にこもりて
+               <pb n="22r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/49"/>
+            <lb/><handShift/>むめのはな　四とせの春に
+            <lb/>なりにけり　行ゑもしらぬ
+            <lb/>なかそらの　かせにまかする
+            <lb/>ふるさとは　軒はもあれて
+            <lb/>さゝかにの　いかさまにかは
+            <lb/>なりぬらん　世〻のあとある
+            <lb/>玉つさも　さてくちはては
+            <lb/>あしからの　道もすたれて
+            <lb/><app><lem wit="#国">いかならむ</lem><rdg wit="#永">いかにせん</rdg></app>　これをおもへは
+            <lb/>わたくしの　なけきのみかは
+               <pb n="22v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/50"/>
+            <lb/><app><lem wit="#国">世のためも</lem><rdg wit="#永">代のためも</rdg></app>　つらきためしと
+            <lb/>なりぬへし　行さきかけて
+            <lb/>さま〳〵に　<app><lem wit="#国">かきのこされし</lem><rdg wit="#永">かき残されぬ</rdg></app>
+            <lb/>筆のあと　かへす〳〵も
+            <lb/>いつはりと　<app><lem wit="#国">おもはましかは</lem><rdg wit="#永">いふ人あらは</rdg></app>
+            <lb/>ことはりを　たゝすのもりの
+            <lb/>ゆふしてに　やよやいさゝか
+            <lb/>かけてとへ　みたりかはしき
+            <lb/>すゑの世に　あさはあとなく
+            <lb/>なりぬとか　いさめおきしを
+               <pb n="23r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/50"/>
+            <lb/>わすれすは　<app><lem wit="#国">ゆへあることを</lem><rdg wit="#永">ゆかめることも</rdg></app>
+            <lb/>又たれか　引なをすへき
+            <lb/>とはかりに　身をかへり見す
+            <lb/>たのむそよ　<app><lem wit="#国">そのよを聞は</lem><rdg wit="#永">その世をきけは</rdg></app>
+            <lb/>さてもさは　のこるよもきと
+            <lb/><app><lem wit="#国">かこちてし</lem><rdg wit="#永">かこちける</rdg></app>　<app><lem wit="#国">ひとのなさけも</lem><rdg wit="#永">人に情も</rdg></app>
+            <lb/>かゝりけり　おなしはりまの
+            <lb/><app><lem wit="#国">さかひとて</lem><rdg wit="#永">さかひにて</rdg></app>　一つなかれを
+            <lb/>くみしかは　野中のしみつ
+            <lb/>よとむとも　もとのこゝろに
+               <pb n="23v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/51"/>
+            <lb/>まかせつゝ　<app><lem wit="#国">とゝこほりなき</lem><rdg wit="#永">とゝこほりなく</rdg></app>
+            <lb/><app><lem wit="#国">みつくきの</lem><rdg wit="#永">わかかたへ</rdg></app>　<app><lem wit="#国">あとさへあらは</lem><rdg wit="#永">かきくたされは</rdg></app>
+            <lb/><app><lem wit="#国">いとゝしく</lem><rdg wit="#永">いとゝ又</rdg></app>　つるかおかへの
+            <lb/>朝日かけ　八ちよのひかり
+            <lb/>さしそへて　<app><lem wit="#国">あきらけきよの</lem><rdg wit="#永">あきらけきよ<subst><del rend="見せ消ち">に</del><add>そ</add></subst></rdg></app>
+            <lb/>なをもさかへむ</l>
+            <lb/><l n="118">118なかゝれと朝夕いのるきみか世を
+            <lb/>やまとことはにけふそのへつる</l></ab>
+      </body>
+     <back>
+        <pb n="23v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/51"/>
+            <lb/><ab>のこるよもきとかこちけるといふところの
+            <lb/>うらかきにくはうたいこくうの大夫<app><lem wit="#国">俊
+               <pb n="24r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/51"/>
+            <lb/>成のきやうの御むすめ</lem><rdg wit="#永">俊成のむすめ</rdg></app>ちゝの<app><lem wit="#国">ゆつりと
+            <lb/>て</lem><rdg wit="#永">ゆつりにて</rdg></app>はりまのくにこしへのしやうといふとこ
+            <lb/>ろをつたへしられけるを<app><lem wit="#国">さまたけ</lem><rdg wit="#永">地頭のさまたけ</rdg></app><app><lem wit="#国">おほく
+            <lb/>て</lem><rdg wit="#永">おほく候けれは</rdg></app>むかし<app><lem wit="#国">むさしのせんしへ</lem><rdg wit="#永">むさしの前司殿へ</rdg></app><app><lem wit="#国">ことなるそ
+            <lb/>せう</lem><rdg wit="#永">ことなる御そせう</rdg></app>にはあらて<app><lem wit="#国">まいらせられける哥</lem><rdg wit="#永">まいらせられける文に</rdg></app><app><lem wit="#国">しん
+            <lb/>ちよくせんにも入てやらん</lem><rdg wit="#永">新勅撰に入て候やらん</rdg></app>心のまゝの
+            <lb/>よもきのみしてといふ御うたをかこ
+            <lb/>ちて申されける哥
+            <lb/><l n="119">きみひとりあとなきあさのかすしらは
+            <lb/>のこるよもきかかすをことはれ</l>
+               <pb n="24v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/52"/>
+            <lb/>と<app><lem wit="#国">よまれけれは</lem><rdg wit="#永">よまれて候けれは</rdg></app>ひやうちやうにもをよは
+            <lb/>す廿一かてうの地とうのひほうをみなとゝ
+            <lb/>められて候けりそのゝち野中のしみつ
+            <lb/>をすくとて
+            <lb/><l n="120">わすられぬもとのこゝろのありかほに
+            <lb/>野中のしみつかけをたに見し</l>
+            <lb/>と<app><lem wit="#国">よまれたるも</lem><rdg wit="#永">よまれて候も</rdg></app>そのこしへのしやうへ下
+            <lb/>られける哥にて候新勅撰に<app><lem wit="#国">入て侍し</lem><rdg wit="#永">入て候</rdg></app></ab>
+        <pb n="24v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/52"/>
+        <lb/><ab><app><lem wit="#国"><date when="1298">永仁六年三月一日</date>書之
+           <pb n="25r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/52"/>
+        <lb/>此あふつはうと申人は定家の息ため家
+        <lb/>の室也きんたち五人まし〳〵候はりま
+        <lb/>の國ほそ川のしやうを為家よりゆつり
+        <lb/>をかれ候を為氏たふくによりてわう
+        <lb/>りやう候そせうのためにかまくらへくた
+        <lb/>られ候ときの道の日記にて候ため氏
+        <lb/>もちんしやうのためにかまくらへ下向両
+        <lb/>人ともにかまくらにて死去せられしそ
+        <lb/>せうはためうちのかたへはつけられす
+           <pb n="25v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/53"/>
+        <lb/>候しとそあふつはあんかもんゐんの四条
+        <lb/>と申人なり
+        <lb/>為相のはゝ
+           <lb/>なり</lem><rdg wit="#永"><date when="1298">永仁六年三月一日</date>書之</rdg></app></ab>
+   <app><lem wit="#国"></lem>
+   <rdg wit="#永"><lb/><ab>此道之記始而一覧之次則借請書写訖
+              　　<lb/>是所雇<persName>兼如法師</persName>之筆也遂勘校之後以
+              　　<lb/>他本重而讀合之者也
+      　　        <lb/><date when="1598">慶長第三暦孟冬廿九日</date>
+              　　<lb/><persName>幽斎叟玄旨</persName>（花押）</ab></rdg></app>
+           <pb n="26r" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/53"/><ab><app><lem wit="#国">小川寿一識語
+           <pb n="26v" facs="https://kotenseki.nijl.ac.jp/biblio/200003074/viewer/54"/>小川寿一識語</lem><rdg wit="#永"></rdg></app></ab>
+     </back>
+  </text>
+</TEI>

@@ -1,0 +1,2130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+            <titleStmt>
+               <title>阿仏東くだり</title>
+               <author>不明</author>
+               <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Hiroyuki Ikuura</name>
+               </respStmt>
+               <respStmt>
+               <resp>TEI Consultation</resp>
+               <name>Kiyonori Nagasaki</name>
+               </respStmt>
+               <respStmt>
+               <resp>TEI Consultation</resp>
+               <name>Keisuke Unno</name>
+               </respStmt>
+               <respStmt>
+               <resp>History Consultation</resp>
+               <name>Fumito Ikura</name>
+               </respStmt>
+               <respStmt>
+               <resp>TEI Project Manager</resp>
+               <name>Kazuhiro Okada</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <bibl><author>不明</author>
+                  　　<title>阿仏東くだり</title>
+               </bibl>
+               <msDesc>
+                  <msIdentifier>
+                     <country>Japan</country>
+                     <region type="country"></region>
+                     <settlement>Tokyo</settlement>
+                     <institution>国立国会図書館</institution>
+                     <repository ref="https://ndlonline.ndl.go.jp">国立国会図書館オンライン</repository>
+                     <collection>和古書・漢籍</collection>
+                     <idno>ち-7</idno>
+                     <altIdentifier>
+                        <idno type="原本代替請求記号">YD1-282</idno>
+                     </altIdentifier>
+                     <altIdentifier>
+                        <idno type="国立国会図書館書誌ID">000007275263</idno>
+                     </altIdentifier>
+                     <altIdentifier >
+                        <idno type="永続識別子">info:ndljp/pid/2533189</idno>
+                     </altIdentifier>
+                     <altIdentifier>
+                        <idno type="DOI">10.11501/2533189</idno>
+                     </altIdentifier>
+                  </msIdentifier>
+                  <msContents>
+                     <summary><seg type="para"/>紀行『十六夜日記』の翻案。元禄頃までの成立か。</summary>
+                     <msItemStruct>
+                        <title>輪池叢書</title>
+                     </msItemStruct>
+                     <msItem n='1'>
+                        <title type="cover">依田記</title>
+                        <title type="caption">依田記</title>
+                        <textLang mainLang="">日本語</textLang>
+                        <colophon>書写奥書ナシ</colophon>
+                        </msItem>
+                     <msItem n='2'>
+                        <title type="cover">阿仏東くたり</title>
+                        <title type="caption">ナシ</title>
+                        <textLang mainLang="">日本語</textLang>
+                        <colophon>書写奥書ナシ</colophon>
+                     </msItem>
+                     <msItem n='3'>
+                        <title type="cover">行基法師國益記</title>
+                        <title type="caption">行基法師國益記　大佛建立</title>
+                        <textLang mainLang="">日本語</textLang>
+                        <colophon>書写奥書ナシ</colophon>
+                     </msItem>
+                  </msContents>
+                  <physDesc n='2'>
+                     <objectDesc form="codex"><supportDesc material="paper"><support>楮紙</support>
+                           <extent>63丁<dimensions type="leaf" unit="mm"><height>230</height><width>160</width></dimensions></extent>
+                           <collation>3冊合綴</collation>
+                           <condition>状態良</condition>
+                        </supportDesc>
+                        <layoutDesc>
+                           <layout>界罫・匡郭なし</layout>
+                           <layout>字高未調査</layout>
+                        </layoutDesc>
+                     </objectDesc>
+                     <handDesc>
+                        <handNote scope="major">
+                           <p>書記言語　和文</p>
+                           <damage>虫損・擦り消し痕有無</damage>
+                           <ab>書体</ab>
+                           <ab>筆跡</ab>
+                        </handNote>
+                     </handDesc>
+                     <additions>
+                        <ab>傍記あり</ab>
+                        <ab>ふり仮名・漢字あり</ab>
+                     </additions>
+                     <bindingDesc>
+                        <binding>
+                           <p>合綴</p>
+                           <p>袋綴</p>
+                           <decoNote type="color">渋引き表紙</decoNote>
+                           <decoNote type="pattern">縦刷毛目</decoNote>
+                        </binding>
+                     </bindingDesc>
+                     <sealDesc>
+                        <p>label"ろ三十八"</p>
+                        <p>label""</p>
+                        <p>label"ち/43/7"表紙右上、後見返し</p>
+                        <p>collecter seal"不忍文庫"阿仏東くだりの表紙左下、1丁目右下</p>
+                        <p>collecter seal"白石所蔵"阿仏東くだりの表紙右下</p>
+                        <p>collecter seal"青木印"行基法師國益記の表紙</p>
+                        <p>collecter seal"東京圖書館藏"</p>
+                        <p/>
+                     </sealDesc>
+                  </physDesc>
+                  <history>
+                     <origin></origin>
+                     <provenance>感得署名などナシ</provenance>
+                     <acquisition>
+                        <p>Acquired from<name type="institution">東京図書館</name></p>
+                        <p>Acquired from<name><persName>青木信寅</persName></name></p>
+                        <p>Acquired from<name type="person" ref="https://viaf.org/viaf/6373229">
+                        <persName>屋代弘賢</persName></name></p>
+                     </acquisition>
+                  </history>
+               </msDesc>
+            </sourceDesc>
+      </fileDesc>
+     <revisionDesc>
+        <change when="2020-02-28">
+           <persName>Hiroyuki Ikuura</persName>
+        </change>
+     </revisionDesc>
+  </teiHeader>
+   <sourceDoc>
+      <surfaceGrp n="leaf1">
+         <surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/21" n="1r"><zone> 
+<line>から國のいにしへかしこき世にかべ</line>
+<line>の中よりもとめいてたりけむ文とも</line>
+<line>をは今の世にとりつたへて世をお</line>
+<line>さめ武をやすんするはかりことゝせり</line>
+<line>されは賢王の世にはかみをあらひ</line>
+<line>さして民のそせうをはかなへ給へり</line>
+<line>といへりすゑの世々そはかなしけれ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/22" n="1v"><zone> 
+<line>水上清しといへとも泥沙これをけ</line>
+<line>かすならひとなるこそうたてけれ</line>
+<line>利よくにふかくおほるゝときは</line>
+<line>こつにくのちなみも忘れ世のそしり</line>
+<line>もかへりみすたゝ徳のあくまてた</line>
+<line>くましからん事をのみおもへりなか</line>
+<line>れ久しきほそ川の庄はいまはの</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/22" n="2r"><zone>
+ <line>す(と)きみなし子をやしなひたてゝ</line>
+<line>十五に至らはちゝかゆいせきをたてゝ</line>
+<line>朝につかうまつらせよとくれ〳〵ちき</line>
+<line>りおきて身まかり給ひし折から</line>
+<line>をいまのやうにおもはれてなけきな</line>
+<line>からも星霜をむかへてちきりし</line>
+<line>とし月もうちすきはんへりぬ今</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/23" n="2v"><zone>
+<line>ははやふそよりつたへしせうえむ</line>
+<line>わたしてたえてし家をおこし</line>
+<line>てんといへともなにとなく押領し</line>
+<line>父のかたみにのこれるみとり子をな</line>
+<line>いかしろにとりなしてうへみぬ鳥に</line>
+<line>世を思へることのくちおしさよか</line>
+<line>くては家のこの（此）ときにたらなんこ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/23" n="3r"><zone>
+ <line>とをかなしみて君にそうす</line>
+<line>れとも摂政執政いつとなくいひ（ひ）なひ</line>
+<line>けてことの葉をもとりあけすさ</line>
+<line>れはとてうちすてゝ押領せられ</line>
+<line>てむなしく路とうにさまよひまよ</line>
+<line>はむ事もくちおしかりなんこの上</line>
+<line>はあつまのかゝみにかけて是非を</line>
+            <zone><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/24" n="3v"></surface></zone>
+<line>わかたんほかはあらしと思ひたち</line>
+<line>にけりされはゆかりなる人〳〵は</line>
+<line>かなきあしよはくるまのはる〳〵</line>
+<line>とあつまのたひにめくりまよはん</line>
+<line>事さりとてはあはれにこそとひ</line>
+<line>きとむるはかりにとゝむれともや</line>
+<line>むへきみちにもあらねはたゝ子をお</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/24" n="4r"><zone>
+<line>もふおやはやみちにまよふものに</line>
+<line>こそ世の中に我ひとりかはみやこ</line>
+<line>にありていつしかに思ひをこめて</line>
+<line>むねふくらかしなけきしつまんよ</line>
+<line>りとく下りて事をさたに致し</line>
+<line>てんとてころは三冬の立はしめ</line>
+<line>つかたに人〳〵のなこりを宿りとゝ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/25" n="4v"><zone> 
+<line>めてすてにこゝのへをそいて給ひに</line>
+<line>けるきやうごくけのしたしき人</line>
+<line>のかたよりおくりける人あはたくち</line>
+<line>まてとて来たりしか空もすみや</line>
+<line>かなる十六夜月ともろともにあく</line>
+<line>かれたとるころさしまことにあは</line>
+<line>れになんかくしてゆけはあふさかに</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/25" n="5r"><zone> 
+<line>つきぬ名にしをふ所なれとも今日は</line>
+<line>しめてみれは</line>
+<line>たひたつやせきの岩かとけふ越て</line>
+<line>またあふさかとたのめてそゆく</line>
+<line>と打なかめたれは峯のあらしはけ</line>
+<line>しく吹をちてもみちの散くるを</line>
+<line>みてかくそ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/26" n="5v"><zone> <line>
+　　紅葉かつ散わたるらんあふさかの</line>
+<line>せきになこりをとゝめ行かな</line>
+<line>蝉丸のおきなのこのところにすみて</line>
+<line>うき世の是非をはなれがんれいの松</line>
+<line>風にこゝろをすまして光陰をおく</line>
+<line>りしもまことにかしこし関のしみ</line>
+<line>つを駒のけあけやにごすらんほともな</line>
+            <zone><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/26" n="6r"></surface></zone>
+<line>くうちいての濱につきけりむかひ</line>
+<line>をはるかにみわたせは湖水まん〳〵</line>
+<line>としてへきらうてんをひたし雲</line>
+<line>もなみもひとつかとみゆおきふく風</line>
+<line>にえんほのきはんくつかへすかとあやう</line>
+<line>しこれそかし満沙弥かこき行</line>
+<line>舟のあとのしらなみといひしもことは</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/27" n="6v"><zone>
+<line>りかなこう〳〵と立る一松きりまかく</line>
+<line>れにほの見えてあはれなりせたのなか</line>
+<line>はしたと〳〵しくもうちみたり</line>
+<line>て野路の夕霧すそぬらししの</line>
+<line>はらつゝみはる〳〵とうちこえて</line>
+<line>ものあはれにみゆる民のけふり北ふく</line>
+<line>風にうちなひきて春かすみかとそ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/27" n="7r"><zone> 
+   <line>たかひけるさなきたにも旅の空は</line>
+<line>物うきにふりみふらすみさため</line>
+<line>なき時雨にそてはほすまもなくな</line>
+<line>みたのみうちそひていとゝかなしもり</line>
+<line>山といふ所にやとしけるにみねの</line>
+<line>こからしはら〳〵として夜空た</line>
+<line>えかたかりけれはかく</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/28" n="7v"><zone> 
+<line>月寒く空ふくかせの身にしみて</line>
+<line>まなくしくれのもる山にして</line>
+<line>ねられぬまゝにふるさとの事のみ夜も</line>
+<line>すからおもひつゝけてこゝろときめ</line>
+<line>きあけゆく空をまちわひに</line>
+<line>けり朝またきにおきいてゝゆくに</line>
+<line>霧たちのほりてかゝみの山さたかに</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/28" n="8r"><zone> 
+<line>もみえすおもしろきすかたに</line>
+<line>なんみわたして</line>
+<line>たちおほふ霧になみたのうちそひて</line>
+<line>くもりてみえしかゝみ山かな</line>
+<line>おちこちのりよかくはかなたこなたも</line>
+<line>行ちかひ冬のそらのならひにて</line>
+<line>しくれてははれはれてはしくれな</line>
+            <zone><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/29" n="8v"></surface></zone>
+<line>とまなくけうときにひちかさをし</line>
+<line>てかたはらに立しのふもいと苦し</line>
+<line>一とをりすき行はまたせいてんは</line>
+<line>れ〳〵しわうへんのりよ人いて</line>
+<line>あふてとうさいへいそくかゝる折からに</line>
+<line>ゆかりなる人のほくじうとうこくよ</line>
+<line>りのほり侍りけるかこゝにてうき</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/29" n="9r"><zone> 
+<line>たひの空なとかたりあひてしはらく</line>
+<line>時をうつしけるかきやうへのほりぬ</line>
+<line>れはたよりをもとめたりとてかく</line>
+<line>よみてつかはしける</line>
+<line>ゆくたひの一夜のやとのねさめにも</line>
+<line>おもひわすれぬふるさとの空</line>
+<line>かくしてふはのせきにいたりて</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/30" n="9v"><zone> 
+<line>みけれはあはらやの風もたまり</line>
+<line>かねたるにふゝきはをりからいとけ</line>
+<line>はしけれは</line>
+<line>ふくかせにふはのせきやの板ひさし</line>
+<line>まはらにうつる月のかけかな</line>
+<line>やとりかねたるしつかやに夢もむ</line>
+<line>すはすよもすから古郷の空のみお</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/30" n="10r"><zone>
+<line>もひつゝけてなみたはまくらに</line>
+<line>おきそへてせんかたそなき山中</line>
+<line>をはる〳〵ゆくに雪いたう空もかき</line>
+<line>くもりてふりくれは駒のひつめも</line>
+<line>ほとなくかくるゝはかりにつみし</line>
+<line>きけりみやこにて雪のふりくる</line>
+<line>をまちわひてくもれるそらな</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/31" n="10v"><zone> 
+<line>とをみやりてまかきにたまれる</line>
+<line>雪松竹にとまりて枝なよら</line>
+<line>かにたはみけるを詩にすんし</line>
+<line>哥によみてけうありしかゝる旅</line>
+<line>途にてみることいとこゝろほそく</line>
+<line>そなり</line>
+<line>降雪をみるに付てやおもひこし</line>
+            <zone><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/31" n="11r"></surface></zone>
+<line>我ふるさとの軒のしはかき</line>
+<line>あしたゆみひえまさりけれは</line>
+<line>日たかけれともとまりぬやとの</line>
+<line>あるしなとちかつけは夜ふけゆく</line>
+<line>まてよしなき物かたりなとし</line>
+<line>てそのゝちふせりぬあけゝれはあ</line>
+<line>つたのみやにむかひぬ八つるきの</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/32" n="11v"><zone> 
+   <line>神をふしおかみてしゆじやうの</line>
+<line>ねかひみて給はんとて今大明</line>
+<line>神とあらはれさせ給ひて和光と</line>
+<line>うぢんのけちえんまことにありか</line>
+<line>たしせいくはんあやまり給はす</line>
+<line>わかほゐをたつし給へとて</line>
+<line>千早振神のちかひをたのむより</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/32" n="12r"><zone> 
+<line>こゝろのうちはすゝしかりけり</line>
+<line>空もはれけれはみちのほとも</line>
+<line>あゆむにさのみくるします</line>
+<line>こゝろしつかにゆくほとにとかう</line>
+<line>して三河のくにゝいりにけり</line>
+<line>名にしをふ八はしをみるに</line>
+<line>おもひそいつる在五中将はる〳〵</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/33" n="12v"><zone>
+<line>きぬるたひおしう思ふといへる</line>
+<line>もあはれにそ思ひにけるときな</line>
+<line>らねはさはへをみれともかきつはた</line>
+<line>はなし水ゆく河のなかれはくも</line>
+<line>てにのみなかれゆくほとにはし</line>
+<line>もまた八つわたせる空をみけれ</line>
+<line>は日もはやにしの山の端にかゝり</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/33" n="13r"><zone> 
+<line>給ふほとに（十六夜日記）</line>
+<line>名（さゝか）にし（の）をふくもてあやうき八橋を</line>
+<line>ゆふくれかけてわたりぬるかな</line>
+<line>こゝちいたはる事ありて一日はや</line>
+<line>とにとゝまりてとかくそこゝろ</line>
+<line>をなくさめつつかれもいさゝやすら</line>
+<line>かになりゆきけれはそれよりも</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/34" n="13v"><zone> 
+<line>宿をこゝろしつかにいてゝゆくほと</line>
+<line>にうつの山邊にゆきぬみあく</line>
+<line>れはつたかへても霜かれてくち</line>
+<line>葉ところ〳〵にのこれりさかはいと</line>
+<line>けはしくたはやすくのほりかね</line>
+<line>たり空はしくるゝころなれはいと</line>
+<line>くらくておそろしけれともをち</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/34" n="14r"><zone> 
+            <line>こち人をちからとしてのほりゆく</line>
+<line>ほとにもみち葉の木すゑにのこ</line>
+<line>れるか吹とるみねの木からしに</line>
+<line>まなくちりけれは</line>
+<line>もみち葉のちりしく冬の山みれは</line>
+<line>にしきにつゝむうつの山みち</line>
+<line>あつも（まの歟）みちは初冬のくれまて</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/35" n="14v"><zone> 
+            <line>のこれるにやとうちかたらひてゆ</line>
+<line>くほとにやう〳〵うちこえぬうつ</line>
+<line>の山のうつゝともおほえすこゝろくる</line>
+<line>しくてしはしはやすらひけりお</line>
+<line>かへといふところにやとしてあり</line>
+<line>けるにきやうより人してたより</line>
+<line>ありふみうちひろけてみけれはお</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/35" n="15r"><zone> 
+            <line>りからは日みしかくみやこさへ雪</line>
+<line>霜からうしてたえかたきに</line>
+<line>ましてあつまのみちすからさは</line>
+<line>かりありなんとおもひこそやれ</line>
+<line>なれぬたひのみちなれはこゝろはい</line>
+<line>さむともひつしのあゆみとこそは</line>
+<line>おもひつれ子を思ふみちはいかなれは</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/36" n="15v"><zone> 
+<line>かはかりにこゝろをはつくすらんなと</line>
+<line>さま〳〵かきて</line>
+<line>みやこをはいてしその日をかそふるも</line>
+<line>君かゆくゑのきかまほしさに</line>
+<line>ならはねはたひゆくみちにまとふらむ</line>
+<line>そこしもとをきあつまちのすゑ</line>
+<line>みやこにはたひ立空をおもへれは</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/36" n="16r"><zone> 
+<line>    さそふるさとの恋しかるらむ</line>
+<line>なといとあはれにかきてこさせ給へ</line>
+<line>れは夜もすからきやうへのかへしを</line>
+<line>そかき給ふ</line>
+<line>古さとのたよりを得てし東路の</line>
+<line>みちのなかはにきくそ嬉しき</line>
+<line>夢にのみみやこをみてしあかつきは</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/37" n="16v"><zone> 
+<line>かなしさのこすやとのまくらに</line>
+<line>名にしをふそのふるあとをみて過し</line>
+<line>くるしなからもなくさむはたひ</line>
+<line>かくすさひてつかひはきやうへかへし</line>
+<line>つかはしてこゝろしつかに行ほとに</line>
+<line>とし比きゝおよひにし所〳〵に</line>
+<line>てはこゝろをとめふてにうつして</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/37" n="17r"><zone> 
+<line>いつをさためぬたひの空なれはたゝ</line>
+<line>こゝろにまかせてゆくほとに大井河</line>
+<line>ふし川なとにのそみては河のお</line>
+<line>もてもすさましく水のなかれは</line>
+<line>やくして舟なとは正木のつなに</line>
+<line>てつなきとめなとしてゆきゝの</line>
+<line>人うちわたせりとかくしてうち</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/38" n="17v"><zone> 
+<line>こしなをゆくほとに清見かせき</line>
+<line>につきぬおきをはるかに見わたせは</line>
+<line>いそうつなみのいはほにうちかけ</line>
+<line>〳〵隙もなくみゆるほとによそ</line>
+<line>なから見しにはいとおもしろく</line>
+<line>おほえけれは</line>
+<line>（十六夜日記）</line>
+<line>きよみかた年ふる岩にことゝはん</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/38" n="18r"><zone> 
+<line>なみのぬれきぬいくかさねきつ</line>
+<line>田子のうらなみ夜るとなくひるとも</line>
+<line>わかぬつりをふねあま小舟たき</line>
+<line>つれたりしいさり火は時ならぬほた</line>
+<line>る火かともうたかへりふしの高ね</line>
+<line>をみあくれは雪しろたえにふり</line>
+<line>つみてたるひきわたるしら</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/39" n="18v"><zone>
+<line>雲は山のこしをそめくりける</line>
+<line>なにしほふ富士の高ねをみあくれは</line>
+<line>山のねこしや雲まとふらん</line>
+<line>すそ野のはらのいとすゝきもふ</line>
+<line>りつむ雪に見えわかすみなしろ</line>
+<line>たえにみえわたれはけうありて</line>
+<line>こそおほえける</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/39" n="19r"><zone> 
+<line>雪ふかきすそのゝ原の夕かせに</line>
+<line>ふきしをりぬるたひ人のそて</line>
+<line>これより風のこゝ地とていたはり</line>
+<line>給へるほとにちからなくやと</line>
+<line>をもとめてつかれをしはらくい</line>
+<line>たはり侍りけりあるしいひ</line>
+<line>けるはやんことなき御身として</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/40" n="19v"><zone> 
+<line>をりふし三冬のなかはにはる</line>
+<line>〳〵の御ほかうなれはつかれに</line>
+<line>こそおはしますらめとて十日はか</line>
+<line>りいたはりたてまつりてこれよ</line>
+<line>りもかまくらへはいつかたへか御こゝ</line>
+<line>ろさしあるらんおくりたてま</line>
+<line>つらんときこゆるほとにこよなく</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/40" n="20r"><zone> 
+<line>うれしくてひきのやつといふ所</line>
+<line>にしたしき人のありけれはこの</line>
+<line>ところへをくりてむとあるほとに</line>
+<line>あるしこしをようゐしてのせ</line>
+<line>たてまつりほとなくかまくらにて</line>
+<line>はひきのやつと云所にそとゝけ</line>
+<line>侍りけりゆかりの人なりけれは</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/41" n="20v"><zone> 
+<line>はる〳〵くたり給へるこゝろさし</line>
+<line>をいかはかりとあはれみてよく〳〵</line>
+<line>いたはりまいらせけるほとにた</line>
+<line>ひのつかれなれはほとなくもと</line>
+<line>のこゝちしたまひにけりさてこゝ</line>
+<line>にしはらくおはしてかまくらの</line>
+<line>公事ともきゝ給ふにまことに</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/41" n="21r"><zone> 
+<line>世のまつり事つかさとり給ふと</line>
+<line>てあめかしたの人〳〵たかきも</line>
+<line>いやしきもあつまりてけんもん</line>
+<line>のかとに市をなせりこゝにしつ</line>
+<line>せいのゆかりにつきてよきた</line>
+<line>よりありけれはひそかにことのや</line>
+<line>うをいひいれけれは世にあはれにと</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/42" n="21v"><zone> 
+<line>ふらひてきしよくをうかゝひて</line>
+<line>さたにあつかり給へといふもたのもし</line>
+<line>くちからつきてそみえたまひに</line>
+<line>けるさるにこゝろゆるしてくわう</line>
+<line>いんおくり給へるほとにそのとしも</line>
+<line>はやうちくれてあら玉の春にも</line>
+<line>なり行はこち吹風もやはらかに</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/42" n="22r"><zone>
+ <line>のとけき空にうくひすのうらわか</line>
+<line>きはつこゑをのきはの梅にを</line>
+<line>とつれてほつえをつたふもいと</line>
+<line>やさしかけひのつらゝとけぬれは</line>
+<line>行水のをとものとけくてむすふも</line>
+<line>やすきこゝちせり</line>
+<line>　　人こゝろかけひの水にあるならは</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/43" n="22v"><zone>
+ <line>よはすくさまにことやとをらん</line>
+<line>かゝるほとに君のきたのかたきこし</line>
+<line>めしてあなあはれや子をおもふ</line>
+<line>みちには身のくるしひをもかへり</line>
+<line>みすはか（る）〳〵とあつまのおくに</line>
+<line>くたりたまふことのはかなさよこの</line>
+<line>みなしこのちゝは世に名をとめし</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/43" n="23r"><zone> 
+<line>和歌のしうしやにてみかとの御たか</line>
+<line>らときこえしかゝる人のあとな</line>
+<line>れはいかてかゆいせきをたえしは</line>
+<line>てんとは思しすつへきかい〳〵しく</line>
+<line>もあしよはの身としてあつま</line>
+<line>のたひにおもむき給ふ事こそふひ</line>
+<line>むにはおほゆれとてさま〳〵</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/44" n="23v"><zone> 
+<line>のものともをくらせ給ひて道に</line>
+<line>とふらはせ給ふそありかたきある</line>
+<line>とき侍従のつほねを御つかひにて</line>
+<line>御せうそくありておくに</line>
+<line>子をおもふみちにはまよふ親の身の</line>
+<line>そこはかとなく物やおもはし（ん歟）</line>
+<line>まことにあはれにとふらひ給ふも</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/44" n="24r"><zone>
+<line>いとありかたしとてやかて御か</line>
+<line>へし侍りけり</line>
+<line>かひもなきはゝをたよりに残りける</line>
+<line>この身おもへはあはれしれきみ</line>
+<line>此御返しを御らんしてふひんさ</line>
+<line>はいよ〳〵まさり給ふとなんきこゆ</line>
+<line>さてをりを得てことのやうをつ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/45" n="24v"><zone> 
+<line>まひらかにかゝせ給ひてつたは</line>
+<line>りしほそ川の頭文書なとゝ取そ</line>
+<line>へてうたへさせ給へはくもん所のしつ</line>
+<line>せいかためあつまりてかまくらとのへき</line>
+<line>こゆときこえたりされとも世のま</line>
+<line>つりことしけきによりてその次第</line>
+<line>をきこしめせはしはらくさしお</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/45" n="25r"><zone> 
+<line>かせ給ふかゝるあひた御いのりのため</line>
+<line>におほしめしたちて一乗めうてん</line>
+<line>をそみみつからかゝせ給ふむにむじやう</line>
+<line>にしてこゝろしつかに書給ふ程</line>
+<line>にとかくしていとまあらすより</line>
+<line>〳〵にこれをぜんぶせんことをあふき</line>
+<line>給ふほとにやう〳〵にかきおはらせ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/46" n="25v"><zone>
+<line>たまふそありかたき二尊のゑさう</line>
+<line>をあんちしたまひてあさな夕</line>
+<line>なにとくしゆおはしましけり</line>
+<line>又わか宮の八まんくうへねかひをは</line>
+<line>立させ給ふか日ことに百日かあいた</line>
+<line>まうてさせ給ひてひさしき家</line>
+<line>のなかれをすてさせ給ふななむき</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/46" n="26r"><zone> 
+<line>みやうちやうらい大ほさつとてかく</line>
+<line>こそよみ給ひにける</line>
+<line>岩しみつきよきなかれの濁らすは</line>
+<line>むかしにかへりすませたまへや</line>
+<line>とほうらくしたまひてひとへに</line>
+<line>たのみをかけさせ給ふそありかたき</line>
+<line>そのゝちあんちやうしのかうそう</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/47" n="26v"><zone>
+<line>たちにあはせたまひてのちの世</line>
+<line>の事なとよく〳〵さつかりたまふ</line>
+<line>まことにむしやうへんへきのよの</line>
+<line>中にうゐのけらくをねかひて真</line>
+<line>如しつさうのうてなにいたりなん</line>
+<line>とはこゝろさす人なしかなしきか</line>
+<line>なやくわうせんのみちはかみ一人より</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/47" n="27r"><zone> 
+<line>下はんみんにこたへふくほうにも</line>
+<line>かうきやうにも智恵さいかくにも</line>
+<line>よることなしのかれぬ旅にして</line>
+<line>しかもふたゝひかへるみちをうし</line>
+<line>なふかゝるあやうき世の中にとん</line>
+<line>よくこまうをたくはへ名利のため</line>
+<line>に身をくるしめこゝろをなやまし</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/48" n="27v"><zone> 
+<line>人をむさほり人をわつらはしめ露</line>
+<line>命のほとをしらす身をやすくた</line>
+<line>のしまん事をのみねかふことのか</line>
+<line>なしさに我すみにしみやこをあく</line>
+<line>かれいてゝかゝるあつまのちりに</line>
+<line>ましはりうき思ひに身をくるし</line>
+<line>むる事はまことにはかなしけれ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/48" n="28r"><zone> 
+<line>ともこれは一つのこゝろさしふかき</line>
+<line>ゆへなりとりつたへし一所けんめい</line>
+<line>の地をむなしくうはゝれこのよのかた</line>
+<line>みにのこしをきしたゝひとりの</line>
+<line>みなしこをはかなくろけいにさま</line>
+<line>よひちりの身となしはてんことい</line>
+<line>とゝくちおしこのまゝうちすてあ</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/49" n="28v"><zone> 
+<line>すにもはかなくなりなはいかにまう</line>
+<line>ねんとなりてしやはへもかへらす</line>
+<line>又ふつくはをもえすして五十てん</line>
+<line>〳〵の身となりて三あくたう</line>
+<line>にちんりんせんこといとかなしとひ</line>
+<line>とへに思しさためけれはいつし</line>
+<line>かほとけにのみ御こゝろをはこひて</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/49" n="29r"><zone> 
+<line>またたじはなくこそみえさせ給</line>
+<line>ひにけりかくして三とせもすき</line>
+<line>ぬれともかまくらとのよりとかく</line>
+<line>の御事もなかりけりきたの御かた</line>
+<line>よりはたひ〳〵御せうそこをくらせ</line>
+<line>給ひて御こゝろさしはまことにせ</line>
+<line>つにきこえさせ給ふさこそなか〳〵</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/50" n="29v"><zone>
+<line>ひなのすまひにおはしてこゝろくる</line>
+<line>しくましますらんさりなからより</line>
+<line>〳〵にそせうの事はほのめき侍れ</line>
+<line>はちかきほとにさいきよはあるへし</line>
+<line>なとゝきこえ給ふもいとありかたしかく</line>
+<line>て月日ををくり給へるほとに</line>
+<line>みやこよりたよりありゆかりの人</line>
+         </zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/50" n="30r"><zone> 
+<line>〳〵または道にこゝろへたてなくか</line>
+<line>たらひ給ひしあついゑ中納言のき</line>
+<line>たのかたなとをはしめとして</line>
+<line>御文ともかす〳〵ありけり其なか</line>
+<line>に中将ためかとのきたのかたより</line>
+<line>の御ふみに</line>
+<line>あきの田の　かりそめなから</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/51" n="30v"><zone> 
+<line>おもひたち　すみこしみやこ</line>
+<line>ふりすてゝ　東のたひに</line>
+<line>まよひてし　こゝろさしこそ</line>
+<line>あはれなる　明くれきみを</line>
+<line>おもへとも　身はかよはねは</line>
+<line>ちからなし　せめてはゆめに</line>
+<line>みはやとて　折ふすゆかに</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/51" n="31r"><zone> 
+ <line>うはたまの　よるのころもを</line>
+<line>かへしつゝ　かたらふ程の</line>
+<line>嬉しさは　物にたとへん</line>
+<line>かたもなし　されともゆめの</line>
+<line>はかなさは　うつゝとなりて</line>
+<line>うらめしや　つれ〳〵なりし</line>
+<line>おりからに　うちかたらひし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/52" n="31v"><zone>  
+<line>ことわさを　おもひいてゝは</line>
+<line>まさ〳〵と　きみにあふ瀬の</line>
+<line>こゝちせし　夜のまにかはる</line>
+<line>世のならひ　いまははるかに</line>
+<line>へたてたる　雲井のよそと</line>
+<line>なりぬれは　あまのはしたて</line>
+<line>なか〳〵に　ふみもまれなる</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/52" n="32r"><zone>  
+<line>なかぞかし　こ（こ）れも（を）おもへは</line>
+<line>みとり子の　はゝのならひの</line>
+<line>はかなさよ　きてかまくらの</line>
+<line>そのさたは　いかゝあるらむ</line>
+<line>おほつかな　すきにし春の</line>
+<line>ころかとよ　き（ふ歟）みにてきゝも</line>
+<line>およひしは　ちかきほとには</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/53" n="32v"><zone>  
+<line>ほそ川の　なかれのすゑに</line>
+<line>つくへきと　さためありける</line>
+<line>そのさたを　かせのつてにて</line>
+<line>きゝしより　いかはかりかは</line>
+<line>かなしとそ　おもひまうくる</line>
+<line>おりふしに　このころうき世の</line>
+<line>おとろきに　そのまつり事</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/53" n="33r"><zone>
+<line>しけくして　しはらくさたも</line>
+<line>なきとかや　そのちはいかゝ</line>
+<line>さたすらむ　さてもひなびし</line>
+<line>すみところ　はると秋との</line>
+<line>はなとつき　いかゝみやこと</line>
+<line>ち（しの歟）ふらむ　はなははやきや</line>
+<line>おそさくら　花たち花に</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/54" n="33v"><zone>
+<line>ほとゝきす　いまこゝのへの</line>
+<line>うちそとに　ふせひはひとし</line>
+<line>かりつるや　かのさねかたの</line>
+<line>中将の　道のおくこそ</line>
+<line>つたなけれ　五月はすゑに</line>
+<line>なりゆけと　まれにもきかぬ</line>
+<line>ほとゝきす　花はうつきの</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/54" n="34r"><zone>  
+<line>なかはそと　いひこしけんも</line>
+<line>さそあるや　都にかはる</line>
+<line>ありさまを　聞まほしやと</line>
+<line>まつの戸の　明くれことに</line>
+<line>たちあかし　そなたの空を</line>
+<line>まつは苦しきとて</line>
+<line>きのふまてよそにおもひし吹風も</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/55" n="34v"><zone>  
+<line>今はなつかし東風とおもへは</line>
+<line>となんかゝせ給へり　　かまくらよ</line>
+<line>りもひそかにこのさたをみやこへつけ</line>
+<line>きたりけれはそのことゝなくか</line>
+<line>たりきかせ給ふほとにさてはやか</line>
+<line>てあんとのおもひをはなし給</line>
+<line>はんときやうにおはしけるゆか</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/55" n="35r"><zone>  
+<line>りの人〳〵は人しれすうれしく</line>
+<line>てかゝることはかへりてあつまかた</line>
+<line>にはよもしり給はしと思し</line>
+<line>て御文をわさと人〳〵くたさせ</line>
+<line>給へるなりまたほとゝきすの鳴</line>
+<line>といふ事はそうしてみやこほとり</line>
+<line>は卯月にはかならすなくなりしか</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/56" n="35v"><zone>  
+<line>れはいつくもこのじふんにはなくそ</line>
+<line>とおもへりしにあかだはさも</line>
+<line>あらすとなんむかしさねかたの</line>
+<line>ちうしやうといへる人とまた四てう</line>
+<line>の大なこんきんたうときこえし</line>
+<line>人ふたり我（を歟）帝めしけれはかし</line>
+<line>こまりて御簾ちかくそまいりた</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/56" n="36r"><zone>  
+<line>まひにけるされは實方のちうじ</line>
+<line>やうはいかなるしいしゆかおはしま</line>
+<line>すらん座をたつてしやくをとり</line>
+<line>のへて大なこんのかふりをなさけなく</line>
+<line>もうちをとしそのゝちかふりをは</line>
+<line>とつて大庭へなけたまひに</line>
+<line>けりそのきしよくひと〳〵けう</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/57" n="36v"><zone>
+  <line>をさましてそ見えたまひにける</line>
+<line>されとも大なこんはいさゝかもを</line>
+<line>とろき給はすけしきいとぎ</line>
+<line>むこうにていかにもしつまりて</line>
+<line>たれかあるとよひたまへはてむ</line>
+<line>上人つとまかりてかしこまり</line>
+<line>ゐたりけりきんとうそれ〳〵</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/57" n="37r"><zone>  
+<line>大庭にあるかふりとりてまいら</line>
+<line>せよと仰らるゝれはかしこまり</line>
+<line>てとつてまいらせにけりその</line>
+<line>ときとつてきたまひしはらく</line>
+<line>ゑもんひきつくろひて袖かき</line>
+<line>あはせいかにもつつしんてのた</line>
+<line>まひけるはそも〳〵たゝいま</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/58" n="37v"><zone>  
+<line>の御きしよくはなにのむくひに</line>
+<line>て候そやさら〳〵それかしは</line>
+<line>あたを結はれ候はんしいしゆをは</line>
+<line>おほえす候たとひいかやうのい</line>
+<line>こん侍るともこゝは天子の御簾</line>
+<line>ちかしことにかふりをは誰人の</line>
+<line>くつぬき所へすてゝけかし給ふ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/58" n="38r"><zone>  
+<line>御せんのらうせきと申かた〳〵も</line>
+<line>つてむこつのいたりとそんする</line>
+<line>御うらみのさふらはゝかねてな</line>
+<line>りとも又はごにちにたしよにて</line>
+<line>もおほせられ侍らて御まへに</line>
+<line>てのちじよくあたへ給ふ事はさた</line>
+<line>めて大きなるそれかしのあや</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/59" n="38v"><zone>  
+<line>まり侍るらむなにさまあすにち</line>
+<line>このちしよくをほうし候は（候は）んと</line>
+<line>申されけれはさねかたの中将</line>
+<line>せきめんしてこたふるにこと葉</line>
+<line>なくはうせんとしてうちそは</line>
+<line>みおはしけりされは帝はもの</line>
+<line>のすきよりこのふるまひをはつ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/59" n="39r"><zone>  
+<line>く〳〵御らんしてこんにちは</line>
+<line>ふたりともにまかりたち候へとの</line>
+<line>せん〇（し歟下にもせんしのこと書たり）ありてあくる日きんたうは</line>
+<line>きのふのけしきまことに神妙</line>
+<line>あまりありとのえいかんにてやか</line>
+<line>て大なこんにそ任し給ひける</line>
+<line>さてさねかたの中将はこんにちよ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/60" n="39v"><zone>
+<line>りもみちのくにへくたりて三とせ</line>
+<line>かあいたにうたまくらをつくりてまい</line>
+<line>れとのせんなりちよくなれはちから</line>
+<line>なくみちのくにへそくたられける</line>
+<line>三とせかあいたになところきう</line>
+<line>せきをたつねてのちのほらんとし</line>
+<line>たまへるに猶三とせありてつま</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/60" n="40r"><zone>  
+<line>ひらかにしるし侍れとのちよく</line>
+<line>なれはかさねてめくり給ふに</line>
+<line>ある神にとかめられてむなし</line>
+<line>くうせ給ふそのときの哥まくら</line>
+<line>にみちのくには五月のすゑま</line>
+<line>てほとゝきすなかぬよしをいへり</line>
+<line>このこゝろをとつてこゝにかき給</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/61" n="40v"><zone>  
+<line>へるとなんまたおほきおとゝの御</line>
+<line>いもうとよりの文にさま〳〵</line>
+<line>あはれをかき給ひて</line>
+<line>夜るの靏も子をおもへはやあかつきの</line>
+<line>はかいの下のかい子みるにも</line>
+<line>人〳〵のかたへ返しをそかゝせたまふ</line>
+<line>まことにあはれにそおほゆる</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/61" n="41r"><zone>  
+<line>なつかしき　おりにつけくる</line>
+<line>たよりをは　みるになみたは</line>
+<line>ますかゝみ　くもりてみゆる</line>
+<line>ふてのあと　ありしみやこの</line>
+<line>こゝ地して　かなたこなたと</line>
+<line>あさゆふに　うちかたらひし</line>
+<line>はるはまつ　せちゑのほとも</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/62" n="41v"><zone>  
+<line>すきぬれは　うちかたらひ明す</line>
+<line>いとたけの　しらへそめてし</line>
+<line>おりからに　ふきつる（く歟）かせを</line>
+<line>おゝかはの　ひゝきによする</line>
+<line>ことの音の　いとたえかたき</line>
+<line>なかき日に　さえつりわたる</line>
+<line>うくひすの　こゑきゝなるゝ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/62" n="42r"><zone>  
+<line>まとのむめ　ちれは待ゑる</line>
+<line>はつさくら　みれはこゝろも</line>
+<line>のとけくて　いさとさそひし</line>
+<line>はなのえむ　哥をよみては</line>
+<line>詩をきんし　折にふれては</line>
+<line>らうえいし　わすれかたきは</line>
+<line>すきし春　　涼しきいつみ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/63" n="42v"><zone>  
+<line>とのにして　かの御かたのや</line>
+<line>はなのまひ　色うるはしき</line>
+<line>ふちいろに　八重やまふきを</line>
+<line>こそかさね　おりからさてや</line>
+<line>うのはなの　いろましはるも</line>
+<line>いとやさし　そてにとめなん</line>
+<line>たちはなの　香もなつかしき</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/63" n="43r"><zone>  
+<line>われもかう　ふしにて風に</line>
+<line>さそはれて　みたれあひぬる</line>
+<line>荻すゝき　　露おもけなる</line>
+<line>をみなへし　しをんりんたう</line>
+<line>ふちはかま　きてはなかむる</line>
+<line>もち月の　ふけゆく空まて</line>
+<line>うそふきて　長き夜をしも</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/64" n="43v"><zone>  
+<line>ありあけの　入かたまても</line>
+<line>ともなひし　そのをり〳〵を</line>
+<line>おもひねの　うらむるものは</line>
+<line>わか身なり　さてもいふせき</line>
+<line>あつまかた　ときめきわたる</line>
+<line>かまくらも　そのほとらひを</line>
+<line>おもひしれ　やつ七ごうの</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/64" n="44r"><zone>  
+<line>うちなれは　たてつゝけたる</line>
+<line>いゑ〳〵に　野山のすきも</line>
+<line>あらはこそ　なくさむかたも</line>
+<line>あさ（る）へけれ　たま〳〵よりあふ</line>
+<line>人とても　とみたるこゑの</line>
+<line>かたてなく　つたなきことのみ</line>
+<line>いひつゝけ　ことむくつけき</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/65" n="44v"><zone>  
+<line>おのことも　みるもにけなき</line>
+<line>めのわらは　みれはかつらは</line>
+<line>やしやうにて　このよの人とも</line>
+<line>みえさるなり　かくあさましき</line>
+<line>その中に　このとし月を　ふり</line>
+<line>けるを　いかにあはれとも　おもはなん</line>
+<line>されとも日ころの　おもひをは　か</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/65" n="45r"><zone>  
+<line>まくら山に　はれなんと　こゝろ</line>
+<line>さためし　我なれは　うき身なか</line>
+<line>らも　としくれて　はやく三と</line>
+<line>せ（三とせ）も　うちくれぬ　今はゝやこひし</line>
+<line>きも　みやこも　やかてかへりて</line>
+<line>あふさかの　せきうちこえて　こゝの</line>
+<line>への　春にあはんと　思ふものかは　と</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/66" n="45v"><zone>  
+<line>とゝめ給ひて</line>
+<line>わか身をはあつまのおくにをきなから</line>
+<line>こゝろはかよふ雲のうへまて</line>
+<line>またある御かたへのかへしに</line>
+<line>かきをくるふみにしみれは大方は</line>
+<line>きみにあひぬるこゝ地こそすれ</line>
+<line>なとかき給ひて人〳〵の御かたへは</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/66" n="46r"><zone>  
+<line>とこまやかに御かへしおはしまし</line>
+<line>けり古のあるしゆかりある人にて</line>
+<line>なへてならすもてかしつきまいら</line>
+ <line>しけるに右大将（惟康将軍）（将軍惟康弘安十六月任中納言兼右大将十月親王宣下）のきたのかたよ</line>
+<line>りもよにふひんによろつし給</line>
+<line>ひけれは近つきたてまつる人こと</line>
+<line>にをろそかにもてなさゝりけり</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/67" n="46v"><zone>
+<line>大将とのゝきたのかたよりも和哥</line>
+<line>集のたくひをあまたきかせたま</line>
+<line>はんかためにつねに御しよへも</line>
+<line>めされてけんさんあらまほしく</line>
+<line>思しけれともそせうのせひいまた</line>
+<line>なれはけんさむもあらすしてたゝ</line>
+<line>御せうそこのみかよひ給ひけり和</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/67" n="47r"><zone>  
+<line>哥の道にこゝろをかくるくにのかみ</line>
+<line>はより〳〵にとふらひてあはれ</line>
+<line>にそおもひし（か）しつき給ひにける</line>
+<line>つねさまには千載集古今集をは</line>
+<line>見たまひけるかきたの御かたより</line>
+<line>わりなくおふせことたひ〳〵なり</line>
+<line>けれはおり〳〵に拾遺をそかゝせ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/68" n="47v"><zone>
+<line>給ひにけるそれのみならす哥の</line>
+<line>さまなときかせ給ひて大かたなら</line>
+<line>ぬ人に思してをんひむにかし</line>
+<line>つかせ給ひにけりさるほとにいまは</line>
+<line>はやのちのよのつとめをことゝし</line>
+<line>給ひてきやうだらにをはあけく</line>
+<line>れしよしや（書写）おはしましていつしか</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/68" n="48r"><zone>
+<line>うせ給ひし人〳〵のなきあとを</line>
+<line>ふかくゑかうしたまひことには自</line>
+<line>身三界のくわんをいてゝしやうし</line>
+<line>るらうをたすけ給へといのり給ふか</line>
+<line>いつとなくきりよくもをとろへさ</line>
+<line>せ給ひてきやうふもたかひまし</line>
+<line>〳〵けりときこゆるほとにあるし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/69" n="48v"><zone>  
+<line>のかたよりもすきのしつけんへかく</line>
+<line>とひそかにうつたへけれはきたの御か</line>
+<line>たへしらせたてまつりけるあなあ</line>
+<line>はれやあしよはの身としてはる</line>
+<line>〳〵ときやうをいてゝかゝるゑこく（遠國）</line>
+<line>にこゝろをつくしあまさへとしを</line>
+<line>かさねても思ひたちぬるほゐはと</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/69" n="49r"><zone>  
+<line>けすしていつをかきりともなくみ</line>
+<line>はうき雲をたのみたるこゝ地し</line>
+<line>てあけくれおもひにしつみ給へは</line>
+<line>いつとなくこゝろくるしみてかゝるにや</line>
+<line>とて小侍従といふつほねをつかは</line>
+<line>し給ひてことのやうをうかゞは</line>
+<line>せさていしをくはへさせ給ふいし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/70" n="49v"><zone>  
+<line>のいはゝ（く）ほゐたにとけ給はゝおの</line>
+<line>つからこゝちはれらかにかへりて</line>
+<line>こゝろよかるへしさらすはいじゆつか</line>
+<line>なひかたからんといへりきたのかた</line>
+<line>きこしめしてけに〳〵さこそ</line>
+<line>あるへけれ（虫損2文字）（もと歟）よりこうこそ思へれ</line>
+<line>はとてあるとき御きしよくを</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/70" n="50r"><zone>  
+<line>みたまひてことのやうをあらま</line>
+<line>しきこえさせ給ひて世にあは</line>
+<line>れに思ひはへるいそきあんとをさ</line>
+<line>せ給ひていのちをつかせたまへと</line>
+<line>きはめておほせられけれは大将</line>
+<line>とのきこしめしてまことに</line>
+<line>かまくらへくたりてもはやとしひ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/71" n="50v"><zone>  
+<line>さしくすきぬらんされともわか國</line>
+<line>のものともつきさる事なくけん</line>
+<line>もんにのそみゐぬさては君のよう</line>
+<line>じにかれこれとうちまきれてむ</line>
+<line>なしくいまゝてか（う）ちすきぬまつ</line>
+<line>れうしをなしてよ事はふしつに</line>
+<line>げちをすへしと仰られてたゝせたゝせた</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/71" n="51r"><zone>
+  <line>まふさたはまめやかにきこえ侍れは</line>
+<line>ちかきほとにあんとおはしま</line>
+<line>し候はんま・はいしにあはせ給</line>
+<line>ひて御こゝろをこゝろよく・りも</line>
+<line>させたまへなとそかき給ふまことに</line>
+<line>ありかたき御こゝろさしかれこの事</line>
+<line>のみ身の一會なれはことゆかすし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/72" n="51v"><zone>  
+<line>てはかなくなりなはよみちのさは</line>
+<line>りと成て六のちまたにまとひなん</line>
+<line>と身のくるしひに思ひそへていとゝ心</line>
+<line>もかきみたれせんかたもなくくち</line>
+<line>おしかりつるにいとありかたくこそお</line>
+<line>ほえはむへれとていさゝかこゝちまめ</line>
+<line>やかにそおはしける御返しには</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/72" n="52r"><zone>
+<line>まことによろつ御こゝろさしの程</line>
+<line>わすれかたく侍りこのよならすこそ</line>
+<line>候へたとへ身はひきのやつのちりと</line>
+<line>なりはつるともたえにしいゑたに</line>
+<line>立ならは後の世まてもこゝろやす</line>
+<line>くそ思ひたてまつれこのたひきみ</line>
+<line>のなさけにあつからすはいかてか</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/73" n="52v"><zone>  
+<line>あんとをなし侍らんたてよこに君</line>
+<line>をこそあふきたてまつれなとのたま</line>
+<line>へるをいとあはれなりさる程に</line>
+<line>あるしのしたしきものようの</line>
+<line>事ありてきやうへのほるへきよし</line>
+<line>言ほとによきたよりなれは文な</line>
+<line>と人〳〵のかたへことつてんとて夜</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/73" n="53r"><zone>
+<line>もすからかゝせ給ひにけり明け</line>
+<line>なはやとを出ていそき行ほとに</line>
+<line>きやうにもつきしかはまつ御文をは</line>
+<line>人〳〵のかたへたてまつりける中</line>
+<line>なこんとのゝきたの御かたうれしくて</line>
+<line>見給ふにすきしころより心地</line>
+<line>例ならすわつらはしかくては</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/74" n="53v"><zone>  
+<line>とし月ねかひにし事ともほゐな</line>
+<line>く成ならむと末の世ならす悲し</line>
+<line>かりしに大将とのゝ御かたよりなゝ</line>
+<line>めならすいたはり給ふことには</line>
+<line>ちかきほとにとし頃のほゐをと</line>
+<line>けさせ給ふへきとなんきこえ侍れ</line>
+<line>はいと嬉しくてこのころは心地も</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/74" n="54r"><zone>  
+<line>とにかへりぬなとこま〳〵とかゝ</line>
+<line>せ給ひて（弘安十年六月）</line>
+<line>つもりぬる霧やはれなんわかむねの</line>
+<line>あきつかたにはたちて登らむ</line>
+<line>とそかゝせ給ふまた大なこんとのゝ</line>
+<line>きたの御かたへも御文あり</line>
+<line>たよりなきほとはなつかし雲のうへ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/75" n="54v"><zone>
+<line>いかゝあるらむとおもふはかりそ</line>
+<line>又すゑふさのきやうの御いもうとの</line>
+<line>かたへ御文のはしにみやこのそらは</line>
+<line>月まても一しほきよらかにこそは</line>
+<line>おはし侍れいふせきあつまの月</line>
+<line>かけはなかむるにいとおほつかなき</line>
+<line>なとかき給ひて</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/75" n="55r"><zone>  
+<line>都には引かへたりし月かけを</line>
+<line>ゆかて雲ゐにすみて見んとは</line>
+<line>人〳〵これを見たまひてすゝろに</line>
+<line>うれしくてなを〳〵神ほとけに</line>
+<line>ねかひをたてちかきほとにほゐを</line>
+<line>とけさせ給へるといのりたまふか中</line>
+<line>なこんとのゝきたの御かたはこの人かた</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/76" n="55v"><zone>  
+<line>めに賀茂のやしろにまうてゝ此</line>
+<line>ことをいのり給ひて</line>
+<line>ちはやふる神の玉籬まことあらは</line>
+<line>かゝるねかひをみてしめたまへ</line>
+<line>となんきこゆまたすきにし人の</line>
+<line>御めのとゝきこへし式部の大夫か猶</line>
+<line>子六位のしんそつ（帥）とのふみやつきて</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/76" n="56r"><zone>  
+<line>このとし月ころつくしに侍りけ</line>
+<line>るか御いとまを給はりてちかきほ</line>
+<line>とにきやうにつき南中なこん殿</line>
+<line>へまいりけるかまつよろつさしを</line>
+<line>きてあつまかたの御事はいかに</line>
+<line>おはし侍るにや身はつくしにあり</line>
+<line>ぬれともこゝろはこの御かたにのみ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/77" n="56v"><zone>  
+<line>さふらひてやすきこゝちもせすな</line>
+<line>ときこえけれはされはこそとて</line>
+<line>かまくらのうわ（〃は）さはしめよりの</line>
+<line>御事ともなとを夜もすからかたり</line>
+<line>給へはなみたにむせひてものたにも</line>
+<line>いひあへすされともあんとのさたを</line>
+<line>ちか〳〵にうけ給はれはいとたのもし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/77" n="57r"><zone>  
+<line>さもあらは思ひたちてくたり侍</line>
+<line>りてまことの沙汰あらはか（は歟）たちか</line>
+<line>らをあはせたてまつらはやといひけれ</line>
+<line>はしかるへき事にこそとてきたの</line>
+<line>御かたよりいしやうなとさま〳〵</line>
+<line>調度ありけりそのほかしたしき</line>
+<line>人〳〵よりも御文にとりそへて物</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/78" n="57v"><zone>
+<line>したまひにけりかひ〳〵しくもきや</line>
+<line>うをいてゝ行ほとに日数をへて</line>
+<line>かまくらにつきぬさてひきの谷とい</line>
+<line>ふところをたつねてまかりけり</line>
+<line>きたのかたは御らんしてなみたに</line>
+<line>むせはせ給ひて夢かとのみおほ</line>
+<line>しめしにける六位はみたてまつる</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/78" n="58r"><zone>
+<line>にありし御おもかけもなくならせ</line>
+<line>給ひて御身もほそらせ給ひこゝ</line>
+<line>ちもよろ〳〵けにわたらせ給へはけに</line>
+<line>もことはりにこそ侍れはかなき御</line>
+<line>身にてとし月の御おもひに</line>
+<line>こゝろを苦しめさせ給へは人ならぬ</line>
+<line>御けしきもさこそ（こそ）と思ひたてま</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/79" n="58v"><zone>
+<line>つれわか身も御うへいかゝあるらんと</line>
+<line>うちおくひまもなくおもひたてま</line>
+<line>つれともはるになるくにをへたてぬ</line>
+<line>れはたよりをうるにもあたはすた</line>
+<line>たこゝろつくしに思ひくらし侍り</line>
+<line>されともきんたちいとゝまめやかに</line>
+<line>おはしませはたのもしくおもひ</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/79" n="59r"><zone>  
+<line>たてまつるそやとてなみたにむせ</line>
+<line>ひにけりさても御さたはいかにし</line>
+<line>給ふそとみやこには人〳〵きかま</line>
+<line>ほしくこかれさせ給ふそやと申せは</line>
+<line>されはこそ大将とのゝきたの御かた世</line>
+<line>にふひんにしたまひておほせ事</line>
+<line>いとねんころにおはしけるかちか</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/80" n="59v"><zone>  
+<line>きほとにほゐをとくへきやうに</line>
+<line>きこえ給へはいとまめやかにこそおほ</line>
+<line>ゆれなとおほせられてうきとし</line>
+<line>月の事ともたかひにかたりあはせ</line>
+<line>給ふほとにきたの御かた六位かま</line>
+<line>いりしより御こゝろまめやかにちから</line>
+<line>つかせ給ふさるほとに右大将とのし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/80" n="60r"><zone>  
+<line>つせいにことのやうをおほせふくめ</line>
+<line>られてぢうたいのりやうしよかへし</line>
+<line>つけさせ給ふあんとのみけうしよ</line>
+<line>をなしたまはりけりきたの御かた</line>
+<line>とし月のねかひみて給ひてあり</line>
+<line>かたくもうれしくもこの世なく（ら）すお</line>
+<line>ほしてよろこひ給ふ（の）ため（為）うち（氏）た</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/81" n="60v"><zone>  
+<line>ねんのおうりやうまことに不義の</line>
+<line>しん御いましめあるへきよしをき</line>
+<line>やうへきこえさせ給へはいまさらなけ</line>
+<line>きふりきたるこゝちしてそ見え</line>
+<line>給ひにけるさてかまくらかたにて</line>
+<line>ねかひを立給ひし神ほとけに</line>
+<line>まうてゝ御ちかひむなしからす事</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/81" n="61r"><zone>  
+<line>のほゐをとけさせ給ふことのあり</line>
+<line>かたき（き歟）なかくほうしたてまつらなん</line>
+<line>猶ゆくすゑまもり給へとてなをも</line>
+<line>御きせいをそかけ給ふさて大将とのゝ北</line>
+<line>のかた名残はおしみ給へともちからなく</line>
+<line>のほり給ふさま〳〵のろくともたひて</line>
+<line>立給ひにけりさて京にいらせ給へは人</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/82" n="61v"><zone>  
+<line>〳〵よろこひ給ふことは日比のなけき</line>
+<line>にひきかへて見えさせ給ふきみも</line>
+<line>しんも大将よりいとこま〳〵と</line>
+<line>きこえさせ給へはわたくしのいた</line>
+<line>はりいさゝかもあるへきやうなし</line>
+<line>あつまのかめのかゝみにかけてすみ</line>
+<line>やかにことをあらはし給へはとし</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/82" n="62r"><zone>  
+<line>月たえて久しき家をはふたゝ</line>
+<line>ひおこし給ふよのまつりことこそ</line>
+<line>ありかたけれちゝ（父）のゆいせき（遺跡）に</line>
+<line>そなはりてその器量ふそ（父祖）に</line>
+<line>おとるへく（く）もあらぬきにあたり</line>
+<line>給へはおいたち給ひてかはらす朝</line>
+<line>のしんとなりてぼうふとあひな</line>
+</zone></surface><surface facs="https://dl.ndl.go.jp/info:ndljp/pid/2533189/83" n="62v"><zone>
+<line>らひて和哥の秀才人とそなり</line>
+<line>給ひにけり（る歟）</line>
+</zone>
+</surface>
+      </surfaceGrp>
+   </sourceDoc>
+  <text>
+      <body>
+<pb n="1r"/>     
+            <lb/><ab>から國のいにしへ、かしこき世に、壁
+            <lb/>の中よりもとめいでたりけむ文ども
+            <lb/>をば、今の世にとりつたへて、世をお
+            <lb/>さめ武をやすんずるはかりごとゝせり。
+            <lb/>されば、賢王の世には髪を洗ひ
+            <lb/>さして、民の訴訟をばかなへ給へり
+            <lb/>といへり。すゑの世々こそはかなしけれ。
+<pb n="1v"/>
+            <lb/>水上清しといへども、泥沙これをけ
+            <lb/>がすならひとなるこそうたてけれ。
+            <lb/>利欲に深くおぼるゝときは、
+            <lb/>骨肉のちなみも忘れ、世のそしり
+            <lb/>もかへりみず。たゞ徳のあくまでた
+            <lb/>くましからん事をのみおもへり。なが
+            <lb/>れ久しき細川の庄は、いまはの
+<pb n="2r"/>
+            <lb/><subst><del>す</del><add place="right">と</add></subst>きみなし子を養ひたてゝ、
+            <lb/>十五に至らば、父が遺跡をたてゝ、
+            <lb/>朝につかうまつらせよ、とくれ〴〵契
+            <lb/>りおきて、身まかり給ひし折から
+            <lb/>を、今のやうに思はれて、なげきな
+            <lb/>がらも星霜をむかへて、契りし
+            <lb/>年月も、うち過ぎはんべりぬ。今
+<pb n="2v"/>
+            <lb/>ははや、父祖よりつたへし荘園
+            <lb/>渡して、絶えてし家をおこし
+            <lb/>てん、といへども、なにとなく押領し、
+            <lb/>父のかたみにのこれるみどり子をな
+            <lb/>いがしろにとりなして、上見ぬ鳥に
+            <lb/>世を思へることの口惜しさよ。か
+            <lb/>くては家の<seg type="furigana"><seg type="furigana_body">この</seg><seg type="furigana_text">此</seg></seg>ときにたらなんこ
+<pb n="3r"/>
+            <lb/>とをかなしみて、君に奏す
+            <lb/>れども、摂政執政いつとなくい<seg><seg type="furigana_body">ひ</seg><seg type="furigana_text">ヒ</seg></seg>なび
+            <lb/>けて、ことの葉をもとりあげず。さ
+            <lb/>ればとて、うち捨てゝ押領せられ
+            <lb/>て、むなしく路頭にさまよひまよ
+            <lb/>はむ事も口惜しかりなん。この上
+            <lb/>は東の鑑にかけて、是非を
+<pb n="3v"/>
+            <lb/>わかたんほかはあらじ、と思ひたち
+            <lb/>にけり。さればゆかりなる人〴〵、は
+            <lb/>かなき足弱車のはる〴〵
+            <lb/>と、東の旅にめぐり迷はん
+            <lb/>事、さりとてはあはれにこそ、とひ
+            <lb/>きとむるばかりにとゞむれども、や
+            <lb/>むべき道にもあらねば、たゞ子を思
+<pb n="4r"/>
+            <lb/>ふ親は、闇路に迷ふものに
+            <lb/>こそ、世の中に我ひとりかは、都
+            <lb/>にありていつしかに思ひをこめて、
+            <lb/>胸ふくらかしなげきしづまんよ
+            <lb/>り、とく下りて事をさたに致し
+            <lb/>てんとて、ころは三冬の立はじめ
+            <lb/>つかたに、人〴〵の名残を宿りとゞ
+<pb n="4v"/>
+            <lb/>めて、すでに九重をぞ出で給ひに
+            <lb/>ける、京極家の親しき人
+            <lb/>のかたより送りける人、粟田口
+            <lb/>までとて来たりしか。空もすみや
+            <lb/>かなる十六夜月ともろともに、あく
+            <lb/>がれたどるころざし、まことにあは
+            <lb/>れになん。</ab><ab>かくして行けば逢坂に
+<pb n="5r"/>
+            <lb/>着きぬ。名にし負ふ所なれども、今日は
+            <lb/>じめて見れば、
+            　　<lb/><l>旅だつや関の岩かどけふ越て
+            　　<lb/>まだあふさかとたのめてぞゆく</l>
+            <lb/>と打ながめたれば、峯の嵐はげ
+            <lb/>しく吹をちて、もみぢの散くるを
+            <lb/>みてかくぞ
+<pb n="5v"/>
+            　　<lb/><l>紅葉かつ散わたるらん逢坂の
+            　　<lb/>せきに名残をとゞめ行かな</l>
+            <lb/>蝉丸の翁のこのところに住みて、
+            <lb/>うき世の是非を離れ、巌嶺の松
+            <lb/>風にこゝろをすまして、光陰をおく
+            <lb/>りしもまことにかしこし。関のしみ
+            <lb/>づを駒の蹴あげやにごすらんほどもな
+<pb n="6r"/>
+            <lb/>く、うちいでの濱につきけり。むかひ
+            <lb/>をはるかに見わたせば、湖水満々
+            <lb/>として碧浪天をひたし、雲
+            <lb/>も波もひとつかと見ゆ。沖ふく風
+            <lb/>に遠帆の帰帆覆すかとあやう
+            <lb/>し。これぞかし、満沙弥が、こぎ行
+            <lb/>舟のあとのしらなみ、といひしもことは
+<pb n="6v"/>
+            <lb/>りかな。こう〳〵と立る一松、霧間隠
+            <lb/>れにほの見えてあはれなり。勢田の長橋たど〳〵しくもうち乱り
+            <lb/>て、野路の夕霧裾ぬらし、篠
+            <lb/>原堤はる〴〵とうち越えて、
+            <lb/>ものあはれに見ゆる。民の煙北ふく
+            <lb/>風にうちなびきて、春霞かとぞ
+<pb n="7r"/>
+            <lb/>たがひける。さなきだにも旅の空は
+            <lb/>物憂きに、降りみ降らずみさだめ
+            <lb/>なき時雨に、袖はほすまもなく、涙
+            <lb/>のみうちそひて、いとゞかなし。守
+            <lb/>山といふ所に宿しけるに、峯の
+            <lb/>こがらしはら〳〵として、夜空た
+            <lb/>えがたかりければ、かく
+<pb n="7v"/>
+            <lb/>月寒く空ふくかぜの身にしみて
+            <lb/>まなく時雨のもる山にして
+            <lb/>寝られぬまゝにふるさとの事のみ、夜も
+            <lb/>すがら思ひつゞけて、心ときめ
+            <lb/>き、明けゆく空を待ちわびに
+            <lb/>けり。朝まだきに起きいでゝ行くに、
+            <lb/>霧たちのぼりて鏡の山さだかに
+<pb n="8r"/>
+            <lb/>も見えず。おもしろきすがたに
+            <lb/>なん見わたして
+            　　<lb/><l>たちおほふ霧に涙のうちそひて
+            　　<lb/>くもりてみえし鏡山かな</l>
+            <lb/>おちこちの旅客は、かなたこなたも
+            <lb/>行ちがひ、冬の空のならひにて、
+            <lb/>時雨ては晴れ、晴れては時雨な
+<pb n="8v"/>
+            <lb/>どまなくけうときに、肘笠をし
+            <lb/>てかたはらに立しのぶも、いと苦し。
+            <lb/>一通り過ぎ行は、また晴天は
+            <lb/>れ〴〵し。往返の旅人出で
+            <lb/>あふて、東西へ急ぐ。かゝる折からに
+            <lb/>ゆかりなる人の僕従、東国よ
+            <lb/>りのぼり侍りけるが、こゝにて憂き
+<pb n="9r"/>
+            <lb/>旅の空など語りあひて、しばらく
+            <lb/>時をうつしけるが、京へのぼりぬ
+            <lb/>れば、便りをもとめたりとて、かく
+            <lb/>詠みてつかはしける
+            　　<lb/><l>ゆく旅の一夜の宿の寝覚めにも
+            　　<lb/>思ひわすれぬふるさとの空</l>
+            <lb/>かくして不破の関にいたりて
+<pb n="9v"/>
+            <lb/>見ければ、あばらやの風もたまり
+            <lb/>かねたるに、吹雪はをりからいとけ
+            <lb/>はしければ
+            　　<lb/><l>ふく風に不破の関屋の板びさし
+            　　<lb/>まばらにうつる月のかげかな</l>
+            <lb/>宿りかねたる賤が屋に、夢もむ
+            <lb/>すばず、よもすがら古郷の空のみ思
+<pb n="10r"/>
+            <lb/>ひ続けて、涙は枕に
+            <lb/>置きそへてせんかたぞなき。山中
+            <lb/>をはる〴〵ゆくに、雪いたう空もかき
+            <lb/>くもりて降りくれば、駒のひづめも
+            <lb/>ほどなく隠るるばかりに積み敷
+            <lb/>きけり。都にて雪の降りくる
+            <lb/>を待ちわびて、曇れる空な
+<pb n="10v"/>
+            <lb/>どを見やりて、まがきにたまれる
+            <lb/>雪、松竹にとまりて枝なよら
+            <lb/>かにたはみけるを、詩に誦じ、
+            <lb/>哥に詠みて、興ありし。かゝる旅
+            <lb/>途にてみること、いと心細く
+            <lb/>ぞなり
+            　　<lb/><l>降雪を見るに付てや思ひこし
+<pb n="11r"/>
+            <lb/>我ふるさとの軒の柴垣</l>
+            <lb/>脚たゆみ、冷えまさりければ、
+            <lb/>日たかけれども、とまりぬ。やどの
+            <lb/>あるじなど近づけば、夜ふけゆく
+            <lb/>まで、よしなき物語りなどし
+            <lb/>て、そのゝちふせりぬ。明けゝれば、熱
+            <lb/>田の宮に向かひぬ。八つるぎの
+<pb n="11v"/>
+            <lb/>神を伏し拝みて、衆生の
+            <lb/>願ひみて給はんとて、今大明
+            <lb/>神とあらはれさせ給ひて、和光同
+            <lb/>塵の結縁、まことにありが
+            <lb/>たし。誓願あやまり給はず、
+            <lb/>わが本意を達し給へ、とて
+            　　<lb/><l>千早振る神の誓ひを頼むより
+<pb n="12r"/>
+            　　<lb/>こゝろのうちは涼しかりけり</l>
+            <lb/>空も晴れければ、道のほども
+            <lb/>歩むにさのみ苦しまず。
+            <lb/>こゝろ静かに行くほどに、とかう
+            <lb/>して、三河の国に入りにけり。
+            <lb/>名にし負ふ八橋を見るに、
+            <lb/>思ひぞ出づる、在五中将はる〴〵
+<pb n="12v"/>
+            <lb/>来ぬる旅<choice><sic>おしう</sic><corr>をしぞ</corr></choice>思ふ、といへる
+            <lb/>もあはれにぞ思ひにける。ときな
+            <lb/>らねば、沢辺をみれども、かきつばた
+            <lb/>はなし。水ゆく河のながれは、蜘蛛
+            <lb/>手にのみ流れゆくほどに、橋
+            <lb/>もまた八つ渡せる空を見けれ
+            <lb/>ば、日もはや西の山の端にかゝり
+<pb n="13r"/>
+            <lb/>給ふほどに、（十六夜日記）
+            　　<lb/><l><seg><mod><del>名にし負ふ</del><add>さゝかにの</add></mod>蜘蛛手あやうき八橋を
+               　　<lb/>夕暮れかけて渡りぬるかな<note>十六夜日記</note></seg></l>
+            <lb/>こゝちいたはる事ありて、一日は宿
+            <lb/>に留まりて、とかくぞこゝろ
+            <lb/>をなぐさめつ。つかれも<choice><sic>いさゝ</sic><corr>いさゝか</corr></choice>やすら
+            <lb/>かになりゆきければ、それよりも
+<pb n="13v"/>
+            <lb/>宿をこゝろしづかに出でてゆくほど
+            <lb/>に、宇津の山邊にゆきぬ。見上ぐ
+            <lb/>れば、蔦楓も霜がれて、朽ち
+            <lb/>葉ところ〴〵に残れり。坂はいと
+            <lb/>けはしく、たはやすく登りかね
+            <lb/>たり。空は時雨るゝころなれば、いと
+            <lb/>暗くておそろしけれども、遠
+<pb n="14r"/>
+            <lb/>近人を力として登り行く。
+            <lb/>ほどに、紅葉葉の木ずゑにのこ
+            <lb/>れるが、<choice><sic>吹とる</sic><corr>吹くる</corr></choice>峰の木がらしに
+            <lb/>間なく散りければ、
+            　　<lb/><l>紅葉葉の散りしく冬の山見れば
+            　　<lb/>錦に包む宇津の山みち</l>
+            <lb/><seg>あつ<del>も</del><note rend="right">まの歟</note></seg>道は初冬の暮れまで
+<pb n="14v"/>
+            <lb/>残れるに宿うち語らひて行
+            <lb/>くほどに、やう〳〵うち越えぬ。宇津
+            <lb/>の山のうつゝともおぼえず、こゝ苦
+            <lb/>しくて、しばしはやすらひけり。岡
+            <lb/>部といふところに宿してあり
+            <lb/>けるに、京より人して便り
+            <lb/>あり。文うち広げて見ければ、折
+<pb n="15r"/>
+            <lb/>からは日短く都さへ雪
+            <lb/>霜辛うして耐えがたきに、
+            <lb/>まして東の道すがら、さば
+            <lb/>かりありなんと思ひこそやれ、
+            <lb/>なれぬ旅の道なれば、こゝろは勇
+            <lb/>むとも、羊の歩みとこそは
+            <lb/>思ひつれ。子を思ふ道はいかなれば
+<pb n="15v"/>
+            <lb/>かばかりにこゝろをば尽くすらん、など
+            <lb/>さま〴〵書きて
+            　　<lb/><l>都をば出でしその日を数ふるも
+            　　<lb/>君が行方の聞かまほしさに</l>
+            　　<lb/><l>習はねば旅行く道に惑ふらむ
+            　　<lb/>そこしも遠き東路の末</l>
+            　　<lb/><l>都には旅立つ空を思へれば
+<pb n="16r"/>
+            　　<lb/>さぞふるさとの恋しかるらむ</l>
+            <lb/>などいとあはれに書きてこさせ給へ
+            <lb/>れば、夜もすがら京への返しを
+            <lb/>ぞ書き給ふ
+            　　<lb/><l>古さとの便りを得てし東路の
+            　　<lb/>道の半ばに聞くぞ嬉しき</l>
+            　　<lb/><l>夢にのみ都を見てし暁は
+<pb n="16v"/>
+            　　<lb/>かなしさ残す宿の枕に</l>
+            　　<lb/><l>名にし負ふそのふるあとをみて過し
+            　　<lb/>苦しながらもなぐさむは旅</l>
+            <lb/>かくすさびて、使ひは京へ返し
+            <lb/>つ。交はしてこゝろ静かに行ほどに
+            <lb/>年比聞き及びにし所〴〵に
+            <lb/>ては、こゝろをとめ筆にうつして、
+<pb n="17r"/>
+            <lb/>いつを定めぬ旅の空なれば、たゞ
+            <lb/>こゝろに任せて行くほどに、大井河、
+            <lb/>富士川などに臨みては、河のお
+            <lb/>もてもすさまじく、水の流れ速
+            <lb/>くして、舟などは正木の綱に
+            <lb/>て繋ぎとめなどして、行き来の
+            <lb/>人うち渡せり。とかくしてうち
+<pb n="17v"/>
+            <lb/>越しなを行くほどに、清見が関
+            <lb/>に着きぬ。沖を遥かに見わたせば、
+            <lb/>磯打つ波の岩ほにうちかけ
+            <lb/>〳〵、隙もなく見ゆるほどに、よそ
+            <lb/>ながら見しには、いとおもしろく
+            <lb/>覚えければ、
+            <lb/><seg>清見潟年ふる岩に言問はん
+<pb n="18r"/>
+            <lb/>波の濡れ衣幾重ね着つ<note>十六夜日記</note></seg>
+            <lb/>田子の浦波、夜となく昼とも
+            <lb/>分かぬ釣り小舟、海人小舟漕ぎ
+            <lb/>連れたりし漁り火は、時ならぬほた
+            <lb/>る火かともうたがへり。富士の高ね
+            <lb/>を見上ぐれば、雪しろたえに降り
+            <lb/>積みて、たなびき渡る白
+<pb n="18v"/>
+            <lb/>雲は、山の腰をぞ巡りける
+            　　<lb/><l>名にし負ふ富士の高ねを見上ぐれば
+            　　<lb/>山のねごしや雲まどふらん</l>
+            <lb/>すそ野の原の糸薄も降
+            <lb/>り積む雪に見えわかず。みなしろ
+            <lb/>たえに見えわたれば、興ありて
+            <lb/>こそ覚えける
+<pb n="19r"/>
+            <lb/>雪深きすそのゝ原の夕風に
+            <lb/>吹きしをりぬる旅人の袖
+            <lb/>これより風の心地とて、いたはり
+            <lb/>給へるほどに、力なく宿
+            <lb/>をもとめて、疲れをしばらくい
+            <lb/>たはり侍りけり。主いひ
+            <lb/>けるは、やんごとなき御身として、
+<pb n="19v"/>
+            <lb/>折節三冬の半ばにはる
+            <lb/>〴〵の御歩行なれば、疲れに
+            <lb/>こそおはしますらめ、とて、十日ばか
+            <lb/>り労り奉りて、これよ
+            <lb/>りも鎌倉へは何方へか御こゝ
+            <lb/>ろざしあるらん。送り奉
+            <lb/>らん、と聞ゆるほどに、こよなく
+<pb n="20r"/>
+            <lb/>うれしくて、ひきの谷といふ所
+            <lb/>に親しき人のありければ、この
+            <lb/>所へ送りてむ、とあるほどに、
+            <lb/>あるじ輿を用意して、乗せ
+            <lb/>奉り、ほどなく鎌倉にて
+            <lb/>はひきの谷と云ふ所にぞとゞけ
+            <lb/>侍りけり。ゆかりの人なりければ、
+<pb n="20v"/>
+            <lb/>はる〴〵下り給へるこゝろざし
+            <lb/>を、いかばかりとあはれみて、よく〳〵
+            <lb/>いたはり参らせけるほどに、旅
+            <lb/>の疲れなれば、ほどなく元
+            <lb/>の心地し給ひにけり。</ab><ab>さてこゝ
+            <lb/>にしばらくおはして、鎌倉の
+            <lb/>公事ども聞き給ふに、まことに
+<pb n="21r"/>
+            <lb/>世のまつり事司り給ふと
+            <lb/>て、あめが下の人〳〵高きも
+            <lb/>賤しきも集まりて、権門
+            <lb/>の門に市をなせり。こゝに執
+            <lb/>政のゆかりにつきて、よき便
+            <lb/>りありければ、ひそかにことのや
+            <lb/>うをいひ入れければ、世にあはれにと
+<pb n="21v"/>
+            <lb/>ぶらひて、気色を窺ひて
+            <lb/>沙汰にあづかり給へ、といふも頼もし
+            <lb/>く、力つきてぞ見え給ひに
+            <lb/>ける。さるにこゝろ許して、光
+            <lb/>陰送り給へるほどに、その年も
+            <lb/>はやうち暮れて、あら玉の春にも
+            <lb/>なり行ば、東風吹く風もやはらかに、
+<pb n="22r"/>
+            <lb/>のどけき空に鴬の、うら若
+            <lb/>き初声を軒端の梅にを
+            <lb/>とづれて、ほつえを伝ふもいと
+            <lb/>やさし。掛樋のつらゝ溶けぬれば、
+            <lb/>行く水の音ものどけくて、結ぶも
+            <lb/>やすき心地せり
+            　　<lb/><l>人ごゝ掛樋の水にあるならば
+<pb n="22v"/>
+            　　<lb/>世はすぐさまにことや通らん</l>
+            <lb/>かゝるほどに君の北の方聞こし
+            <lb/>めして、あなあはれや、子を思ふ
+            <lb/>道には、身の苦しびをも顧
+            <lb/>みず、は<subst><del>か</del><add rend="right">る</add></subst>〴〵と東の奥に
+            <lb/>下りたまふことのはかなさよ。この
+            <lb/>みなし子の父は、世に名をとめし
+<pb n="23r"/>
+            <lb/>和歌の秀者にて、帝の御たか
+            <lb/>らと聞こえし。かゝる人の跡な
+            <lb/>れば、いかでか遺跡を絶えしは
+            <lb/>てんとは思し捨つべき。甲斐〴〵しく
+            <lb/>も脚弱の身として、東
+            <lb/>の旅に赴き給ふ事こそ、不憫
+            <lb/>には覚ゆれとて、さま〴〵
+<pb n="23v"/>
+            <lb/>のものども贈らせ給ひて道に
+            <lb/>とぶらはせ給ふぞありがたき。ある
+            <lb/>とき侍従のつぼねを御つかひにて
+            <lb/>御消息ありて、奥に
+            　　<lb/><l>子を思ふ道には迷ふ親の身の
+               　　<lb/>そこはかとなく物や思は<seg><del>じ</del><note rend="right">ん歟</note></seg></l>
+            <lb/>まことにあはれにとぶらひ給ふも
+<pb n="24r"/>
+            <lb/>いとありがたしとて、やがて御か
+            <lb/>へし侍りけり
+            　　<lb/><l>かひもなき母を頼りに残りける
+            　　<lb/>この身思へばあはれ知れ君</l>
+            <lb/>此御返しを御覧じて、不憫さ
+            <lb/>はいよ〳〵勝り給ふとなん聞こゆ。
+            <lb/>さて折を得てことの様をつ
+<pb n="24v"/>
+            <lb/>まびらかに書かせ給ひて、伝は
+            <lb/>りし細川の頭文書などと取りそ
+            <lb/>へて、訴えさせ給へば、公文所の執
+            <lb/>政かため集まりて、鎌倉殿へ聞
+            <lb/>こゆ、と聞こえたり。されども世のま
+            <lb/>つりごとしげきによりて、その次第
+            <lb/>をきこしめせば、しばらくさしお
+<pb n="25r"/>
+            <lb/>かせ給ふ。かゝるあひだ、御祈りのため
+            <lb/>に思しめしたちて、一乗妙典
+            <lb/>をぞ自ら書かせ給ふ。無二無上
+            <lb/>にしてこゝろ静かに書き給ふ程
+            <lb/>に、とかくしていとまあらず、より
+            <lb/>〳〵にこれをぜんぶせんことを仰ぎ
+            <lb/>給ふほどに、やう〳〵に書き終らせ
+<pb n="25v"/>
+            <lb/>給ふぞありがたき。二尊の絵像
+            <lb/>を安置し給ひて、、朝な夕
+            <lb/>なに読誦おはしましけり。
+            <lb/>又、若宮の八幡宮へ願ひをは
+            <lb/>立させ給ふが、日ごとに百日があいだ
+            <lb/>詣でさせ給ひて、久しき家
+            <lb/>の流れを捨てさせ給ふな。南無帰
+<pb n="26r"/>
+            <lb/>命頂礼大菩薩とて、かく
+            <lb/>こそ詠み給ひにける
+            　　<lb/><l>岩清水きよき流れの濁らずは
+            　　<lb/>昔にかへりすませ給へや</l>
+            <lb/>と法楽し給ひて、ひとへに
+            <lb/>頼みをかけさせ給ふぞありがたき。
+            <lb/>その後あんぢやう寺の高僧
+<pb n="26v"/>
+            <lb/>たちに会はせ給ひて、後の世
+            <lb/>の事など、よく〳〵授かり給ふ、
+            <lb/>まことに無常偏僻の世の
+            <lb/>中に、有為の快楽を願ひて、真
+            <lb/>如実相の台に至りなん
+            <lb/>とは志す人なし。かなしきか
+            <lb/>な。薬王仙の道は上一人より、
+<pb n="27r"/>
+            <lb/>下万民に応へ、ふくほうにも
+            <lb/>かうきやうにも、智恵才覚にも
+            <lb/>よることなし、逃れぬ旅にして
+            <lb/>しかも再び帰る道を失
+            <lb/>なふ、かゝるあやうき世の中に、貪
+            <lb/>欲虚妄を蓄へ、名利のため
+            <lb/>に身を苦しめ、こゝろを悩まし、
+<pb n="27v"/>
+            <lb/>人を貪り、人を煩わしめ、露
+            <lb/>命のほどを知らず、身をやすく楽
+            <lb/>しまん事をのみ願ふことのか
+            <lb/>なしさに、我住みにし都をあく
+            <lb/>がれいでゝ、かゝる東の塵に
+            <lb/>交はり、憂き思ひに身を苦し
+            <lb/>むる事は、まことにはかなしけれ
+<pb n="28r"/>
+            <lb/>ども、これは一つのこゝろざし深き
+            <lb/>ゆへなり。とり伝えし一所懸命
+            <lb/>の地をむなしく奪はれ、この世の形
+            <lb/>見に残し置きしただ一人の
+            <lb/>みなし子を、はかなく路径にさま
+            <lb/>よひ塵の身となし果てんこと、い
+            <lb/>とゞ口惜し。このまゝうち捨て明
+<pb n="28v"/>
+            <lb/>日にもはかなくなりなば、いかに妄
+            <lb/>念となりて、娑婆へも帰らず、
+            <lb/>又仏果をも得ずして、五十転
+            <lb/>〳〵の身となりて、三悪道
+            <lb/>に沈淪せんこと、いとかなしと、ひ
+            <lb/>とへに思し定めければ、いつし
+            <lb/>かほとけにのみ、御こゝろをばこひて、
+<pb n="29r"/>
+            <lb/>またたじはなくこそ、見えさせ給
+            <lb/>ひにけり。かくして三年も過ぎ
+            <lb/>ぬれども、鎌倉殿よりとかく
+            <lb/>の御事もなかりけり。北の御方
+            <lb/>よりは度〳〵御消息送らせ
+            <lb/>給ひて、御こゝろざしはまことに切
+            <lb/>に聞こえさせ給ふ。さこそなか〳〵
+<pb n="29v"/>
+            <lb/>鄙の住まひにおはして、こゝろ苦
+            <lb/>しくましますらん、さりながらより
+            <lb/>〳〵に訴訟の事はほのめき侍れ
+            <lb/>ば、近きほどに再許はあるべし、
+            <lb/>などゝ聞こえ給ふも、いとありがたし。</ab><ab>かく
+            <lb/>て月日を送り給へるほどに、
+            <lb/>都より便りあり。ゆかりの人
+<pb n="30r"/>
+            <lb/>〳〵、または道にこゝろ隔てなく語
+            <lb/>らひ給ひしあつ家中納言の北
+            <lb/>の方などをはじめとして、
+            <lb/>御文どもかず〳〵ありけり。其なか
+            <lb/>に、中将為かどの北の方より
+            <lb/>の御文に
+            　　<lb/><l>あきの田の　かりそめながら
+<pb n="30v"/>
+            　　<lb/>思ひ立ち　住みこし都
+            　　<lb/>ふり捨てゝ　東の旅に
+            　　<lb/>迷ひ出し　こゝろざしこそ
+            　　<lb/>あはれなる　明くれ君を
+            　　<lb/>思へども　身はかよはねば
+            　　<lb/>力なし　せめては夢に
+            　　<lb/>見ばやとて　折ふす床に
+<pb n="31r"/>
+            　　<lb/>うばたまの　夜の衣を
+            　　<lb/>かへしつゝ　語らふ程の
+            　　<lb/>嬉しさは　物にたとへん
+            　　<lb/>かたもなし　されども夢の
+            　　<lb/>はかなさは　うつゝとなりて
+            　　<lb/>うらめしや　つれ〴〵なりし
+            　　<lb/>折からに　うち語らひし
+<pb n="31v"/>
+            　　<lb/>ことわざを　思ひ出てゝは
+            　　<lb/>まざ〳〵と　君に逢ふ瀬の
+            　　<lb/>心地せし　夜の間に変はる
+            　　<lb/>世のならひ　今ははるかに
+            　　<lb/>隔てたる　雲井のよそと
+            　　<lb/>なりぬれば　天の橋立
+            　　<lb/>なか〳〵に　ふみもまれなる
+<pb n="32r"/>
+            　　<lb/>なかぞかし　<retrace><unclear>こ</unclear><add>こ</add></retrace>れ<subst><del>も</del><add>を</add></subst>思へば
+            　　<lb/>みどり子の　母のならひの
+            　　<lb/>はかなさよ　来て鎌倉の
+            　　<lb/>その沙汰は　いかがあるらむ
+            　　<lb/>おぼつかな　過ぎにし春の
+            　　<lb/>ころかとよ　<seg><del>き</del><note rend="right">ふ歟</note>み</seg>にて聞きも
+            　　<lb/>及びしは　近きほどには
+<pb n="32v"/>
+            　　<lb/>細川の　流れのすゑに
+            　　<lb/>着くべきと　定めありける
+            　　<lb/>その沙汰を　風のつてにて
+            　　<lb/>聞きしより　いかばかりかは
+            　　<lb/>悲しとぞ　思ひまうくる
+            <lb/>折節に　このころうき世の
+            <lb/>驚ろきに　そのまつり事
+<pb n="33r"/>
+            <lb/>しげくして　しばらく沙汰も
+            <lb/>なきとかや　その地はいかが
+            　　<lb/>沙汰すらむ　さても鄙びし
+            　　<lb/>住みどころ　春と秋との
+            　　<lb/>花と月　いかが都と
+            　　<lb/><seg><del>ち</del><note rend="right">しの歟</note>ぶらむ</seg>　花は早きや
+            　　<lb/>遅ざくら　花橘に
+<pb n="33v"/>
+            　　<lb/>ほとゝぎす　いま九重の
+            　　<lb/>うちそとに　風情はひとし
+            　　<lb/>かりつるや　かの実方の
+            　　<lb/>中将の　道の奥こそ
+            　　<lb/>つたなけれ　五月はすゑに
+            　　<lb/>なりゆけど　まれにも聞かぬ
+            　　<lb/>ほとゝぎす　花は卯月の
+<pb n="34r"/>
+            　　<lb/>半ばぞと　いひこしけんも
+            　　<lb/>さぞあるや　都に変はる
+            　　<lb/>ありさまを　聞まほしやと
+            　　<lb/>松の戸の　明暮れことに
+            　　<lb/>立ち明かし　そなたの空を
+            　　<lb/>待つは苦しき</l>とて
+            　　<lb/><l>昨日までよそに思ひし吹く風も
+<pb n="34v"/>
+            　　<lb/>今はなつかし東風とおもへば</l>
+            <lb/>となん書かせ給へり。　　鎌倉よ
+            <lb/>りもひそかにこの沙汰を都へ告げ
+            <lb/>来たりければ、そのことゝなく書
+            <lb/>たり。聞かせ給ふほどに、さてはやが
+            <lb/>て安堵の思ひをばなし給
+            <lb/>はん、と京におはしけるゆか
+<pb n="35r"/>
+            <lb/>りの人〳〵は。人知れずうれしく
+            <lb/>て、かゝることばかへりて、東方
+            <lb/>にはよもしり給はじ、と思し
+            <lb/>て、御文をわざと人〳〵下させ
+            <lb/>給へるなり。またほとゝぎすの鳴
+            <lb/>といふ事は、そうじて都ほとり
+            <lb/>は卯月には必ず鳴くなり。しか
+<pb n="35v"/>
+            <lb/>れば、いづくもこの時分には鳴くぞ
+            <lb/>と思へりしに、県はさも
+            <lb/>あらずとなん、昔実方の
+            <lb/>中将といへる人と、また四条
+            <lb/>の大納言公任と聞こえし
+            <lb/>人<seg>二人<del>我</del><note rend="right">を歟</note></seg>帝めしければ、かし
+            <lb/>こまりて御簾近くぞ参りた
+<pb n="36r"/>
+            <lb/>まひにける。されば實方の中将
+            <lb/>はいかなる旨趣かおはしま
+            <lb/>すらん、座を立って笏を取り
+            <lb/>のべて、大納言の冠を情けなく
+            <lb/>もうち落とし、その後冠をば
+            <lb/>取って大庭へ投げ給ひに
+            <lb/>けり。その気色人〳〵興
+<pb n="36v"/>
+            <lb/>を冷ましてぞ見えたまひにける。
+            <lb/>されども大納言はいさゝかも驚
+            <lb/>き給はず。気色いとぎ
+            <lb/>むこうにて、いかにも静まりて、
+            <lb/>誰かある、と呼び給へば、殿
+            <lb/>上人つとまかりて、かしこまり
+            <lb/>ゐたりけり。公任それ〳〵
+<pb n="37r"/>
+            <lb/>大庭にある冠取りて参ら
+            <lb/>せよと仰らるゝれば、かしこまり
+            <lb/>て取って参らせにけり。その
+            <lb/>ときとつて来給ひ、しばらく
+            <lb/>衣紋ひきつくろひて、袖かき
+            <lb/>合はせ、いかにも慎んでのた
+            <lb/>まひけるは、そも〳〵たゞいま
+<pb n="37v"/>
+            <lb/>の御気色は、何の報ひに
+            <lb/>て候ぞや、さら〳〵それがしは
+            <lb/>仇を結ばれ候はん旨趣をば
+            <lb/>覚えず候。たとひいかやうの遺
+            <lb/>恨侍るとも、こゝは天子の御簾
+            <lb/>近し。ことに冠をば誰人の
+            <lb/>沓脱ぎ所へ捨てゝ穢し給ふ。
+<pb n="38r"/>
+            <lb/>御前の狼藉と申、かた〴〵も
+            <lb/>つて無骨の至りと存ずる。
+            <lb/>御恨みのさぶらはゞ、かねてな
+            <lb/>りとも又は後日に他所にて
+            <lb/>も仰せられ侍らで、御前に
+            <lb/>ての恥辱与へ給ふ事は、定
+            <lb/>めて大きなるそれがしのあや
+<pb n="38v"/>
+            <lb/>まり侍るらむ。何さまあすにち
+            <lb/>この恥辱を報じ<retrace><unclear>候は</unclear><add>候は</add></retrace>んと
+            <lb/>申されければ、実方の中将
+            <lb/>赤面して、答ふるに言葉
+            <lb/>なく呆然としてうちそば
+            <lb/>みおはしけり。されば帝はもの
+            <lb/>の隙よりこのふるまひをばつ
+<pb n="39r"/>
+            <lb/>く〴〵御らんじて、今日は
+            <lb/>二人ともにまかりたち候へ、との
+            <lb/><seg>せん<add>〇</add><note>し歟下にもせんしのこと書たり</note></seg>ありて、あくる日公任は
+            <lb/>昨日の気色まことに神妙
+            <lb/>あまりありとの叡感にて、やが
+            <lb/>て大納言にぞ任じ給ひける。
+            <lb/>さて実方の中将は、今日よ
+<pb n="39v"/>
+            <lb/>りも陸奥にへ下りて三年
+            <lb/>が間に歌枕を作りて参
+            <lb/>れとの宣なり。勅なれば力
+            <lb/>なく陸奥にへぞ下られける。
+            <lb/>三年が間に名所旧
+            <lb/>跡を訪ねて後のぼらんとし
+            <lb/>給へるに、猶三年ありてつま
+<pb n="40r"/>
+            <lb/>びらかに記し侍れとの勅
+            <lb/>なれば、重ねてめぐり給ふに、
+            <lb/>ある神にとがめられて、むなし
+            <lb/>くうせ給ふ。そのときの哥枕
+            <lb/>に、陸奥国は五月のすゑま
+            <lb/>でほとゝぎす鳴かぬよしをいへり。
+            <lb/>このこゝろをとつて、こゝに書き給
+<pb n="40v"/>
+            <lb/>へるとなん。また、おほき大臣の御
+            <lb/>妹よりの文に、さま〴〵
+            <lb/>あはれを書き給ひて、
+            　　<lb/><l>夜の靏も子を思へばや暁の
+            　　<lb/>はかいの下のかい子見るにも</l>
+            <lb/>人〳〵の方へ返しをぞ書ゝせ給ふ。
+            <lb/>まことにあはれにそ覚ゆる。
+<pb n="41r"/>
+            　　<lb/><l>なつかしき　折に告げくる
+            　　<lb/>便りをば　見るに涙は
+            　　<lb/>増鏡　曇りて見ゆる
+            　　<lb/>筆のあと　ありし都の
+            　　<lb/>心地して　かなたこなたと
+            　　<lb/>朝夕に　うち語らひし
+            　　<lb/>春はまづ　節会のほども
+<pb n="41v"/>
+            　　<lb/>過ぎぬれば　うち語らひ明す
+            　　<lb/>糸竹の　調べそめてし
+            　　<lb/>折からに　<seg>吹き<del>つ</del><note rend="right">く歟</note>る風を</seg>
+            　　<lb/>大川の　響きによする
+            　　<lb/>言の音の　いとたえがたき
+            　　<lb/>長き日に　囀りわたる
+            　　<lb/>鴬の　声聞きなるゝ
+<pb n="42r"/>
+            　　<lb/>窓の梅　散れば待ゑる
+            　　<lb/>はつ桜　見ればこゝろも
+            　　<lb/>のどけくて　いさと誘ひし
+            　　<lb/>花の宴　哥を詠みては
+            　　<lb/>詩を吟じ　折にふれては
+            　　<lb/>朗詠し　忘れがたきは
+            　　<lb/>過ぎし春　涼しき泉
+<pb n="42v"/>
+            　　<lb/>殿にして　かの御方のや
+            　　<lb/>花の舞　色うるはしき
+            　　<lb/>藤色に　八重山吹を
+            　　<lb/>こぞ重ね　折からさてや
+            　　<lb/>卯の花の　色交じはるも
+            　　<lb/>いとやさし　袖にとめなん
+            　　<lb/>橘の　香もなつかしき
+<pb n="43r"/>
+            　　<lb/>吾亦紅　西にて風に
+            　　<lb/>さそはれて　乱れあひぬる
+            　　<lb/>荻薄　露重げなる
+            　　<lb/>女郎花　紫苑竜胆
+            　　<lb/>藤袴　着てはながむる
+            　　<lb/>望月の　ふけゆく空まで
+            　　<lb/>うそぶきて　長き夜をしも
+<pb n="43v"/>
+            　　<lb/>ありあけの　入かたまでも
+            　　<lb/>ともなひし　その折〳〵を
+            　　<lb/>思ひ寝の　恨むるものは
+            　　<lb/>我が身なり　さてもいぶせき
+            　　<lb/>東がた　ときめきわたる
+            　　<lb/>鎌倉も　そのほどらひを
+            　　<lb/>思ひ知れ　谷七郷の
+ <pb n="44r"/>
+            　　<lb/>内なれば　たて続けたる
+            　　<lb/>家〳〵に　野山の杉も
+            　　<lb/>あらばこそ　なぐさむ方も
+            　　<lb/>あ<subst><del>さ</del><add>る</add></subst>べけれ　たま〳〵よりあふ
+            　　<lb/>人とても　とみたる声の
+            　　<lb/>方で鳴く　つたなきことのみ
+            　　<lb/>いひ続け　ことむくつけき
+<pb n="44v"/>
+            　　<lb/>おのこども　みるもにげなき
+            　　<lb/>女の童　見ればかつらは
+            　　<lb/>やしやうにて　この世の人とも
+            　　<lb/>見えざるなり　かくあさましき
+            　　<lb/>その中に　この年月を　ふり
+            <lb/>けるを　いかにあはれとも　思はなん
+            　　<lb/>されども日ごろの　思ひをば　鎌
+<pb n="45r"/>
+            　　<lb/>倉山に　はれなんと　こゝろ
+            　　<lb/>さだめし　我なれば　うき身なが
+            　　<lb/>らも　年暮れて　はやく<seg type="furigana"><seg type="furigana_body">三年</seg><seg type="furigana_text">三とせ</seg></seg>
+            　　<lb/>も　うち暮れぬ　<choice><sic>今はゝや恋し
+               　　<lb/>きも</sic><corr>今はゝや恋し</corr></choice>　<choice><sic>都も</sic><corr>都にも</corr></choice>　やかてかへりて
+            　　<lb/>逢坂の　関うち越えて　九
+            　　<lb/>重の　春にあはんと　思ふものかは</l>　と
+<pb n="45v"/>
+            <lb/>とゞめ給ひて
+            　　<lb/><l>わが身をば東の奥に置きながら
+            　　<lb/>こゝろはかよふ雲のうへまで</l>
+            <lb/>またある御かたへの返しに
+            　　<lb/><l>書き送る文にしみれば大方は
+            　　<lb/>君にあひぬる心地こそすれ</l>
+            <lb/>など書き給ひて、人〴〵の御方へは
+<pb n="46r"/>
+            <lb/>とこまやかに御返しおはしまし
+            <lb/>けり。</ab><ab>このあるじゆかりある人にて、
+            <lb/>なべてならずもてかしづき参ら
+               <lb/>しけるに、<seg>右大将<note rend="right">惟康将軍</note><note rend="above">将軍惟康弘安十六月任中納言兼右大将十月親王宣下叙二品</note></seg>の北の方よ
+            <lb/>りも世に不憫によろづし給
+            <lb/>ひければ、近づき奉る人ごと
+            <lb/>に、をろそかにもてなさゞりけり。
+<pb n="46v"/>
+            <lb/>大将殿ゝ北の方よりも、和哥
+            <lb/>集の類ひをあまた聞かせ給
+            <lb/>はんがために、常に御所へも
+            <lb/>召されて、見参あらまほしく
+            <lb/>思しけれども、訴訟の是非未だ
+            <lb/>なれば、見参もあらずして、たゞ
+            <lb/>御消息のみ通ひ給ひけり。和
+<pb n="47r"/>
+            <lb/>哥の道にこゝろをかくる国の守
+            <lb/>は、より〳〵にとぶらひて、あはれ
+            <lb/>にぞ思ひ<subst><del>し</del><add>か</add></subst>しづき給ひにける。
+            <lb/>つねざまには、千載集、古今集をば
+            <lb/>見給ひけるが、北の御方より
+            <lb/>わりなく仰せごと度〳〵なり
+            <lb/>ければ、折〳〵に拾遺をぞ書ゝせ
+<pb n="47v"/>
+            <lb/>給ひにける。それのみならず、哥の
+            <lb/>さまなど聞かせ給ひて、大かたなら
+            <lb/>ぬ人に思して、穏便にかし
+            <lb/>づかせ給ひにけり。さるほどに、今は
+            <lb/>はや後の世の勤めをことゝし
+            <lb/>給ひて、経陀羅尼をば、明け暮
+            <lb/>れ<seg type="furigana"><seg type="furigana_body">しよしや</seg><seg type="furigana_text">書写</seg></seg>おはしまして、いつしか
+<pb n="48r"/>
+            <lb/>うせ給ひし人〳〵のなきあとを、
+            <lb/>深く廻向し給ひ、ことには自
+            <lb/>身三界の関を出でゝ、生死
+            <lb/>流浪を助け給へ、と祈り給ふが
+            <lb/>いつとなく気力もをとろへさ
+            <lb/>せ給ひて、経にも違ひまし
+            <lb/>〳〵けりと聞ゆるほどに、あるじ
+<pb n="48v"/>
+            <lb/>の方よりも時の執権へかく
+            <lb/>とひそかに訴へければ、北の御方
+            <lb/>へ知らせ奉りける。あなあ
+            <lb/>はれや、脚弱の身として、はる
+            <lb/>〴〵と京を出でゝ、かゝる<seg type="furigana"><seg type="furigana_body">ゑごく</seg><seg type="furigana_text">遠国</seg></seg>
+            <lb/>にこゝろを尽くし、あまつさへ年を
+            <lb/>重ねても思ひたちぬる本意はと
+<pb n="49r"/>
+            <lb/>げずして、いつを限りともなく、身
+            <lb/>は浮き雲を頼みたる心地し
+            <lb/>て、明け暮れ思ひに沈み給へば、
+            <lb/>いつとなくこゝろ苦しみて、かゝるにや
+            <lb/>とて、小侍従といふ局を遣は
+            <lb/>し給ひて、ことのやうを窺は
+            <lb/>せ、さて医師を加へさせ給ふ。医師
+<pb n="49v"/>
+            <lb/>のいは<retrace><unclear>ゝ</unclear><add>く</add></retrace>、本意だにとげ給はゞ、おの
+            <lb/>づから心地はれらかにかへりて、
+            <lb/>こゝろよかるべし。さらずは医術か
+            <lb/>なひがたからん、といへり。北の方
+            <lb/>聞こしめして、げに〴〵さこそ
+               <lb/>あるべけれ　<seg><gap extent="2"></gap><note rend="right">もと歟</note></seg>よりこうこそ思へれ
+            <lb/>ばとて、あるとき御気色を
+<pb n="50r"/>
+            <lb/>見給ひて、ことのやうをあらま
+            <lb/>しきこえさせ給ひて、世にあは
+            <lb/>れに思ひ侍る、急ぎ安堵をさ
+            <lb/>せ給ひて、命を継がせ給へと
+            <lb/>きはめて仰せられければ、大将
+            <lb/>殿聞こしめして、まことに
+            <lb/>鎌倉へ下りて、もはや年久
+<pb n="50v"/>
+            <lb/>しく過ぎぬらん、されども我が國
+            <lb/>のものとも尽きざる事なく、権
+            <lb/>門に臨みゐぬ。さては君の用
+            <lb/>事にかれこれとうち紛れて、む
+            <lb/>なしく今まで<subst><del>か</del><add>う</add></subst>ち過ぎぬ。まづ
+            <lb/>了知をなして、余事は不日に
+            <lb/>下知をすべしと仰られて、立たせ給
+<pb n="51r"/>
+            <lb/>ふ。沙汰はまめやかに聞こえ侍れば、
+            <lb/>近きほどに安堵おはしま
+            <lb/>し候はん。又は医師にあはせ給
+            <lb/>ひて、御こゝろをこゝろよく・りも
+            <lb/>させ給へ、などぞ書き給ふ。まことに
+            <lb/>ありがたき御こゝろざし、かれこの事
+            <lb/>のみ身の一會なれば、ことゆかずし
+<pb n="51v"/>
+            <lb/>てはかなくなりなば、黄泉路の障
+            <lb/>りと成て、六のちまたに惑ひなん
+            <lb/>と、身の苦しびに思ひそへて、いとゞ心
+            <lb/>もかき乱れ、せんかたもなく口
+            <lb/>惜しかりつるに、いとありがたくこそ覚
+            <lb/>え侍れとて、いさゝか心地まめ
+            <lb/>やかにぞおはしける。御返しには
+<pb n="52r"/>
+            <lb/>まことによろづ御こゝろざしの程、
+            <lb/>忘れがたく侍り。この世ならずこそ
+            <lb/>候へ、たとへ身はひきの谷の塵と
+            <lb/>なりはつるとも、絶えにし家だに
+            <lb/>立つならば、後の世までもこゝろやす
+            <lb/>くぞ思ひ奉れ。この度君
+            <lb/>の情けにあづからずは、いかでか
+<pb n="52v"/>
+            <lb/>安堵をなし侍らん。縦横に君
+            <lb/>をこそ仰ぎ奉れ、などのたま
+            <lb/>へるを、いとあはれなり。さる程に
+            <lb/>あるじの親しき者、用の
+            <lb/>事ありて、京へのぼるべきよし
+            <lb/>言ほどに、よき便りなれば、文な
+            <lb/>ど人〳〵のかたへことづてんとて、夜
+<pb n="53r"/>
+            <lb/>もすがら書ゝせ給ひにけり。明け
+            <lb/>なば宿を出て急ぎ行くほどに、
+            <lb/>京にも着きしかば、まづ御文をば
+            <lb/>人〳〵の方へ奉りける。中
+            <lb/>納言殿の北の御方うれしくて
+            <lb/>見給ふに、過ぎしころより心地
+            <lb/>例ならずわづらはし、かくては
+<pb n="53v"/>
+            <lb/>年月願ひにし事ども、本意な
+            <lb/>く成りならむと、末の世ならず悲し
+            <lb/>かりしに、大将殿の御かたより、なゝ
+            <lb/>めならずいたはり給ふことには、
+            <lb/>近きほどに年頃の本意をと
+            <lb/>げさせ給ふべき、となん聞え侍れ
+            <lb/>ば、いと嬉しくて、このころは心地も
+<pb n="54r"/>
+            <lb/>とに返りぬ、などこま〴〵と書ゝ
+            <lb/>せ給ひて、
+            　　<lb/><l>つもりぬる霧やはれなん我が胸の
+               　　<lb/><seg>あきつかた<note rend="above">弘安十年六月</note></seg>には立ちて登らむ</l>
+            <lb/>とそ書ゝせ給ふ。また大納言殿の
+            <lb/>北の御方へも御文あり。
+            　　<lb/><l>便りなきほどはなつかし雲の上
+<pb n="54v"/>
+            <lb/>いかゞあるらむと思ふばかりぞ</l>
+            <lb/>又すゑふさの卿の御妹の
+            <lb/>方へ、御文の端に、都の空は
+            <lb/>月までも一しほ清らかにこそは
+            <lb/>おはし侍れ、いぶせき東の月
+            <lb/>影は、ながむるにいとおぼつかなき、
+            <lb/>など書き給ひて
+<pb n="55r"/>
+            　　<lb/><l>都には引かへたりし月影を
+            　　<lb/>行かで雲井にすみて見んとは</l>
+            <lb/>人〳〵これを見給ひてすゞろに
+            <lb/>うれしくて、なを〳〵神ほとけに
+            <lb/>願ひを立て、近きほどに本意を
+            <lb/>とげさせ給へる、と祈り給ふが、中
+            <lb/>納言殿の北の御方は、この人がた
+<pb n="55v"/>
+            <lb/>めに賀茂の社に詣でて此
+            <lb/>ことを祈り給ひて
+            　　<lb/><l>ちはやふる神の玉籬まことあらば
+            　　<lb/>かゝる願ひを見てしめたまへ</l>
+            <lb/>となん聞こゆ。また過ぎにし人の
+            <lb/>御乳母と聞こへし、式部の大夫が猶
+            <lb/>子六位のしん<seg type="furigana"><seg type="furigana_body">そつ</seg><seg type="furigana_text">帥</seg></seg>殿に宮づきて
+<pb n="56r"/>
+            <lb/>この年月ごろ筑紫に侍りけ
+            <lb/>るが、御いとまを給はりて、近きほ
+            <lb/>どに京に着きなん。中納言殿
+            <lb/>へ参りけるが、まづよろづさしを
+            <lb/>きて、東がたの御事はいかに
+            <lb/>おはし侍るにや、身は筑紫にあり
+            <lb/>ぬれども、こゝろはこの御方にのみ
+<pb n="56v"/>
+            <lb/>さぶらひて、安きこゝちもせず、な
+            <lb/>ど聞えければ、さればこそとて
+            <lb/>鎌倉のう<subst><del rend="見せ消ち">わ</del><add>は</add></subst>さ、はじめよりの
+            <lb/>御事どもなどを、夜もすがら語り
+            <lb/>給へば、涙にむせびて、ものだにも
+            <lb/>いひあへず、されども安堵の沙汰を
+            <lb/>近〳〵にうけ給はれば、いとたのもし。
+<pb n="57r"/>
+            <lb/>さもあらば、思ひたちて下り侍
+            <lb/>りて、まことの沙汰あらば、<choice><sic><seg><del>か</del><note>は歟</note>た力</seg></sic><corr>片力</corr></choice>
+            <lb/>をあはせ奉らばやといひけれ
+            <lb/>ば、しかるべき事にこそとて、北の
+            <lb/>御方より、衣装などさま〴〵
+            <lb/>調度ありけり。そのほか親しき
+            <lb/>人〴〵よりも、御文にとりそへて物
+<pb n="57v"/>
+            <lb/>し給ひにけり。かひ〴〵しくも京
+            <lb/>うを出でゝ行ほどに、日数をへて
+            <lb/>鎌倉に着きぬ。さてひきの谷とい
+            <lb/>ふところを訪ねてまかりけり。
+            <lb/>北の方は御覧じて、涙に
+            <lb/>むせばせ給ひて、夢かとのみおぼ
+            <lb/>しめしにける。六位奉る
+<pb n="58r"/>
+            <lb/>に、ありし御面影もなくならせ
+            <lb/>給ひて、御身も細らせ給ひ、心
+            <lb/>地もよろ〳〵げにわたらせ給へば、げに
+            <lb/>もことはりにこそ侍れ。はかなき御
+            <lb/>身にて、年月の御思ひに
+            <lb/>こゝろを苦しめさせ給へば、人ならぬ
+            <lb/>御気色もさ<retrace><unclear>こそ</unclear><add>こそ</add></retrace>と思ひ奉
+<pb n="58v"/>
+            <lb/>れ。我が身も御うへいかゞあるらんと、
+            <lb/>うちおくひまもなく、思ひ奉
+            <lb/>れども、はるになる国を隔てぬ
+            <lb/>れば、便りをうるにもあたはず。た
+            <lb/>だこゝろ尽くしに思ひ暮らし侍り。
+            <lb/>されども公達いとゞまめやかに
+            <lb/>おはしませば、たのもしく思ひ
+<pb n="59r"/>
+            <lb/>奉る。そやとて涙にむせ
+            <lb/>びにけり。さても御沙汰はいかにし
+            <lb/>給ふぞ、と都には人〴〵聞かま
+            <lb/>ほしくこがれさせ給ふ。そやと申せば、
+            <lb/>さればこそ大将殿の北の御方、世
+            <lb/>に不憫にし給ひて、仰せ事
+            <lb/>いと懇ろにおはしけるが、近
+<pb n="59v"/>
+            <lb/>きほどに本意を遂ぐべきやうに
+            <lb/>聞こえ給へば、いとまめやかにこそおぼ
+            <lb/>ゆれ、など仰せられて、憂き年
+            <lb/>月の事ども、互ひに語りあはせ
+            <lb/>給ふほどに、北の御方、六位が参
+            <lb/>りしより、御こゝろまめやかに、力
+            <lb/>づかせ給ふ。</ab><ab>さるほどに右大将殿、執
+<pb n="60r"/>
+            <lb/>政にことのやうを仰せふくめ
+            <lb/>られて、重代の領所返し
+            <lb/>つけさせ給ふ。安堵の御教書
+            <lb/>をなし給はりけり。北の御方
+            <lb/>年月の願ひみて給ひて、あり
+            <lb/>がたくもうれしくも、この世な<subst><del>く</del><add rend="right">ら</add></subst>すお
+            <lb/>ぼして喜び給ふ。<seg type="furigana"><seg type="furigana_body">ためうち</seg><seg type="furigana_text">為氏</seg></seg>多
+<pb n="60v"/>
+            <lb/>年の横領、まことに不義の
+            <lb/>臣、御いましめあるべきよしを京
+            <lb/>へ聞えさせ給へば、今さら嘆
+            <lb/>きふりきたる心地してぞ見え
+            <lb/>給ひにける。さて鎌倉方にて
+            <lb/>願ひを立て給ひし神仏に
+            <lb/>詣でて、御誓ひむなしからず、事
+<pb n="61r"/>
+            <lb/>の本意を遂げさせ給ふことのあり
+            <lb/>がた<retrace><unclear>き</unclear><add>き歟</add></retrace>、長く報じ奉らなん。
+            <lb/>猶行く末まもり給へとて、なをも
+            <lb/>御祈誓をぞかけ給ふ。さて大将殿の北
+            <lb/>の方、名残は惜しみ給へども、力なく
+            <lb/>のぼり給ふ。さま〴〵の禄どもたびて
+            <lb/>立ち給ひにけり。さて京に入らせ給へば、人
+<pb n="61v"/>
+            <lb/>〴〵よろこび給ふことは、日比の嘆き
+            <lb/>にひきかへて見えさせ給ふ。君も
+            <lb/>臣も大将よりいとこま〴〵と
+            <lb/>聞こえさせ給へば、わたくしのいた
+            <lb/>はりいさゝかもあるべきやうなし。
+            <lb/>東の亀の鑑にかけて、すみ
+            <lb/>やかにことをあらはし給へば、年
+<pb n="62r"/>
+            <lb/>月たえて久しき家をば、ふたゝ
+            <lb/>び興し給ふ。世のまつりごとこそ
+            <lb/>ありがたけれ。<seg type="furigana"><seg type="furigana_body">ちゝ</seg><seg type="furigana_text">父</seg></seg>の<seg type="furikanji"><seg type="furikanji_body">ゆいせき</seg><seg type="furikanji_text">遺跡</seg></seg>に
+            <lb/>そなはりて、その器量<seg type="furigana"><seg type="furigana_body">ふそ</seg><seg type="furigana_text">父祖</seg></seg>に
+            <lb/>おとるべ<retrace><unclear>く</unclear><add>く</add></retrace>もあらぬ器にあたり
+            <lb/>給へば、生い立ち給ひてかはらず朝
+            <lb/>の臣となりて、亡父とあひな
+<pb n="62v"/>
+            <lb/>らひて和哥の秀才人とぞなり
+            <lb/>給ひにけ<seg><del>り</del><note rend="right">る歟</note></seg>。</ab>
+      </body>
+  </text>
+</TEI>
