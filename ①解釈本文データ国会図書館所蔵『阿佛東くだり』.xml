@@ -28,6 +28,10 @@
                <resp>TEI Project Manager</resp>
                <name>Kazuhiro Okada</name>
                </respStmt>
+               <funder>
+                  Introduction of TEI to Japanese Literature, A Research and Development Collaborative Project at
+                  Project to Build an International Collaborative Research Network for Pre-modern Japanese Texts, National Institute of Japanese Literature, National Institutes for the Humanities
+               </funder>
             </titleStmt>
             <publicationStmt>
                <p>Publication Information</p>
