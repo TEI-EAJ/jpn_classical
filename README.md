@@ -6,6 +6,7 @@
 
 ### 関係文書
 * Kazuhiro Okada, Satoru Nakamura, and Kiyonori Nagasaki. 2019. [An Encoding Strategic Proposal of “Ruby” Texts: Examples from Japanese Texts](https://gams.uni-graz.at/o:tei2019.155/sdef:TEI/get?context=context:tei2019.papers) TEI2019. Austria, Graz.
+* [encoding of ruby glosses · Issue #2054 · TEIC/TEI](https://github.com/TEIC/TEI/issues/2054)
 
 ## 日本語古典籍TEIガイドライン
 
