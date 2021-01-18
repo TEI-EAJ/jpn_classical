@@ -1,6 +1,8 @@
 # 日本語古典籍TEI本文データ作成要領
 NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
+
 2019.11.5 (初版)
+
 2020.2.12 (改訂1版)
 
 ## 本資料の目的
