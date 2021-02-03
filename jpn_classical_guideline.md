@@ -86,23 +86,31 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 これではじゅうぶんに符号化されないばあいは協議するものとする。
 ### 訓点
 たとえば、楚人有㆘鬻㆓盾與一レ矛者上とあるとき、以下のように符号化することができる（訓読をテクストとして保存しない際は、prev、next属性を省くことができる）。より簡易にはwではなくanchorとmetamarkの組み合わせでも実現は可能であろう。返り点は可能なかぎりユニコードの専用の文字を使うべきである。
-&lt;p&gt;
-&lt;w xml:id="w1"&gt;楚人&lt;/w&gt;
-&lt;w xml:id="w2"&gt;有&lt;/w&gt;&lt;metamark function="transposition" target="#w2" place="margin-left" prev="#w3"&gt;㆘&lt;/metamark&gt;
-&lt;w xml:id="w3"&gt;鬻&lt;/w&gt;&lt;metamark function="transposition" target="#w3" place="margin-left" prev="#w4"&gt;㆓&lt;/metamark&gt;
-&lt;w xml:id="w4"&gt;盾&lt;/w&gt;
-&lt;w xml:id="w5"&gt;與&lt;/w&gt;&lt;metamark function="transposition" target="#w5" place="margin-left" prev="#w6" next="#w3"&gt;㆒㆑&lt;/metamark&gt;
-&lt;w xml:id="w6"&gt;矛&lt;/w&gt;
-&lt;w xml:id="w7"&gt;者&lt;/w&gt;&lt;metamark function="transposition" target="#w7" place="margin-left" next="#w2"&gt;㆖&lt;/metamark&gt;&lt;/p&gt;
-あるいは、訓読をして、
-&lt;p&gt;
-&lt;w xml:id="w1"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;楚人&lt;/seg&gt;&lt;seg type="rt"&gt;そじん&lt;/seg&gt;&lt;/seg&gt;&lt;add&gt;ニ&lt;/add&gt;&lt;/w&gt;
-&lt;w xml:id="w2"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;有&lt;/seg&gt;&lt;seg type="rt"&gt;あ&lt;/seg&gt;&lt;/seg&gt;&lt;add&gt;リ&lt;/add&gt;&lt;/w&gt;&lt;metamark function="transposition" target="#w2" place="margin-left" prev="w3"&gt;㆘&lt;/metamark&gt;
-&lt;w xml:id="w3"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;鬻&lt;/seg&gt;&lt;seg type="rt"&gt;ひさ&lt;/seg&gt;&lt;/seg&gt;&lt;add&gt;グ&lt;/add&gt;&lt;/w&gt;&lt;metamark function="transposition" target="#w3" place="margin-left" prev="w4"&gt;㆓&lt;/metamark&gt;
-&lt;w xml:id="w4"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;盾&lt;/seg&gt;&lt;seg type="rt"&gt;たて&lt;/seg&gt;&lt;/seg&gt;&lt;/w&gt;
-&lt;w xml:id="w5"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;與&lt;/seg&gt;&lt;seg type="rt"&gt;と&lt;/seg&gt;&lt;/seg&gt;&lt;add&gt;ヲ&lt;/add&gt;&lt;/w&gt;&lt;metamark function="transposition" target="#w5" place="margin-left" prev="w6" next="#w3"&gt;㆒㆑&lt;/metamark&gt;
-&lt;w xml:id="w6"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;矛&lt;/seg&gt;&lt;seg type="rt"&gt;ほこ&lt;/seg&gt;&lt;/seg&gt;&lt;/w&gt;
-&lt;w xml:id="w7"&gt;&lt;seg type="ruby"&gt;&lt;seg type="rb"&gt;者&lt;/seg&gt;&lt;seg type="rt"&gt;もの&lt;/seg&gt;&lt;/seg&gt;&lt;/w&gt;&lt;metamark function="transposition" target="#w7" place="margin-left" next="#w2"&gt;㆖&lt;/metamark&gt;&lt;/p&gt;
+
+```xml
+<p>
+         <w xml:id="w1">楚人</w>
+         <w xml:id="w2">有</w><metamark function="transposition" target="#w2" place="margin-left" prev="#w3">㆘</metamark>
+         <w xml:id="w3">鬻</w><metamark function="transposition" target="#w3" place="margin-left" prev="#w4">㆓</metamark>
+         <w xml:id="w4">盾</w>
+         <w xml:id="w5">與</w><metamark function="transposition" target="#w5" place="margin-left" prev="#w6" next="#w3">㆒㆑</metamark>
+         <w xml:id="w6">矛</w>
+         <w xml:id="w7">者</w><metamark function="transposition" target="#w7" place="margin-left" next="#w2">㆖</metamark>
+</p>
+```
+         あるいは、訓読をして、
+	 
+```xml
+         <p>
+         <w xml:id="w1"><seg type="ruby"><seg type="rb">楚人</seg><seg type="rt">そじん</seg></seg><add>ニ</add></w>
+         <w xml:id="w2"><seg type="ruby"><seg type="rb">有</seg><seg type="rt">あ</seg></seg><add>リ</add></w><metamark function="transposition" target="#w2" place="margin-left" prev="w3">㆘</metamark>
+         <w xml:id="w3"><seg type="ruby"><seg type="rb">鬻</seg><seg type="rt">ひさ</seg></seg><add>グ</add></w><metamark function="transposition" target="#w3" place="margin-left" prev="w4">㆓</metamark>
+         <w xml:id="w4"><seg type="ruby"><seg type="rb">盾</seg><seg type="rt">たて</seg></seg></w>
+         <w xml:id="w5"><seg type="ruby"><seg type="rb">與</seg><seg type="rt">と</seg></seg><add>ヲ</add></w><metamark function="transposition" target="#w5" place="margin-left" prev="w6" next="#w3">㆒㆑</metamark>
+         <w xml:id="w6"><seg type="ruby"><seg type="rb">矛</seg><seg type="rt">ほこ</seg></seg></w>
+         <w xml:id="w7"><seg type="ruby"><seg type="rb">者</seg><seg type="rt">もの</seg></seg></w><metamark function="transposition" target="#w7" place="margin-left" next="#w2">㆖</metamark>
+</p>
+```
 というように符号化することができる。
 ### ID
 xml:id属性を附す。
