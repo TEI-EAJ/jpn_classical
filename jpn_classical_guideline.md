@@ -106,6 +106,7 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
                next="#w2">㆖</metamark>
          </p>
 ```
+
          あるいは、訓読をして、
 	 
 ```xml
