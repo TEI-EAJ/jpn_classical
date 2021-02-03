@@ -102,14 +102,55 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 	 
 ```xml
          <p>
-         <w xml:id="w1"><seg type="ruby"><seg type="rb">楚人</seg><seg type="rt">そじん</seg></seg><add>ニ</add></w>
-         <w xml:id="w2"><seg type="ruby"><seg type="rb">有</seg><seg type="rt">あ</seg></seg><add>リ</add></w><metamark function="transposition" target="#w2" place="margin-left" prev="w3">㆘</metamark>
-         <w xml:id="w3"><seg type="ruby"><seg type="rb">鬻</seg><seg type="rt">ひさ</seg></seg><add>グ</add></w><metamark function="transposition" target="#w3" place="margin-left" prev="w4">㆓</metamark>
-         <w xml:id="w4"><seg type="ruby"><seg type="rb">盾</seg><seg type="rt">たて</seg></seg></w>
-         <w xml:id="w5"><seg type="ruby"><seg type="rb">與</seg><seg type="rt">と</seg></seg><add>ヲ</add></w><metamark function="transposition" target="#w5" place="margin-left" prev="w6" next="#w3">㆒㆑</metamark>
-         <w xml:id="w6"><seg type="ruby"><seg type="rb">矛</seg><seg type="rt">ほこ</seg></seg></w>
-         <w xml:id="w7"><seg type="ruby"><seg type="rb">者</seg><seg type="rt">もの</seg></seg></w><metamark function="transposition" target="#w7" place="margin-left" next="#w2">㆖</metamark>
-</p>
+            <w xml:id="w1">
+               <seg type="ruby">
+                  <seg type="rb">楚人</seg>
+                  <seg type="rt">そじん</seg>
+               </seg>
+               <add>ニ</add>
+            </w>
+            <w xml:id="w2">
+               <seg type="ruby">
+                  <seg type="rb">有</seg>
+                  <seg type="rt">あ</seg>
+               </seg>
+               <add>リ</add>
+            </w>
+            <metamark function="transposition" target="#w2" place="margin-left" prev="w3">㆘</metamark>
+            <w xml:id="w3">
+               <seg type="ruby">
+                  <seg type="rb">鬻</seg>
+                  <seg type="rt">ひさ</seg>
+               </seg>
+               <add>グ</add>
+            </w>
+            <metamark function="transposition" target="#w3" place="margin-left" prev="w4">㆓</metamark>
+            <w xml:id="w4">
+               <seg type="ruby">
+                  <seg type="rb">盾</seg>
+                  <seg type="rt">たて</seg>
+               </seg>
+            </w>
+            <w xml:id="w5">
+               <seg type="ruby">
+                  <seg type="rb">與</seg>
+                  <seg type="rt">と</seg>
+               </seg>
+               <add>ヲ</add></w>
+            <metamark function="transposition" target="#w5" place="margin-left" prev="w6" next="#w3">㆒㆑</metamark>
+            <w xml:id="w6">
+               <seg type="ruby">
+                  <seg type="rb">矛</seg>
+                  <seg type="rt">ほこ</seg>
+               </seg>
+            </w>
+            <w xml:id="w7">
+               <seg type="ruby">
+                  <seg type="rb">者</seg>
+                  <seg type="rt">もの</seg>
+               </seg>
+            </w><metamark function="transposition" target="#w7" place="margin-left" next="#w2">㆖</metamark>
+         </p>
 ```
 というように符号化することができる。
 ### ID
