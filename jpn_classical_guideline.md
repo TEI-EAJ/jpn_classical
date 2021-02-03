@@ -88,15 +88,23 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 たとえば、楚人有㆘鬻㆓盾與一レ矛者上とあるとき、以下のように符号化することができる（訓読をテクストとして保存しない際は、prev、next属性を省くことができる）。より簡易にはwではなくanchorとmetamarkの組み合わせでも実現は可能であろう。返り点は可能なかぎりユニコードの専用の文字を使うべきである。
 
 ```xml
-<p>
-         <w xml:id="w1">楚人</w>
-         <w xml:id="w2">有</w><metamark function="transposition" target="#w2" place="margin-left" prev="#w3">㆘</metamark>
-         <w xml:id="w3">鬻</w><metamark function="transposition" target="#w3" place="margin-left" prev="#w4">㆓</metamark>
-         <w xml:id="w4">盾</w>
-         <w xml:id="w5">與</w><metamark function="transposition" target="#w5" place="margin-left" prev="#w6" next="#w3">㆒㆑</metamark>
-         <w xml:id="w6">矛</w>
-         <w xml:id="w7">者</w><metamark function="transposition" target="#w7" place="margin-left" next="#w2">㆖</metamark>
-</p>
+         <p>
+            <w xml:id="w1">楚人</w>
+            <w xml:id="w2">有</w>
+            <metamark function="transposition" target="#w2" place="margin-left"
+               prev="#w3">㆘</metamark>
+            <w xml:id="w3">鬻</w>
+            <metamark function="transposition" target="#w3" place="margin-left"
+               prev="#w4">㆓</metamark>
+            <w xml:id="w4">盾</w>
+            <w xml:id="w5">與</w>
+            <metamark function="transposition" target="#w5" place="margin-left"
+               prev="#w6" next="#w3">㆒㆑</metamark>
+            <w xml:id="w6">矛</w>
+            <w xml:id="w7">者</w>
+            <metamark function="transposition" target="#w7" place="margin-left"
+               next="#w2">㆖</metamark>
+         </p>
 ```
          あるいは、訓読をして、
 	 
