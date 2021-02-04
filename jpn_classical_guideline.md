@@ -107,7 +107,7 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
          </p>
 ```
 
-         あるいは、訓読をして、
+あるいは、訓読をして、
 	 
 ```xml
          <p>
