@@ -75,6 +75,8 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 加筆や削除が広汎にわたるばあいは，&lt;delSpan&gt;と&lt;addSpan&gt;，&lt;anchor&gt;で範囲を示し，&lt;zone&gt;にその範囲の本文を示す。このとき，&lt;metamark&gt;でその削除の様態を示すことができる。
 #### 異本注記
 
+例1
+
 ```xml
 <p>
     さだめなり<seg xml:id="w1">けり</seg>
@@ -85,6 +87,7 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 <alt target="#w1 #w2" mode="excl" /> 
 ```
 
+例2
 
 ```xml
 
