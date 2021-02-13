@@ -87,11 +87,13 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 
 
 ```xml
+
 <p>
-    さだめなり<note targetEnd="#w1e" place="right">
+    さだめなり
+    <note targetEnd="#w1e" place="right">
     <metamark fuction="他本">亻</metamark>
-    けるを</note>けり
-    <anchor type="noteEnd" xml:id="w1e"/>
+    けるを
+    </note>けり<anchor type="noteEnd" xml:id="w1e"/>
 </p>
 ```
 
