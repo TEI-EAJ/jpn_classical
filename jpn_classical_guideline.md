@@ -99,12 +99,12 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 
 # 場所は分かりやすければ、段落直後でも、末尾に一括しても
 その他の自筆・他筆の書き入れ（P5 Ch. 11 §3）
-本文に対する単純な内容であれば、&lt;add&gt;によって示す。欄外に見出しや頭注を示すようなばあいは，原本の記述であれば&lt;label&gt;で示し，本文の一部とするばあいは&lt;head&gt;や&lt;note&gt;で示す。
+本文に対する単純な内容であれば、`<add>`によって示す。欄外に見出しや頭注を示すようなばあいは，原本の記述であれば`<label>`で示し，本文の一部とするばあいは`<head>`や`<note>`で示す。
 原文のその他の注記は、一般的に、関係する箇所に&lt;note&gt;で記述し、@rendによって場所を示す。また，他筆は上記の補筆と同様に考え，@changeや@handによって示すことができる。
-校訂者の付けた注は必要な@respを附す。
+校訂者の付けた注は必要な`@resp`を附す。
 ### Misc
 #### 振り仮名（当面）
-&lt;seg type="furigana"&gt;&lt;seg type="furigana_body"&gt;本行&lt;/seg&gt;&lt;seg type="furigana_text"&gt;振り仮名&lt;/seg&gt;&lt;/seg&gt;のように符号化する。
+`<seg type="furigana">``<seg type="furigana_body">`本行`</seg>``<seg type="furigana_text">`振り仮名`</seg>``</seg>`のように符号化する。
 これではじゅうぶんに符号化されないばあいは協議するものとする。
 ### 訓点
 たとえば、楚人有㆘鬻㆓盾與一レ矛者上とあるとき、以下のように符号化することができる（訓読をテクストとして保存しない際は、prev、next属性を省くことができる）。より簡易にはwではなくanchorとmetamarkの組み合わせでも実現は可能であろう。返り点は可能なかぎりユニコードの専用の文字を使うべきである。
