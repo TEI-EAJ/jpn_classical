@@ -74,8 +74,28 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 上書きは&lt;retrace&gt;で符号化するが，不明瞭な箇所に傍書して書き直したようなばあいは、&lt;unclear&gt;と&lt;add&gt;によって関係を示す。
 加筆や削除が広汎にわたるばあいは，&lt;delSpan&gt;と&lt;addSpan&gt;，&lt;anchor&gt;で範囲を示し，&lt;zone&gt;にその範囲の本文を示す。このとき，&lt;metamark&gt;でその削除の様態を示すことができる。
 #### 異本注記
-&lt;p&gt;さだめなり&lt;seg xml:id="w1"&gt;けり&lt;/seg&gt;&lt;add xml:id="w2" place="right" corresp="#w1"&gt;&lt;metamark fuction="他本"&gt;亻&lt;/metamark&gt;けるを&lt;/add&gt;&lt;/p&gt;
-&lt;alt target="#w1 #w2" mode="excl" /&gt; # 場所は分かりやすければ、段落直後でも、末尾に一括しても
+
+```xml
+<p>
+    さだめなり<seg xml:id="w1">けり</seg>
+    <add xml:id="w2" place="right" corresp="#w1">
+        <metamark fuction="他本">亻</metamark>けるを
+    </add>
+</p>
+<alt target="#w1 #w2" mode="excl" /> 
+```
+
+
+```xml
+<p>
+    さだめなり<note targetEnd="#w1e" place="right">
+    <metamark fuction="他本">亻</metamark>
+    けるを</note>けり
+    <anchor type="noteEnd" xml:id="w1e"/>
+</p>
+```
+
+# 場所は分かりやすければ、段落直後でも、末尾に一括しても
 その他の自筆・他筆の書き入れ（P5 Ch. 11 §3）
 本文に対する単純な内容であれば、&lt;add&gt;によって示す。欄外に見出しや頭注を示すようなばあいは，原本の記述であれば&lt;label&gt;で示し，本文の一部とするばあいは&lt;head&gt;や&lt;note&gt;で示す。
 原文のその他の注記は、一般的に、関係する箇所に&lt;note&gt;で記述し、@rendによって場所を示す。また，他筆は上記の補筆と同様に考え，@changeや@handによって示すことができる。
