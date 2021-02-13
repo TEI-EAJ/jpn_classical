@@ -104,7 +104,7 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 校訂者の付けた注は必要な`@resp`を附す。
 ### Misc
 #### 振り仮名（当面）
-`<seg type="furigana">``<seg type="furigana_body">`本行`</seg>``<seg type="furigana_text">`振り仮名`</seg>``</seg>`のように符号化する。
+`<seg type="furigana">` `<seg type="furigana_body">`本行`</seg>` `<seg type="furigana_text">`振り仮名`</seg>` `</seg>`のように符号化する。
 これではじゅうぶんに符号化されないばあいは協議するものとする。
 ### 訓点
 たとえば、楚人有㆘鬻㆓盾與一レ矛者上とあるとき、以下のように符号化することができる（訓読をテクストとして保存しない際は、prev、next属性を省くことができる）。より簡易にはwではなくanchorとmetamarkの組み合わせでも実現は可能であろう。返り点は可能なかぎりユニコードの専用の文字を使うべきである。
