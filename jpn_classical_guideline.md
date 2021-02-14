@@ -106,12 +106,12 @@ NIJL-NW TEI Project / TEI-C SIG EA/JP / SAT Project
 原文のその他の注記は、一般的に、関係する箇所に&lt;note&gt;で記述し、@rendによって場所を示す。また，他筆は上記の補筆と同様に考え，@changeや@handによって示すことができる。
 校訂者の付けた注は必要な`@resp`を附す。
 ### Misc
-#### 振り仮名（当面）
+#### 振り仮名
 ```xml
-<seg type="furigana">
-  <seg type="furigana_body">本行</seg>
-  <seg type="furigana_text">振り仮名</seg>
-</seg>
+<ruby type="furigana">
+  <rb>本行</rb>
+  <rt>振り仮名</rt>
+</ruby>
 ```
 
 のように符号化する。
