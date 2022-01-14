@@ -1,8 +1,8 @@
 # 日本語歴史的典籍へのTEIの導入
 日本語歴史的典籍へのTEIの導入に関するページです（TEI-C SIG EA/JP, NIJL-NWプロジェクト「TEIの導入」共同運営）。
 
-## 振り仮名をTEIに！
-現状では、振り仮名（ルビ、傍訓、その他その他）を直観的に扱うことが困難であるため、振り仮名をTEIに取り込む提案をしています。
+## 振り仮名がTEIに！
+振り仮名（ルビ、傍訓、その他その他）を直観的に扱えるように、振り仮名がTEIに取り込まれました。
 
 ### 関係文書
 * Kazuhiro Okada, Satoru Nakamura, and Kiyonori Nagasaki. 2019. [An Encoding Strategic Proposal of “Ruby” Texts: Examples from Japanese Texts](https://gams.uni-graz.at/o:tei2019.155/sdef:TEI/get?context=context:tei2019.papers) TEI2019. Austria, Graz.
